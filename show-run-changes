@@ -1,9 +1,0 @@
-232d
-202,203d
-175,176d
-172d
-115,116c
- switchport trunk native vlan 98
- switchport trunk allowed vlan 9,98
-.
-w
