@@ -1,0 +1,6 @@
+[Data]
+Method=UnixPath
+UnixPath=/home/tpbonfi/.local/share/akonadi/socket-research.unixunderground.com/akonadiserver.socket
+
+[DBUS]
+Address="unix:abstract=/tmp/dbus-9ek2ooc8My,guid=a6473a11a027f394958ce7f65496cc6d"

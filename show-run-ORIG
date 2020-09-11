@@ -1,0 +1,234 @@
+Current configuration : 5889 bytes
+!
+! Last configuration change at 14:48:32 est Tue Nov 4 2014 by admin
+!
+version 15.2
+no service pad
+service timestamps debug datetime msec localtime show-timezone year
+service timestamps log datetime msec localtime show-timezone year
+service password-encryption
+!
+hostname ecc-sw01
+!
+boot-start-marker
+boot-end-marker
+!
+logging buffered 64000 notifications
+logging console notifications
+enable secret 5 $1$OP/J$FZ.2V79xyyIHmN7YZ2yo5.
+!         
+username admin privilege 0 password 7 143D13080730222E1621232527015E4F
+no aaa new-model
+clock timezone est -5 0
+system mtu routing 1500
+ip routing
+!
+!
+ip domain-name evil-command-center.com
+ip name-server 71.252.0.12
+ip name-server 71.242.0.12
+ip name-server 8.8.8.8
+ipv6 unicast-routing
+vtp domain evil-command-center.com
+vtp mode transparent
+!
+!
+!
+!
+!         
+!
+password encryption aes
+!
+crypto pki trustpoint TP-self-signed-1561592576
+ enrollment selfsigned
+ subject-name cn=IOS-Self-Signed-Certificate-1561592576
+ revocation-check none
+ rsakeypair TP-self-signed-1561592576
+!
+!
+crypto pki certificate chain TP-self-signed-1561592576
+ certificate self-signed 01
+  30820255 308201BE A0030201 02020101 300D0609 2A864886 F70D0101 04050030 
+  31312F30 2D060355 04031326 494F532D 53656C66 2D536967 6E65642D 43657274 
+  69666963 6174652D 31353631 35393235 3736301E 170D3133 31313139 31373230 
+  35345A17 0D323030 31303130 30303030 305A3031 312F302D 06035504 03132649 
+  4F532D53 656C662D 5369676E 65642D43 65727469 66696361 74652D31 35363135 
+  39323537 3630819F 300D0609 2A864886 F70D0101 01050003 818D0030 81890281 
+  8100CEAE AC099B8E 4C14D77D F92E14EB 4A064272 5CED032E 76B0CDDF 65B98D2B 
+  E5D462B6 028AB05D 77C99FD5 A5080886 62B29C73 4A817B54 D46874F0 091CF7C1 
+  ED0608FA AB8B0247 C29820EA 5885A025 9C55E697 EAFC36D0 ACCC0B57 6C3474BA 
+  212D9CA3 905CAC03 290A9AB2 4934F31B 4C155E7E 0CC171FE 11C35BA2 DD96028F 
+  13BF0203 010001A3 7D307B30 0F060355 1D130101 FF040530 030101FF 30280603 
+  551D1104 21301F82 1D656363 2D737730 312E6174 6F6D6963 2D656475 63617469 
+  6F6E2E63 6F6D301F 0603551D 23041830 168014B3 A6330F90 FD2EB854 CDD0FC86 
+  AD54ECC9 CEEAD030 1D060355 1D0E0416 0414B3A6 330F90FD 2EB854CD D0FC86AD 
+  54ECC9CE EAD0300D 06092A86 4886F70D 01010405 00038181 00A51863 55AD0099 
+  1C241048 7DD62172 98138853 68744DB4 5DD87D90 535E57D8 1E15F35D CF0D2976 
+  F909EB13 C0609E1A CEF94D08 F2C52A63 F56BC882 5EFBE2DD 1833CBA8 D095657C 
+  79F3F2ED 3BE30DB5 E93EA582 702ECB15 5F62B417 2B4400A0 B8E052F1 04D81BB7 
+  C4A87DC5 3F8849E1 C758BDB9 7F159A30 E98E7C32 B5DE4ED0 AB
+        quit
+archive
+ path tftp://192.168.1.41
+ write-memory
+ time-period 120
+!
+spanning-tree mode rapid-pvst
+spanning-tree extend system-id
+spanning-tree vlan 1-4094 priority 4096
+lacp system-priority 9
+errdisable recovery cause bpduguard
+port-channel load-balance src-dst-ip
+!
+!
+!
+!
+vlan internal allocation policy ascending
+!
+vlan 9 
+!
+!
+! 
+!
+!
+!
+!         
+!
+!
+!
+!
+interface Port-channel1
+ switchport trunk encapsulation dot1q
+ switchport trunk native vlan 99
+ switchport trunk allowed vlan 9,99
+ switchport mode trunk
+!
+interface GigabitEthernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk native vlan 99
+ switchport trunk allowed vlan 9,99
+ switchport mode trunk
+ channel-group 1 mode on
+!
+interface GigabitEthernet0/2
+ switchport trunk encapsulation dot1q
+ switchport trunk native vlan 99
+ switchport trunk allowed vlan 9,99
+ switchport mode trunk
+ channel-group 1 mode on
+!
+interface GigabitEthernet0/3
+ description CONN TO ECC TRUST INSIDE INTERFACE ETH2 ON ASA5510-FW
+ switchport access vlan 9
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/4
+ switchport access vlan 9
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/5
+ switchport access vlan 9
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/6
+ description ECC UPLINK TO ROUTER
+ switchport access vlan 9
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/7
+ description ZAVIO B7210 LEFT-SIDE-HOUSE 04:BA:47 - 08292014
+ switchport access vlan 9
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!         
+interface GigabitEthernet0/8
+ description ZAVIO B7210 FRONT-LEFT-HOUSE 05:82:38 - 08292014
+ switchport access vlan 9
+ switchport mode access
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/9
+ switchport trunk encapsulation dot1q
+ switchport trunk native vlan 888
+ switchport mode trunk
+!
+interface GigabitEthernet0/10
+ switchport trunk encapsulation dot1q
+ switchport trunk native vlan 888
+ switchport mode trunk
+!
+interface Vlan1
+ description ***VLAN FRAGGED - DO NOT USE***
+ no ip address
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no ip route-cache
+ no ip mroute-cache
+ shutdown
+!
+interface Vlan9
+ description ECC DATA VLAN
+ ip address 192.168.1.9 255.255.255.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no ip route-cache
+ no ip mroute-cache
+!
+interface Vlan99
+ description NATIVE VLAN
+ no ip address
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no ip route-cache
+ no ip mroute-cache
+!
+ip forward-protocol nd
+no ip http server
+ip http secure-server
+!
+ip route 0.0.0.0 0.0.0.0 192.168.1.254
+!
+ip access-list extended VTY_ACCESS_ECC
+ permit tcp host 192.168.1.69 any eq 22 log
+ deny   ip any any log
+!
+ip sla enable reaction-alerts
+logging history size 500
+logging trap debugging
+!
+snmp-server community J@ckTh3R!pp3r99! RO
+!
+!
+line con 0
+ exec-timeout 99 0
+ logging synchronous
+line vty 0 4
+ access-class VTY_ACCESS_ECC in
+ exec-timeout 99 0
+ logging synchronous
+ login local
+ transport input ssh
+line vty 5 15
+ access-class VTY_ACCESS_ECC in
+ exec-timeout 99 0
+ logging synchronous
+ login local
+ transport input ssh
+!
+ntp server 216.239.32.15 prefer
+ntp server 216.239.34.15
+!
+end

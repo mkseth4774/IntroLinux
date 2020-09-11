@@ -1,0 +1,43 @@
+[ 1419129512.912527]: IMSettings-Daemon[2894]: INFO: Starting imsettings-daemon...
+[ 1419129512.912720]: IMSettings-Daemon[2894]: INFO:   [HOME=/home/tpbonfi/.config/imsettings]
+[ 1419129512.912764]: IMSettings-Daemon[2894]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1419129512.912801]: IMSettings-Daemon[2894]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1419129512.912834]: IMSettings-Daemon[2894]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1419129512.912871]: IMSettings-Daemon[2894]: INFO:   [MODULES=gsettings, qt]
+
+imsettings information
+==========================
+XINPUTRC: /etc/X11/xinit/xinput.d//none.conf
+	  File: ‘/etc/X11/xinit/xinput.d//none.conf’
+	  Size: 110       	Blocks: 8          IO Block: 4096   regular file
+	Device: fd01h/64769d	Inode: 102525683   Links: 1
+	Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
+	Context: system_u:object_r:bin_t:s0
+	Access: 2014-12-20 21:38:32.754344102 -0500
+	Modify: 2014-06-10 03:52:06.000000000 -0400
+	Change: 2014-11-14 11:13:13.285583212 -0500
+	 Birth: -
+Is DBus enabled: yes
+Is imsettings enabled: yes
+Is GTK+ supported: no
+Is Qt supported: yes
+DESKTOP: 1-kde-plasma-standard
+GUESS_DESKTOP: $GDMSESSION
+DISABLE_IMSETTINGS: 
+IMSETTINGS_DISABLE_DESKTOP_CHECK: 
+DBUS_SESSION_BUS_ADDRESS: unix:abstract=/tmp/dbus-y5Vg2qAxEO,guid=66fe4fc938ee9b98021c3e73549632a8
+GTK_IM_MODULE: gtk-im-context-simple
+QT_IM_MODULE: xim
+XMODIFIERS: @im=none
+IMSETTINGS_MODULE: none
+IMSETTINGS_INTEGRATE_DESKTOP: yes
+
+
+[ 1419129528.230899]: IMSettings-Qt backend[2894]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+[ 1419129528.383508]: IMSettings-Daemon[2894]: INFO: Attempting to switch IM to none [lang=en_US.UTF-8, update=false]
+[ 1419129528.514945]: IMSettings-Daemon[2894]: INFO:   no need to invoke any auxiliary process for none
+[ 1419129528.515012]: IMSettings-Daemon[2894]: INFO:   no need to invoke any main process for none
+[ 1419129528.516085]: IMSettings-Qt backend[2894]: INFO: Setting up xim as Qt immodule
+[ 1419129528.516303]: IMSettings-GSettings backend[2894]: INFO: Setting up gtk-im-context-simple:xim as gtk+ immodule

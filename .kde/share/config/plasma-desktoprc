@@ -1,0 +1,99 @@
+[BackgroundConfigDialog]
+Height 768=714
+Width 1280=655
+
+[DownloadDialog Settings]
+Height 768=400
+Width 1280=700
+
+[KFileDialog Settings]
+Height 768=450
+Recent Files[$e]=inelogo.png,$HOME/Pictures/inelogo.png
+Width 1280=720
+
+[KPropertiesDialog]
+Height 768=366
+Width 1280=456
+
+[PlasmaViews][1]
+panelVisibility=0
+
+[PlasmaViews][1][Horizontal1696]
+offset=0
+
+[PlasmaViews][1][Sizes]
+lastsize=1920
+
+[PlasmaViews][1][Sizes][Horizontal1280]
+max=1280,27
+min=1280,27
+offset=0
+size=1280,27
+
+[PlasmaViews][1][Sizes][Horizontal1296]
+max=-1,-1
+min=-1,-1
+offset=0
+size=1280,27
+
+[PlasmaViews][1][Sizes][Horizontal1304]
+max=-1,-1
+min=-1,-1
+offset=0
+size=1280,27
+
+[PlasmaViews][1][Sizes][Horizontal1349]
+max=1349,27
+min=1349,27
+offset=0
+size=1349,27
+
+[PlasmaViews][1][Sizes][Horizontal1437]
+max=-1,-1
+min=-1,-1
+offset=0
+size=1280,27
+
+[PlasmaViews][1][Sizes][Horizontal1508]
+max=-1,-1
+min=-1,-1
+offset=0
+size=1280,27
+
+[PlasmaViews][1][Sizes][Horizontal1692]
+max=-1,-1
+min=-1,-1
+offset=0
+size=1280,27
+
+[PlasmaViews][1][Sizes][Horizontal1696]
+max=1696,27
+min=1696,27
+offset=0
+size=1696,27
+
+[PlasmaViews][1][Sizes][Horizontal2560]
+max=2560,27
+min=2560,27
+offset=0
+size=2560,27
+
+[Updates]
+performed=/usr/share/kde-settings/kde-profile/default/share/apps/plasma-desktop/updates/00-start-here-kde.js,/usr/share/kde4/apps/plasma-desktop/updates/00-fedora-networkmanagement.js,/usr/share/kde4/apps/plasma-desktop/updates/addShowActivitiesManagerPlasmoid.js,/usr/share/kde4/apps/plasma-desktop/updates/set-hidden-single-vd-pager.js,/usr/share/kde4/apps/plasma-desktop/updates/systray-to-notifications-widget.js,/usr/share/kde4/apps/plasma-desktop/updates/01-print-manager-applet.js
+
+[ViewIds]
+1=1
+8=2
+
+[invokeAction]
+__file=
+actionId=dismiss
+
+[mount]
+__file=
+
+[toggleActivityManager]
+__file=
+
+[updateFreespace]
+__file=

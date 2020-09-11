@@ -1,0 +1,475 @@
+Script started on Mon 15 Dec 2014 11:18:40 AM EST
+You have just sourced your .bashrc file...
+[?1034h[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: who
+tpbonfi  :0           2014-12-09 20:22 (:0)
+tpbonfi  pts/0        2014-12-09 20:22 (:0)
+tpbonfi  pts/1        2014-12-09 20:22 (:0)
+tpbonfi  pts/2        2014-12-09 20:22 (:0)
+tpbonfi  pts/3        2014-12-14 22:40 (192.168.1.69)
+tpbonfi  pts/4        2014-12-14 16:55 (:0)
+tpbonfi  pts/5        2014-12-14 22:32 (:0)
+tpbonfi  pts/6        2014-12-15 11:18
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: clear
+[3;J[H[2J[tpbonfi@research]:[~]: last
+tpbonfi  pts/6                         Mon Dec 15 11:18   still logged in   
+tpbonfi  pts/3        192.168.1.69     Sun Dec 14 22:40   still logged in   
+tpbonfi  pts/3        192.168.1.69     Sun Dec 14 22:38 - 22:40  (00:01)    
+tpbonfi  pts/3        192.168.1.69     Sun Dec 14 22:37 - 22:38  (00:01)    
+tpbonfi  pts/5        :0               Sun Dec 14 22:32   still logged in   
+tpbonfi  pts/6        :0               Sun Dec 14 22:20 - 22:31  (00:11)    
+tpbonfi  pts/6        :0               Sun Dec 14 22:18 - 22:20  (00:01)    
+tpbonfi  pts/6        :0               Sun Dec 14 22:15 - 22:18  (00:03)    
+tpbonfi  pts/5        192.168.1.69     Sun Dec 14 22:11 - 22:28  (00:17)    
+tpbonfi  pts/4        :0               Sun Dec 14 16:55   still logged in   
+tpbonfi  pts/4        ::ffff:192.168.1 Sun Dec 14 13:33 - 13:33  (00:00)    
+tpbonfi  pts/3        192.168.1.69     Sun Dec 14 13:20 - 22:37  (09:16)    
+tpbonfi  pts/3        192.168.1.69     Sun Dec 14 13:09 - 13:10  (00:00)    
+tpbonfi  pts/3        192.168.1.69     Sun Dec 14 12:58 - 12:59  (00:00)    
+tpbonfi  pts/3        192.168.1.69     Sun Dec 14 12:53 - 12:53  (00:00)    
+tpbonfi  pts/3        192.168.1.69     Sun Dec 14 12:52 - 12:53  (00:00)    
+tpbonfi  pts/3        :0               Tue Dec  9 20:22 - 00:12 (4+03:50)   
+tpbonfi  pts/2        :0               Tue Dec  9 20:22   still logged in   
+tpbonfi  pts/1        :0               Tue Dec  9 20:22   still logged in   
+tpbonfi  pts/0        :0               Tue Dec  9 20:22   still logged in   
+tpbonfi  :0           :0               Tue Dec  9 20:22   still logged in   
+(unknown :0           :0               Tue Dec  9 20:21 - 20:22  (00:00)    
+reboot   system boot  3.10.0-123.9.3.e Tue Dec  9 20:21 - 11:18 (5+14:57)   
+tpbonfi  pts/5        :0               Tue Dec  9 20:18 - down   (00:02)    
+tpbonfi  pts/4        :0               Tue Dec  9 17:34 - down   (02:47)    
+tpbonfi  pts/3        192.168.1.69     Tue Dec  9 17:32 - 20:21  (02:48)    
+tpbonfi  pts/2        :0               Tue Dec  9 17:20 - down   (03:00)    
+tpbonfi  pts/1        :0               Tue Dec  9 17:20 - down   (03:00)    
+tpbonfi  pts/0        :0               Tue Dec  9 17:20 - down   (03:00)    
+tpbonfi  :0           :0               Tue Dec  9 17:20 - 20:21  (03:00)    
+(unknown :0           :0               Tue Dec  9 17:19 - 17:20  (00:00)    
+reboot   system boot  3.10.0-123.9.3.e Tue Dec  9 17:19 - 20:21  (03:01)    
+tpbonfi  pts/3        :0               Tue Dec  9 16:38 - down   (00:41)    
+tpbonfi  pts/2        :0               Tue Dec  9 16:38 - down   (00:41)    
+tpbonfi  pts/1        :0               Tue Dec  9 16:38 - down   (00:41)    
+tpbonfi  pts/0        :0               Tue Dec  9 16:37 - down   (00:41)    
+tpbonfi  :0           :0               Tue Dec  9 16:37 - 17:19  (00:41)    
+(unknown :0           :0               Tue Dec  9 16:36 - 16:37  (00:00)    
+reboot   system boot  3.10.0-123.9.3.e Tue Dec  9 16:36 - 17:19  (00:42)    
+tpbonfi  pts/6        :0               Thu Dec  4 11:36 - down  (5+05:00)   
+rms      pts/5        192.168.1.69     Thu Dec  4 11:32 - 16:36 (5+05:04)   
+tpbonfi  pts/4        192.168.1.69     Thu Dec  4 10:44 - 16:36 (5+05:52)   
+tpbonfi  pts/3        :0               Wed Dec  3 14:36 - down  (6+01:59)   
+tpbonfi  pts/2        :0               Wed Dec  3 13:56 - down  (6+02:39)   
+tpbonfi  pts/1        :0               Wed Dec  3 13:56 - 14:05 (1+00:08)   
+tpbonfi  pts/0        :0               Wed Dec  3 13:56 - down  (6+02:39)   
+tpbonfi  :0           :0               Wed Dec  3 13:55 - 16:33 (6+02:38)   
+(unknown :0           :0               Wed Dec  3 13:52 - 13:55  (00:02)    
+reboot   system boot  3.10.0-123.el7.x Wed Dec  3 13:51 - 16:36 (6+02:45)   
+tpbonfi  pts/2        192.168.1.69     Tue Dec  2 11:00 - crash (1+02:51)   
+tpbonfi  pts/4        :0               Sun Nov 23 19:03 - 13:02 (9+17:58)   
+tpbonfi  pts/3        :0               Sun Nov 23 18:53 - 13:02 (9+18:09)   
+tpbonfi  pts/2                         Thu Nov 20 11:21 - 11:22  (00:01)    
+tpbonfi  pts/1        :0               Thu Nov 20 10:48 - 13:02 (13+02:13)  
+tpbonfi  pts/0        :0               Thu Nov 20 10:46 - crash (13+03:04)  
+tpbonfi  :0           :0               Thu Nov 20 10:46 - crash (13+03:05)  
+(unknown :0           :0               Thu Nov 20 10:46 - 10:46  (00:00)    
+reboot   system boot  3.10.0-123.el7.x Thu Nov 20 10:46 - 16:36 (19+05:50)  
+reboot   system boot  3.10.0-123.el7.x Thu Nov 20 10:44 - 16:36 (19+05:52)  
+reboot   system boot  3.10.0-123.el7.x Thu Nov 20 10:42 - 16:36 (19+05:54)  
+tpbonfi  pts/2        :0               Thu Nov 20 10:32 - 10:33  (00:01)    
+tpbonfi  pts/1        :0               Thu Nov 20 10:32 - down   (00:07)    
+tpbonfi  pts/0        :0               Thu Nov 20 10:31 - down   (00:07)    
+tpbonfi  :0           :0               Thu Nov 20 10:31 - 10:39  (00:07)    
+(unknown :0           :0               Thu Nov 20 10:31 - 10:31  (00:00)    
+reboot   system boot  3.10.0-123.el7.x Thu Nov 20 10:31 - 10:39  (00:08)    
+tpbonfi  pts/2        :0               Thu Nov 20 10:25 - down   (00:00)    
+tpbonfi  pts/1        :0               Thu Nov 20 10:25 - down   (00:00)    
+tpbonfi  pts/0        :0               Thu Nov 20 10:25 - down   (00:00)    
+tpbonfi  :0           :0               Thu Nov 20 10:25 - 10:25  (00:00)    
+(unknown :0           :0               Thu Nov 20 10:24 - 10:25  (00:00)    
+reboot   system boot  3.10.0-123.el7.x Thu Nov 20 10:24 - 10:25  (00:01)    
+tpbonfi  pts/2        :0               Thu Nov 20 10:22 - down   (00:02)    
+tpbonfi  pts/1        :0               Thu Nov 20 10:22 - down   (00:02)    
+tpbonfi  pts/0        :0               Thu Nov 20 10:21 - down   (00:02)    
+tpbonfi  :0           :0               Thu Nov 20 10:21 - 10:24  (00:02)    
+(unknown :0           :0               Thu Nov 20 10:19 - 10:21  (00:02)    
+reboot   system boot  3.10.0-123.el7.x Thu Nov 20 10:19 - 10:24  (00:04)    
+tpbonfi  pts/2        :0               Thu Nov 20 10:18 - 10:18  (00:00)    
+tpbonfi  pts/1        :0               Thu Nov 20 10:18 - down   (00:00)    
+tpbonfi  pts/0        :0               Thu Nov 20 10:18 - down   (00:00)    
+tpbonfi  :0           :0               Thu Nov 20 10:18 - 10:18  (00:00)    
+(unknown :0           :0               Thu Nov 20 10:15 - 10:18  (00:02)    
+reboot   system boot  3.10.0-123.el7.x Thu Nov 20 10:15 - 10:18  (00:03)    
+tpbonfi  tty1                          Thu Nov 20 10:00 - down   (00:15)    
+reboot   system boot  3.10.0-123.el7.x Thu Nov 20 09:56 - 10:15  (00:19)    
+tpbonfi  pts/2        :0               Thu Nov 20 09:21 - down   (00:34)    
+tpbonfi  pts/1        :0               Thu Nov 20 09:19 - 09:23  (00:04)    
+tpbonfi  pts/2        :0               Thu Nov 20 09:19 - 09:19  (00:00)    
+tpbonfi  pts/1        :0               Thu Nov 20 09:19 - 09:19  (00:00)    
+tpbonfi  pts/2        :0               Thu Nov 20 09:16 - 09:16  (00:00)    
+tpbonfi  pts/1        :0               Thu Nov 20 09:16 - 09:16  (00:00)    
+tpbonfi  pts/2        :0               Thu Nov 20 09:15 - 09:16  (00:00)    
+tpbonfi  pts/1        :0               Thu Nov 20 09:15 - 09:16  (00:00)    
+tpbonfi  pts/2        :0               Thu Nov 20 08:55 - 08:55  (00:00)    
+tpbonfi  pts/1        :0               Thu Nov 20 08:55 - 08:55  (00:00)    
+tpbonfi  pts/1        :0               Thu Nov 20 08:53 - 08:53  (00:00)    
+tpbonfi  pts/1        :0               Thu Nov 20 08:51 - 08:51  (00:00)    
+tpbonfi  pts/2        :0               Thu Nov 20 08:47 - 08:49  (00:02)    
+tpbonfi  pts/1        :0               Thu Nov 20 08:47 - 08:49  (00:02)    
+tpbonfi  pts/2        :0               Thu Nov 20 08:44 - 08:46  (00:01)    
+tpbonfi  pts/1        :0               Thu Nov 20 08:44 - 08:47  (00:02)    
+tpbonfi  pts/0        :0               Thu Nov 20 08:44 - down   (01:11)    
+tpbonfi  :0           :0               Thu Nov 20 08:44 - 09:55  (01:11)    
+(unknown :0           :0               Thu Nov 20 08:43 - 08:44  (00:01)    
+reboot   system boot  3.10.0-123.el7.x Thu Nov 20 08:42 - 09:55  (01:12)    
+tpbonfi  pts/1        :0               Thu Nov 20 08:38 - down   (00:03)    
+tpbonfi  pts/0        :0               Thu Nov 20 08:38 - 08:42  (00:03)    
+tpbonfi  :0           :0               Thu Nov 20 08:38 - 08:42  (00:04)    
+(unknown :0           :0               Thu Nov 20 08:36 - 08:38  (00:01)    
+reboot   system boot  3.10.0-123.el7.x Thu Nov 20 08:36 - 08:42  (00:06)    
+tpbonfi  pts/3        :0               Wed Nov 19 11:08 - down   (21:27)    
+tpbonfi  pts/2        :0               Wed Nov 19 10:58 - down   (21:38)    
+tpbonfi  pts/2        :0               Mon Nov 17 11:53 - 13:47  (01:54)    
+tpbonfi  pts/1        :0               Sun Nov 16 11:14 - 10:57 (2+23:43)   
+tpbonfi  pts/0        :0               Sun Nov 16 11:14 - down  (3+21:21)   
+tpbonfi  :0           :0               Sun Nov 16 11:13 - 08:34 (3+21:20)   
+(unknown :0           :0               Sun Nov 16 11:12 - 11:13  (00:01)    
+reboot   system boot  3.10.0-123.el7.x Sun Nov 16 11:12 - 08:36 (3+21:23)   
+tpbonfi  pts/1        :0               Fri Nov 14 14:28 - down  (1+20:43)   
+tpbonfi  pts/0        :0               Fri Nov 14 11:52 - down  (1+23:19)   
+tpbonfi  :0           :0               Fri Nov 14 11:52 - 11:11 (1+23:19)   
+(unknown :0           :0               Fri Nov 14 11:47 - 11:52  (00:04)    
+reboot   system boot  3.10.0-123.el7.x Fri Nov 14 11:46 - 11:12 (1+23:26)   
+
+wtmp begins Fri Nov 14 11:46:12 2014
+[tpbonfi@research]:[~]: ls
+$	   acl-summary	Documents  google.cert.asc  Music	  Public	   This
+%#$%#^%$&  bin		Downloads  is		    my		  SAMPLES	   This is my file
+888	   dead.letter	file	   login-order	    myscriptfile  SHELL_META_DIRS  Videos
+acl	   Desktop	github	   mbox		    Pictures	  Templates	   vmstat-output-file
+[tpbonfi@research]:[~]: w
+tpbonfi  :0           2014-12-09 20:22 (:0)
+tpbonfi  pts/0        2014-12-09 20:22 (:0)
+tpbonfi  pts/1        2014-12-09 20:22 (:0)
+tpbonfi  pts/2        2014-12-09 20:22 (:0)
+tpbonfi  pts/3        2014-12-14 22:40 (192.168.1.69)
+tpbonfi  pts/4        2014-12-14 16:55 (:0)
+tpbonfi  pts/5        2014-12-14 22:32 (:0)
+tpbonfi  pts/6        2014-12-15 11:18
+[tpbonfi@research]:[~]: /usr/bin/w
+ 11:19:00 up 5 days, 14:57,  8 users,  load average: 0.06, 0.23, 0.15
+USER     TTY        LOGIN@   IDLE   JCPU   PCPU WHAT
+tpbonfi  :0        Tue20   ?xdm?  40:57   1.76s gdm-session-worker [pam/gdm-password]
+tpbonfi  pts/0     Tue20    5days  0.00s 27.10s kdeinit4: kded4 [kdeinit]                      
+tpbonfi  pts/1     Tue20    5days  0.00s  0.00s /bin/bash
+tpbonfi  pts/2     Tue20    1:07m  0.33s  0.18s /bin/bash
+tpbonfi  pts/3     Sun22   12:38m  0.05s  0.05s -bash
+tpbonfi  pts/4     Sun16    4.00s  0.86s  0.00s script myscriptfile
+tpbonfi  pts/5     Sun22    9:48   0.01s  0.01s /bin/bash
+tpbonfi  pts/6     11:18    4.00s  0.03s  0.03s /usr/bin/w
+[tpbonfi@research]:[~]: date
+Mon Dec 15 11:19:08 EST 2014
+[tpbonfi@research]:[~]: id
+uid=1000(tpbonfi) gid=1000(tpbonfi) groups=1000(tpbonfi) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: ls
+$	   acl-summary	Documents  google.cert.asc  Music	  Public	   This
+%#$%#^%$&  bin		Downloads  is		    my		  SAMPLES	   This is my file
+888	   dead.letter	file	   login-order	    myscriptfile  SHELL_META_DIRS  Videos
+acl	   Desktop	github	   mbox		    Pictures	  Templates	   vmstat-output-file
+[tpbonfi@research]:[~]: more myscriptfile 
+Script started on Mon 15 Dec 2014 11:18:40 AM EST
+You have just sourced your .bashrc file...
+[?1034h[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: who
+tpbonfi  :0           2014-12-09 20:22 (:0)
+tpbonfi  pts/0        2014-12-09 20:22 (:0)
+tpbonfi  pts/1        2014-12-09 20:22 (:0)
+tpbonfi  pts/2        2014-12-09 20:22 (:0)
+tpbonfi  pts/3        2014-12-14 22:40 (192.168.1.69)
+tpbonfi  pts/4        2014-12-14 16:55 (:0)
+tpbonfi  pts/5        2014-12-14 22:32 (:0)
+tpbonfi  pts/6        2014-12-15 11:18
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: clear
+[3;J[H[2J[tpbonfi@research]:[~]: last
+tpbonfi  pts/6                         Mon Dec 15 11:18   still logged in   
+tpbonfi  pts/3        192.168.1.69     Sun Dec 14 22:40   still logged in   
+tpbonfi  pts/3        192.168.1.69     Sun Dec 14 22:38 - 22:40  (00:01)    
+tpbonfi  pts/3        192.168.1.69     Sun Dec 14 22:37 - 22:38  (00:01)    
+tpbonfi  pts/5        :0               Sun Dec 14 22:32   still logged in   
+tpbonfi  pts/6        :0               Sun Dec 14 22:20 - 22:31  (00:11)    
+[7m--More--(10%)[27mtpbonfi  pts/6        :0               Sun Dec 14 22:18 - 22:20  (00:01)    
+[7m--More--(11%)[27mtpbonfi  pts/6        :0               Sun Dec 14 22:15 - 22:18  (00:03)    
+[7m--More--(11%)[27mtpbonfi  pts/5        192.168.1.69     Sun Dec 14 22:11 - 22:28  (00:17)    
+[7m--More--(12%)[27mtpbonfi  pts/4        :0               Sun Dec 14 16:55   still logged in   
+[7m--More--(13%)[27mtpbonfi  pts/4        ::ffff:192.168.1 Sun Dec 14 13:33 - 13:33  (00:00)    
+[7m--More--(13%)[27mtpbonfi  pts/3        192.168.1.69     Sun Dec 14 13:20 - 22:37  (09:16)    
+[7m--More--(14%)[27mtpbonfi  pts/3        192.168.1.69     Sun Dec 14 13:09 - 13:10  (00:00)    
+[7m--More--(14%)[27mtpbonfi  pts/3        192.168.1.69     Sun Dec 14 12:58 - 12:59  (00:00)    
+[7m--More--(15%)[27mtpbonfi  pts/3        192.168.1.69     Sun Dec 14 12:53 - 12:53  (00:00)    
+[7m--More--(16%)[27mtpbonfi  pts/3        192.168.1.69     Sun Dec 14 12:52 - 12:53  (00:00)    
+[7m--More--(16%)[27mtpbonfi  pts/3        :0               Tue Dec  9 20:22 - 00:12 (4+03:50)   
+[7m--More--(17%)[27mtpbonfi  pts/2        :0               Tue Dec  9 20:22   still logged in   
+[7m--More--(18%)[27mtpbonfi  pts/1        :0               Tue Dec  9 20:22   still logged in   
+[7m--More--(18%)[27mtpbonfi  pts/0        :0               Tue Dec  9 20:22   still logged in   
+[7m--More--(19%)[27mtpbonfi  :0           :0               Tue Dec  9 20:22   still logged in   
+[7m--More--(20%)[27m(unknown :0           :0               Tue Dec  9 20:21 - 20:22  (00:00)    
+[7m--More--(20%)[27mreboot   system boot  3.10.0-123.9.3.e Tue Dec  9 20:21 - 11:18 (5+14:57)   
+[7m--More--(21%)[27mtpbonfi  pts/5        :0               Tue Dec  9 20:18 - down   (00:02)    
+[7m--More--(21%)[27mtpbonfi  pts/4        :0               Tue Dec  9 17:34 - down   (02:47)    
+[7m--More--(22%)[27mtpbonfi  pts/3        192.168.1.69     Tue Dec  9 17:32 - 20:21  (02:48)    
+[7m--More--(23%)[27mtpbonfi  pts/2        :0               Tue Dec  9 17:20 - down   (03:00)    
+[7m--More--(23%)[27mtpbonfi  pts/1        :0               Tue Dec  9 17:20 - down   (03:00)    
+[7m--More--(24%)[27mtpbonfi  pts/0        :0               Tue Dec  9 17:20 - down   (03:00)    
+[7m--More--(25%)[27mtpbonfi  :0           :0               Tue Dec  9 17:20 - 20:21  (03:00)    
+[7m--More--(25%)[27m(unknown :0           :0               Tue Dec  9 17:19 - 17:20  (00:00)    
+[7m--More--(26%)[27mreboot   system boot  3.10.0-123.9.3.e Tue Dec  9 17:19 - 20:21  (03:01)    
+[7m--More--(27%)[27mtpbonfi  pts/3        :0               Tue Dec  9 16:38 - down   (00:41)    
+[7m--More--(27%)[27mtpbonfi  pts/2        :0               Tue Dec  9 16:38 - down   (00:41)    
+[7m--More--(28%)[27mtpbonfi  pts/1        :0               Tue Dec  9 16:38 - down   (00:41)    
+[7m--More--(28%)[27mtpbonfi  pts/0        :0               Tue Dec  9 16:37 - down   (00:41)    
+[7m--More--(29%)[27mtpbonfi  :0           :0               Tue Dec  9 16:37 - 17:19  (00:41)    
+[7m--More--(30%)[27m(unknown :0           :0               Tue Dec  9 16:36 - 16:37  (00:00)    
+[7m--More--(30%)[27mreboot   system boot  3.10.0-123.9.3.e Tue Dec  9 16:36 - 17:19  (00:42)    
+[7m--More--(31%)[27mtpbonfi  pts/6        :0               Thu Dec  4 11:36 - down  (5+05:00)   
+[7m--More--(32%)[27mrms      pts/5        192.168.1.69     Thu Dec  4 11:32 - 16:36 (5+05:04)   
+[7m--More--(32%)[27mtpbonfi  pts/4        192.168.1.69     Thu Dec  4 10:44 - 16:36 (5+05:52)   
+[7m--More--(33%)[27mtpbonfi  pts/3        :0               Wed Dec  3 14:36 - down  (6+01:59)   
+[7m--More--(34%)[27mtpbonfi  pts/2        :0               Wed Dec  3 13:56 - down  (6+02:39)   
+[7m--More--(34%)[27mtpbonfi  pts/1        :0               Wed Dec  3 13:56 - 14:05 (1+00:08)   
+[7m--More--(35%)[27mtpbonfi  pts/0        :0               Wed Dec  3 13:56 - down  (6+02:39)   
+[7m--More--(35%)[27mtpbonfi  :0           :0               Wed Dec  3 13:55 - 16:33 (6+02:38)   
+[7m--More--(36%)[27m(unknown :0           :0               Wed Dec  3 13:52 - 13:55  (00:02)    
+[7m--More--(37%)[27mreboot   system boot  3.10.0-123.el7.x Wed Dec  3 13:51 - 16:36 (6+02:45)   
+[7m--More--(37%)[27mtpbonfi  pts/2        192.168.1.69     Tue Dec  2 11:00 - crash (1+02:51)   
+[7m--More--(38%)[27mtpbonfi  pts/4        :0               Sun Nov 23 19:03 - 13:02 (9+17:58)   
+[7m--More--(39%)[27mtpbonfi  pts/3        :0               Sun Nov 23 18:53 - 13:02 (9+18:09)   
+[7m--More--(39%)[27mtpbonfi  pts/2                         Thu Nov 20 11:21 - 11:22  (00:01)    
+[7m--More--(40%)[27mtpbonfi  pts/1        :0               Thu Nov 20 10:48 - 13:02 (13+02:13)  
+[7m--More--(41%)[27mtpbonfi  pts/0        :0               Thu Nov 20 10:46 - crash (13+03:04)  
+[7m--More--(41%)[27mtpbonfi  :0           :0               Thu Nov 20 10:46 - crash (13+03:05)  
+[7m--More--(42%)[27m(unknown :0           :0               Thu Nov 20 10:46 - 10:46  (00:00)    
+[7m--More--(42%)[27mreboot   system boot  3.10.0-123.el7.x Thu Nov 20 10:46 - 16:36 (19+05:50)  
+[7m--More--(43%)[27mreboot   system boot  3.10.0-123.el7.x Thu Nov 20 10:44 - 16:36 (19+05:52)  
+[7m--More--(44%)[27mreboot   system boot  3.10.0-123.el7.x Thu Nov 20 10:42 - 16:36 (19+05:54)  
+[7m--More--(44%)[27mtpbonfi  pts/2        :0               Thu Nov 20 10:32 - 10:33  (00:01)    
+[7m--More--(45%)[27mtpbonfi  pts/1        :0               Thu Nov 20 10:32 - down   (00:07)    
+[7m--More--(46%)[27mtpbonfi  pts/0        :0               Thu Nov 20 10:31 - down   (00:07)    
+[7m--More--(46%)[27mtpbonfi  :0           :0               Thu Nov 20 10:31 - 10:39  (00:07)    
+[7m--More--(47%)[27m(unknown :0           :0               Thu Nov 20 10:31 - 10:31  (00:00)    
+[7m--More--(48%)[27mreboot   system boot  3.10.0-123.el7.x Thu Nov 20 10:31 - 10:39  (00:08)    
+[7m--More--(48%)[27mtpbonfi  pts/2        :0               Thu Nov 20 10:25 - down   (00:00)    
+[7m--More--(49%)[27mtpbonfi  pts/1        :0               Thu Nov 20 10:25 - down   (00:00)    
+[7m--More--(49%)[27mtpbonfi  pts/0        :0               Thu Nov 20 10:25 - down   (00:00)    
+[7m--More--(50%)[27mtpbonfi  :0           :0               Thu Nov 20 10:25 - 10:25  (00:00)    
+[7m--More--(51%)[27m(unknown :0           :0               Thu Nov 20 10:24 - 10:25  (00:00)    
+[7m--More--(51%)[27mreboot   system boot  3.10.0-123.el7.x Thu Nov 20 10:24 - 10:25  (00:01)    
+[7m--More--(52%)[27mtpbonfi  pts/2        :0               Thu Nov 20 10:22 - down   (00:02)    
+[7m--More--(53%)[27mtpbonfi  pts/1        :0               Thu Nov 20 10:22 - down   (00:02)    
+[7m--More--(53%)[27mtpbonfi  pts/0        :0               Thu Nov 20 10:21 - down   (00:02)    
+[7m--More--(54%)[27mtpbonfi  :0           :0               Thu Nov 20 10:21 - 10:24  (00:02)    
+[7m--More--(54%)[27m(unknown :0           :0               Thu Nov 20 10:19 - 10:21  (00:02)    
+[7m--More--(55%)[27mreboot   system boot  3.10.0-123.el7.x Thu Nov 20 10:19 - 10:24  (00:04)    
+[7m--More--(56%)[27mtpbonfi  pts/2        :0               Thu Nov 20 10:18 - 10:18  (00:00)    
+[7m--More--(56%)[27mtpbonfi  pts/1        :0               Thu Nov 20 10:18 - down   (00:00)    
+[7m--More--(57%)[27mtpbonfi  pts/0        :0               Thu Nov 20 10:18 - down   (00:00)    
+[7m--More--(58%)[27mtpbonfi  :0           :0               Thu Nov 20 10:18 - 10:18  (00:00)    
+[7m--More--(58%)[27m(unknown :0           :0               Thu Nov 20 10:15 - 10:18  (00:02)    
+[7m--More--(59%)[27mreboot   system boot  3.10.0-123.el7.x Thu Nov 20 10:15 - 10:18  (00:03)    
+[7m--More--(60%)[27mtpbonfi  tty1                          Thu Nov 20 10:00 - down   (00:15)    
+[7m--More--(60%)[27mreboot   system boot  3.10.0-123.el7.x Thu Nov 20 09:56 - 10:15  (00:19)    
+[7m--More--(61%)[27mtpbonfi  pts/2        :0               Thu Nov 20 09:21 - down   (00:34)    
+[7m--More--(61%)[27mtpbonfi  pts/1        :0               Thu Nov 20 09:19 - 09:23  (00:04)    
+[7m--More--(62%)[27mtpbonfi  pts/2        :0               Thu Nov 20 09:19 - 09:19  (00:00)    
+[7m--More--(63%)[27mtpbonfi  pts/1        :0               Thu Nov 20 09:19 - 09:19  (00:00)    
+[7m--More--(63%)[27mtpbonfi  pts/2        :0               Thu Nov 20 09:16 - 09:16  (00:00)    
+[7m--More--(64%)[27mtpbonfi  pts/1        :0               Thu Nov 20 09:16 - 09:16  (00:00)    
+[7m--More--(65%)[27mtpbonfi  pts/2        :0               Thu Nov 20 09:15 - 09:16  (00:00)    
+[7m--More--(65%)[27mtpbonfi  pts/1        :0               Thu Nov 20 09:15 - 09:16  (00:00)    
+[7m--More--(66%)[27mtpbonfi  pts/2        :0               Thu Nov 20 08:55 - 08:55  (00:00)    
+[7m--More--(67%)[27mtpbonfi  pts/1        :0               Thu Nov 20 08:55 - 08:55  (00:00)    
+[7m--More--(67%)[27mtpbonfi  pts/1        :0               Thu Nov 20 08:53 - 08:53  (00:00)    
+[7m--More--(68%)[27mtpbonfi  pts/1        :0               Thu Nov 20 08:51 - 08:51  (00:00)    
+[7m--More--(68%)[27mtpbonfi  pts/2        :0               Thu Nov 20 08:47 - 08:49  (00:02)    
+[7m--More--(69%)[27mtpbonfi  pts/1        :0               Thu Nov 20 08:47 - 08:49  (00:02)    
+[7m--More--(70%)[27mtpbonfi  pts/2        :0               Thu Nov 20 08:44 - 08:46  (00:01)    
+[7m--More--(70%)[27mtpbonfi  pts/1        :0               Thu Nov 20 08:44 - 08:47  (00:02)    
+[7m--More--(71%)[27mtpbonfi  pts/0        :0               Thu Nov 20 08:44 - down   (01:11)    
+[7m--More--(72%)[27mtpbonfi  :0           :0               Thu Nov 20 08:44 - 09:55  (01:11)    
+[7m--More--(72%)[27m(unknown :0           :0               Thu Nov 20 08:43 - 08:44  (00:01)    
+[7m--More--(73%)[27mreboot   system boot  3.10.0-123.el7.x Thu Nov 20 08:42 - 09:55  (01:12)    
+[7m--More--(74%)[27mtpbonfi  pts/1        :0               Thu Nov 20 08:38 - down   (00:03)    
+[7m--More--(74%)[27mtpbonfi  pts/0        :0               Thu Nov 20 08:38 - 08:42  (00:03)    
+[7m--More--(75%)[27mtpbonfi  :0           :0               Thu Nov 20 08:38 - 08:42  (00:04)    
+[7m--More--(75%)[27m(unknown :0           :0               Thu Nov 20 08:36 - 08:38  (00:01)    
+[7m--More--(76%)[27mreboot   system boot  3.10.0-123.el7.x Thu Nov 20 08:36 - 08:42  (00:06)    
+[7m--More--(77%)[27mtpbonfi  pts/3        :0               Wed Nov 19 11:08 - down   (21:27)    
+[7m--More--(77%)[27mtpbonfi  pts/2        :0               Wed Nov 19 10:58 - down   (21:38)    
+[7m--More--(78%)[27mtpbonfi  pts/2        :0               Mon Nov 17 11:53 - 13:47  (01:54)    
+[7m--More--(79%)[27mtpbonfi  pts/1        :0               Sun Nov 16 11:14 - 10:57 (2+23:43)   
+[7m--More--(79%)[27mtpbonfi  pts/0        :0               Sun Nov 16 11:14 - down  (3+21:21)   
+[7m--More--(80%)[27mtpbonfi  :0           :0               Sun Nov 16 11:13 - 08:34 (3+21:20)   
+[7m--More--(81%)[27m(unknown :0           :0               Sun Nov 16 11:12 - 11:13  (00:01)    
+[7m--More--(81%)[27mreboot   system boot  3.10.0-123.el7.x Sun Nov 16 11:12 - 08:36 (3+21:23)   
+[7m--More--(82%)[27mtpbonfi  pts/1        :0               Fri Nov 14 14:28 - down  (1+20:43)   
+[7m--More--(82%)[27mtpbonfi  pts/0        :0               Fri Nov 14 11:52 - down  (1+23:19)   
+[7m--More--(83%)[27mtpbonfi  :0           :0               Fri Nov 14 11:52 - 11:11 (1+23:19)   
+[7m--More--(84%)[27m(unknown :0           :0               Fri Nov 14 11:47 - 11:52  (00:04)    
+[7m--More--(84%)[27mreboot   system boot  3.10.0-123.el7.x Fri Nov 14 11:46 - 11:12 (1+23:26)   
+[7m--More--(85%)[27m[K
+[7m--More--(85%)[27mwtmp begins Fri Nov 14 11:46:12 2014
+[7m--More--(85%)[27m[tpbonfi@research]:[~]: ls
+[7m--More--(86%)[27m[K$	   acl-summary	Documents  google.cert.asc  Music	  Public	   This
+[7m--More--(86%)[27m%#$%#^%$&  bin		Downloads  is		    my		  SAMPLES	   This is my file
+[7m--More--(87%)[27m[K888	   dead.letter	file	   login-order	    myscriptfile  SHELL_META_DIRS  Videos
+[7m--More--(87%)[27m[Kacl	   Desktop	github	   mbox		    Pictures	  Templates	   vmstat-output-file
+[7m--More--(88%)[27m[tpbonfi@research]:[~]: w
+[7m--More--(88%)[27mtpbonfi  :0           2014-12-09 20:22 (:0)
+[7m--More--(89%)[27mtpbonfi  pts/0        2014-12-09 20:22 (:0)
+[7m--More--(89%)[27mtpbonfi  pts/1        2014-12-09 20:22 (:0)
+[7m--More--(89%)[27mtpbonfi  pts/2        2014-12-09 20:22 (:0)
+[7m--More--(90%)[27mtpbonfi  pts/3        2014-12-14 22:40 (192.168.1.69)
+[7m--More--(90%)[27mtpbonfi  pts/4        2014-12-14 16:55 (:0)
+[7m--More--(90%)[27mtpbonfi  pts/5        2014-12-14 22:32 (:0)
+[7m--More--(91%)[27mtpbonfi  pts/6        2014-12-15 11:18
+[7m--More--(91%)[27m[tpbonfi@research]:[~]: /usr/bin/w
+[7m--More--(91%)[27m 11:19:00 up 5 days, 14:57,  8 users,  load average: 0.06, 0.23, 0.15
+[7m--More--(92%)[27mUSER     TTY        LOGIN@   IDLE   JCPU   PCPU WHAT
+[7m--More--(92%)[27mtpbonfi  :0        Tue20   ?xdm?  40:57   1.76s gdm-session-worker [pam/gdm-password]
+[7m--More--(93%)[27mtpbonfi  pts/0     Tue20    5days  0.00s 27.10s kdeinit4: kded4 [kdeinit]                      
+[7m--More--(94%)[27mtpbonfi  pts/1     Tue20    5days  0.00s  0.00s /bin/bash
+[7m--More--(94%)[27mtpbonfi  pts/2     Tue20    1:07m  0.33s  0.18s /bin/bash
+[7m--More--(95%)[27mtpbonfi  pts/3     Sun22   12:38m  0.05s  0.05s -bash
+[7m--More--(95%)[27mtpbonfi  pts/4     Sun16    4.00s  0.86s  0.00s script myscriptfile
+[7m--More--(96%)[27mtpbonfi  pts/5     Sun22    9:48   0.01s  0.01s /bin/bash
+[7m--More--(96%)[27mtpbonfi  pts/6     11:18    4.00s  0.03s  0.03s /usr/bin/w
+[7m--More--(97%)[27m[tpbonfi@research]:[~]: date
+[7m--More--(97%)[27m[K[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: ps
+   PID TTY          TIME CMD
+ 39038 pts/6    00:00:00 bash
+ 39050 pts/6    00:00:00 ps
+[tpbonfi@research]:[~]: man script
+[?1049h[?1h=SCRIPT(1)                                        User Commands                                        SCRIPT(1)[m
+[m
+[1mNAME[0m[m
+       script - make typescript of terminal session[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mscript[0m [options] [file][m
+[m
+[1mDESCRIPTION[0m[m
+       [1mscript[0m  makes a typescript of everything printed on your terminal.  It is useful for students who need a[m
+       hardcopy record of an interactive session as proof of an assignment,  as  the  typescript  file  can  be[m
+       printed out later with [1mlpr[0m(1).[m
+[m
+       If  the  argument [4mfile[24m is given, [1mscript[0m saves all dialogue in [4mfile[24m.  If no file name is given, the type‐[m
+       script is saved in the file [4mtypescript[24m.[m
+[m
+[1mOPTIONS[0m[m
+       [1m-a[0m, [1m--append[0m[m
+              Append the output to [4mfile[24m or [4mtypescript[24m, retaining the prior contents.[m
+[m
+       [1m-c[0m, [1m--command[0m [4mcommand[24m[m
+              Run the [4mcommand[24m rather than an interactive shell.  This makes it easy for a script to capture the[m
+              output of a program that behaves differently when its stdout is not a tty.[m
+[m
+       [1m-e[0m, [1m--return[0m[m
+              Return  the  exit  code of the child process.  Uses the same format as bash termination on signal[m
+              termination exit code is 128+n.[m
+[m
+       [1m-f[0m, [1m--flush[0m[m
+[7m Manual page script(1) line 1 (press h for help or q to quit)[27m[K[K              Flush output after each write.  This is nice for telecooperation: one person  does  `mkfifo  foo;[m
+              script -f foo', and another can supervise real-time what is being done using `cat foo'.[m
+[m
+       [1m--force[0m[m
+              Allow  the  default  output destination, i.e. the typescript file, to be a hard or symbolic link.[m
+              The command will follow a symbolic link.[m
+[m
+       [1m-q[0m, [1m--quiet[0m[m
+              Be quiet.[m
+[m
+       [1m-t[0m, [1m--timing[0m[=[4mfile[24m][m
+              Output timing data to standard error, or to [4mfile[24m when given.  This data contains two fields, sep‐[m
+              arated  by  a  space.  The first field indicates how much time elapsed since the previous output.[m
+              The second field indicates how many characters were output this time.  This  information  can  be[m
+              used to replay typescripts with realistic typing and output delays.[m
+[m
+       [1m-V[0m, [1m--version[0m[m
+              Output version information and exit.[m
+[m
+       [1m-h[0m, [1m--help[0m[m
+              Output help and exit.[m
+[m
+[1mNOTES[0m[m
+       The  script  ends  when  the forked shell exits (a [4mcontrol-D[24m to exit the Bourne shell ([1msh[0m(1)), and [4mexit[24m,[m
+       [4mlogout[24m or [4mcontrol-d[24m (if [4mignoreeof[24m is not set) for the C-shell, [1mcsh[0m(1)).[m
+[m
+       Certain interactive commands, such as [1mvi[0m(1), create garbage in the typescript file.  [1mScript[0m  works  best[m
+       with commands that do not manipulate the screen, the results are meant to emulate a hardcopy terminal.[m
+[m
+[7m Manual page script(1) line 32 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[tpbonfi@research]:[~]: Use "exit" to leave the shell.
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: 
+[tpbonfi@research]:[~]: set -o
+allexport      	off
+braceexpand    	on
+emacs          	off
+errexit        	off
+errtrace       	off
+functrace      	off
+hashall        	on
+histexpand     	on
+history        	on
+ignoreeof      	on
+interactive-comments	on
+keyword        	off
+monitor        	on
+noclobber      	on
+noexec         	off
+noglob         	off
+nolog          	off
+notify         	off
+nounset        	off
+onecmd         	off
+physical       	off
+pipefail       	off
+posix          	off
+privileged     	off
+verbose        	off
+vi             	on
+xtrace         	off
+[tpbonfi@research]:[~]: Use "exit" to leave the shell.
+[tpbonfi@research]:[~]: Use "exit" to leave the shell.
+[tpbonfi@research]:[~]: Use "exit" to leave the shell.
+[tpbonfi@research]:[~]: Use "exit" to leave the shell.
+[tpbonfi@research]:[~]: Use "exit" to leave the shell.
+[tpbonfi@research]:[~]: Use "exit" to leave the shell.
+[tpbonfi@research]:[~]: Use "exit" to leave the shell.
+[tpbonfi@research]:[~]: Use "exit" to leave the shell.
+[tpbonfi@research]:[~]: Use "exit" to leave the shell.
+[tpbonfi@research]:[~]: Use "exit" to leave the shell.
+[tpbonfi@research]:[~]: exit
+
+Script done on Mon 15 Dec 2014 11:20:35 AM EST

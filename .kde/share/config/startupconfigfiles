@@ -1,0 +1,65 @@
+kcminputrc Mouse cursorTheme 'Oxygen_White'
+!/home/tpbonfi/.kde/share/config/kcminputrc
+/usr/share/kde-settings/kde-profile/default/share/config/kcminputrc
+!/usr/share/config/kcminputrc
+*
+kcminputrc Mouse cursorSize ''
+!/home/tpbonfi/.kde/share/config/kcminputrc
+/usr/share/kde-settings/kde-profile/default/share/config/kcminputrc
+!/usr/share/config/kcminputrc
+*
+ksplashrc KSplash Theme Default
+!/home/tpbonfi/.kde/share/config/ksplashrc
+/usr/share/kde-settings/kde-profile/default/share/config/ksplashrc
+!/usr/share/config/ksplashrc
+*
+ksplashrc KSplash Engine KSplashX
+!/home/tpbonfi/.kde/share/config/ksplashrc
+/usr/share/kde-settings/kde-profile/default/share/config/ksplashrc
+!/usr/share/config/ksplashrc
+*
+krandrrc Display ApplyOnStartup false
+!/home/tpbonfi/.kde/share/config/krandrrc
+!/usr/share/kde-settings/kde-profile/default/share/config/krandrrc
+!/usr/share/config/krandrrc
+*
+krandrrc Display StartupCommands ''
+!/home/tpbonfi/.kde/share/config/krandrrc
+!/usr/share/kde-settings/kde-profile/default/share/config/krandrrc
+!/usr/share/config/krandrrc
+*
+krandrrc [Screen0]
+!/home/tpbonfi/.kde/share/config/krandrrc
+!/usr/share/kde-settings/kde-profile/default/share/config/krandrrc
+!/usr/share/config/krandrrc
+*
+krandrrc [Screen1]
+!/home/tpbonfi/.kde/share/config/krandrrc
+!/usr/share/kde-settings/kde-profile/default/share/config/krandrrc
+!/usr/share/config/krandrrc
+*
+krandrrc [Screen2]
+!/home/tpbonfi/.kde/share/config/krandrrc
+!/usr/share/kde-settings/kde-profile/default/share/config/krandrrc
+!/usr/share/config/krandrrc
+*
+krandrrc [Screen3]
+!/home/tpbonfi/.kde/share/config/krandrrc
+!/usr/share/kde-settings/kde-profile/default/share/config/krandrrc
+!/usr/share/config/krandrrc
+*
+kcmfonts General forceFontDPI 0
+!/home/tpbonfi/.kde/share/config/kcmfonts
+!/usr/share/kde-settings/kde-profile/default/share/config/kcmfonts
+!/usr/share/config/kcmfonts
+*
+kdeglobals Locale Language '' # trigger requesting languages from KLocale
+/home/tpbonfi/.kde/share/config/kdeglobals
+/usr/share/kde-settings/kde-profile/default/share/config/kdeglobals
+!/usr/share/config/kdeglobals
+*
+kdeglobals Locale Country ''
+/home/tpbonfi/.kde/share/config/kdeglobals
+/usr/share/kde-settings/kde-profile/default/share/config/kdeglobals
+!/usr/share/config/kdeglobals
+*

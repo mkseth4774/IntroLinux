@@ -1,0 +1,8 @@
+# KDE Cookie File v2
+#
+# Host               Domain               Path         Exp.date   Prot Name                 Sec  Value
+[.google.com]
+www.google.com       ".google.com"        "/"          1432392501    0 NID                  6    67=jMs8UoSNEanHhQO73UCw8wqxr7Hi58EOegSJf0MLPx1W1lYL6PKdnvMITn1mwH0mE7GTWLZNAHCSd4c3dz7q5zMICwlWrlTAcc4tJbsFQJFmHN9jA4-EVRXVah1Lz2g_
+www.google.com       ".google.com"        "/"          1479653311    0 PREF                 4    ID=5b6c9b7662db4183:U=32335cd05527ca1c:FF=0:TM=1416581301:LM=1416581311:S=FxWActtJypIwkzts
+[forgetcode.com]
+forgetcode.com       ""                   "/"          1448117327    0 fcTrackId            4    71281d8f-5973-46b8-aa7d-838513a1344a

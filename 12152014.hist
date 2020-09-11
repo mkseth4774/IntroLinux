@@ -1,0 +1,1029 @@
+  186  myvar=value
+  187  echo the value of myvar is myvar
+  188  echo the value of myvar is $myvar
+  189  date
+  190  variable=myvar
+  191  bash
+  192  echo $variiable
+  193  echo $variable
+  194  export variable
+  195  bash
+  196  ps -f
+  197  export -p
+  198  car=ford
+  199  declare -x car
+  200  bash
+  201  ps
+  202  exit
+  203  . ./.bash_profile
+  204  refresh
+  205  type refres
+  206  type refresh
+  207  typee who
+  208  type who
+  209  type bash
+  210  type awk
+  211  which awk
+  212  awk --version
+  213  which gawk
+  214  gawk --version
+  215  cd /usr/bin
+  216  ls -lai | egrep '(awk|gawk|nawk)'
+  217  which oawk
+  218  find / -name oawk -print 2>/dev/null
+  219  man fork
+  220  man                                                                                                            man
+  221  l
+  222  w
+  223  last
+  224  l
+  225  cd 
+  226  cd bin
+  227  ls
+  228  l
+  229  cd sed
+  230  l
+  231  cat trims
+  232  refresh
+  233  w
+  234  ifconfig 0a
+  235  ifconfig -a
+  236  cd
+  237  su -
+  238  w
+  239  ps
+  240  write y
+  241  man write
+  242  mesg y
+  243  which talk
+  244  yum update -y talk
+  245  which talk
+  246  which ntalk
+  247  cd
+  248  cd bin
+  249  cd
+  250  cd bin
+  251  mkdir misc
+  252  cd misc
+  253  vi starwars
+  254  ax starwars 
+  255  ./starwars 
+  256  cd
+  257  c
+  258  w
+  259  cd
+  260  cd bin
+  261  l
+  262  cd bash
+  263  l
+  264  vi string-test-operators
+  265  which gvim
+  266  ps -ef | grep scann
+  267  kill -9 29748
+  268  cd
+  269  cd bin
+  270  cd bash
+  271  cp scanner.bash seeker.bash
+  272  vi seeker.bash 
+  273  ./seeker.bash 
+  274  ping 192.168.1.201
+  275  ping 192.168.1.202
+  276  ping 192.168.1.203
+  277  l
+  278  cd
+  279  vi .bashrc
+  280  echo PATH
+  281  echo $PATH
+  282  cd bin/bash
+  283  l
+  284  seeker.bash
+  285  ping.bash
+  286  cd /mtp
+  287  cd /tmp
+  288  vi testfile
+  289  ps
+  290  cd
+  291  c
+  292  crontab -e
+  293  for ARGS in $*; do echo "These are my arguments"; done
+  294  for ARGS in $*; do 1 2 3 4 5 6 7; done
+  295  date
+  296  cd /tmp
+  297  ls
+  298  ls -lai
+  299   | more
+  300  ls -lai | more
+  301  if [ -r /tmp/agrep-3.41.tar ]; then echo 'You have read permissions!'; fi
+  302  if [ -r /tmp/systemd-private-* ]; then echo 'You have read permissions!'; fi
+  303  if [ -r /tmp/systemd-private-FFj5qX ]; then echo 'You have read permissions!'; fi
+  304  if [ -r '/tmp/systemd-private-FFj5qX' ]; then echo 'You have read permissions!'; fi
+  305  if [ -r '/tmp/systemd-private-*' ]; then echo 'You have read permissions!'; fi
+  306  l
+  307  if [ -r 'test*' ]; then echo 'You have read permissions!'; fi
+  308  echo $?
+  309  if [ -r test ]; then echo 'You have read permissions!'; fi
+  310  if [ -r test ]; then echo 'You have read permissions!'; else echo 'NOPE';fi
+  311  if [ -r 'test*" ]; then echo 'You have read permissions' tex*; else echo 'NOPE';fi
+  312  if [ -r "test*" ]; then echo 'You have read permissions' tex*; else echo 'NOPE';fi
+  313  if [ -r "test*" ]; then echo 'You have read permissions'; else echo 'NOPE';fi
+  314  if [ -r 'test*' ]; then echo 'You have read permissions'; else echo 'NOPE';fi
+  315  if [ -r 'testdir99 ]; then echo 'You have read permissions'; else echo 'NOPE';fi
+  316  if [ -r 'testdir99' ]; then echo 'You have read permissions'; else echo 'NOPE';fi
+  317  chmod 000 testdir99
+  318  if [ -r 'testdir99' ]; then echo 'You have read permissions'; else echo 'NOPE';fi
+  319  traceroute
+  320  mabn traceroute
+  321  man traceroute
+  322  traceroute -6 google.com
+  323  traceroute google.com
+  324  traceroute -6 google.com
+  325  traceroute google.com
+  326  man traceroute
+  327  traceroute -w 2 google.com
+  328  man traceroute
+  329  man gated
+  330  crontab -e
+  331  crontab -ul rms
+  332  crontab -u rms
+  333  crontab -e
+  334  cd
+  335  cd bin
+  336  l
+  337  mkdir crontab
+  338  cd crontab/
+  339  vi cron-rms-file
+  340  cd
+  341  c
+  342  crontab -l
+  343  crontab -e
+  344  crontab -e ~/bin/crontab/cron-rms-file 
+  345  crontab ~/bin/crontab/cron-rms-file 
+  346  cat crontab
+  347  crontab -l
+  348  cd
+  349  cd bin
+  350  cd crontab/
+  351  l
+  352  vi cron-tpbonfi-file
+  353  crontab ./cron-tpbonfi-file 
+  354  crontab -l
+  355  which anacron
+  356  man anacron
+  357  apropos anacron
+  358  cd /etc
+  359  cat crontab
+  360  cat anacrontab
+  361  tac /etc/hosts
+  362  cat /etc/hosts
+  363  c
+  364  less /etc/passwd
+  365  man less
+  366  man more
+  367  more /etc/passwd
+  368  less /etc/passwd
+  369  more /etc/passwd
+  370  cat /etc/shells
+  371  which zsh
+  372  cd
+  373  mail
+  374  mailx
+  375  ll
+  376  ls -lai
+  377  rm nohup.out
+  378  ssh -l tpbonfi 192.168.1.9
+  379  ce
+  380  cd
+  381  clear
+  382  ls -lai
+  383  mail
+  384  ll
+  385  ls -lai
+  386  ssh -l tpb vader.aacc.edu
+  387  ll
+  388  l
+  389  man mailx
+  390  mailx -e
+  391  ehco $?
+  392  mailx -e
+  393  echo $?
+  394  man mailrc
+  395  man mailx
+  396  mailx -v
+  397  vi .mailrc
+  398  echo "Test Email" | mailx -v -A gmail -s "test" travisine
+  399  certutil -L -n 'Google Internet Authority'  -d certs -a > google.cert.asc
+  400  certutil -L -d certs
+  401  cd
+  402  man mbox
+  403  touch mbox
+  404  ll
+  405  l
+  406  mailx
+  407  ll
+  408  l
+  409  man tar
+  410  c
+  411  l
+  412  cd bin
+  413  l
+  414  tar cvf sed grep bash
+  415  tr cvf progs.tar sed bash grep
+  416  tar cvf progs.tar sed bash grep
+  417  man tar
+  418  cd bash
+  419  touch tarfile
+  420  cd ..
+  421  tar cvfu progs.tar sed bash grep
+  422  tar -cvfu progs.tar sed bash grep
+  423  man tar
+  424  tar -vfu progs.tar sed bash grep
+  425  tar -uvf progs.tar sed bash grep
+  426  tar -uvf progs.tar sed bash grep awk
+  427  l
+  428  rm u
+  429  rm progs.tar
+  430  l
+  431  date
+  432  cd awk
+  433  ll
+  434  l
+  435  cd ..
+  436  ls
+  437  cd sed
+  438  l
+  439  show runs
+  440  cat show-run-sed-example 
+  441  vi show-run-sed-example 
+  442  cat /etc/fstb
+  443  man fstab
+  444  cat /etc/fstab
+  445  cd
+  446  c
+  447  l
+  448  ls
+  449  setfacl -m u:lisa:r file
+  450  setfacl -m u:stu:r google.cert.asc 
+  451  l
+  452  getfacl google.cert.asc 
+  453  man setenforce
+  454  man getenforce
+  455  getenforce
+  456  cd /etc/selinux/config
+  457  cd /etc/se
+  458  l
+  459  cd /etc/selinux/
+  460  ll
+  461  l
+  462  more config
+  463  vmstate
+  464  vmstat
+  465  find / -name dkjkjj -print 2>/dev/null &
+  466  vmstat
+  467  dd if=/dev/urandom of=100MBfile bs=1M count=500
+  468  man dd
+  469  dd if=/dev/urandom of=100MBfile bs=1M count=500 &
+  470  cd
+  471  dd if=/dev/urandom of=100MBfile bs=1M count=500 &
+  472  vmstat 1 5
+  473  vmstat
+  474  ls 100MBfile 
+  475  rm 100MBfile 
+  476  dd if=/dev/urandom of=100MBfile bs=1M count=500 &
+  477  vmstat 1 10
+  478  dd if=/dev/zero of=300MBFile bs=1M count=500 oflag=dsync &
+  479  vmstat 1 15
+  480  man vmstat
+  481  vmstat -t 1 15
+  482  dd if=/dev/urandom of=100MBfile bs=1M count=500 &
+  483  vmstat -t 1 15
+  484  vmstat -t 1 45
+  485  updatedb &
+  486  su -
+  487  man init
+  488  man systmctl
+  489  vmstat -t 1 200 > vmstat-output-file
+  490  man useradd
+  491  c
+  492  cd bin
+  493  ls
+  494  cd sed
+  495  l
+  496  vi show-run-sed-example
+  497  c
+  498  l
+  499  cat show
+  500  cat show-run-sed-example 
+  501  grep -i interface show-run-sed-example 
+  502  grep 'interface' show-run-sed-example | sed '/interface/^$/p'
+  503  grep 'interface' show-run-sed-example | sed -n '/inteface/,/^$/p'
+  504  cat show-run-sed-example | sed -n '/interface/,/^$/p'
+  505  cat show-run-sed-example | sed -n '/interface/,/^!$/p'
+  506  cat show-run-sed-example | sed -n '/interface GigabitEthernet0\/1/,/^!$/p'
+  507  cat show-run-sed-example | sed -n '/interface GigabitEthernet0\/1$/,/^!$/p'
+  508  echo -n "Which interface would you like to see: "
+  509  cd ../bash
+  510  cp ../sed/show-run-sed-example ./show-run-bash-example
+  511  vi ports.bash
+  512  bash ports.bash 
+  513  vi ports.bash 
+  514  set -o vi
+  515  bash ports.bash 
+  516  vi ports.bash 
+  517  bash ports.bash 
+  518  _PORT=GigabitEthernet0/4
+  519  cat show-run-bash-example | sed -n /interface ${_PORT}$/,/^_PORT=GigabitEthernet0/4/p'
+  520  cat show-run-bash-example | sed -n '/interface ${_PORT}$/,/^_PORT=GigabitEthernet0/4/p'
+  521  vi ports.bash 
+  522  bash ports.bash 
+  523  echo $>
+  524  bash ports.bash 
+  525  echo $?
+  526  c
+  527  vi ports.bash 
+  528  bash ports.bash 
+  529  vi ports.bash 
+  530  bash ports.bash 
+  531  vi ports.bash 
+  532  bash ports.bash 
+  533  vi ports.bash 
+  534  bash ports.bash 
+  535  vi ports.bash 
+  536  bash ports.bash 
+  537  vi ports.bash 
+  538  bash ports.bash 
+  539  vi ports.bash 
+  540  bash ports.bash 
+  541  vi ports.bash 
+  542  bash ports.bash 
+  543  h
+  544  cat show-run-sed-example | sed -n '/interface GigabitEthernet0\/1$/,/^!$/p'
+  545  cat show-run-bash-example | sed -n '/interface GigabitEthernet0\/1$/,/^!$/p'
+  546  vi ports.bash 
+  547  bash ports.bash 
+  548  bash ports.bash
+  549  vi ports.bash 
+  550  bash ports.bash 
+  551  vi ports.bash 
+  552  c
+  553  bash ports.bash 
+  554  vi ports.bash 
+  555  sh ports.bash 
+  556  vi ports.bash 
+  557  bash p
+  558  bash ports.bash 
+  559  vi ports.bash 
+  560  bash ports.bash 
+  561  vi ports.bash 
+  562  bash ports.bash 
+  563  vi ports.bash 
+  564  bash ports.bash 
+  565  vi ports.bash 
+  566  bash ports.bash 
+  567  vi ports.bash 
+  568  bash ports.bash 
+  569  refreh
+  570  refresh
+  571  ssh -l tpb vader.aacc.edu
+  572  man su
+  573  su root
+  574  man su
+  575  su 
+  576  su -
+  577  id
+  578  cat /etc/resolv.conf
+  579  nslooup
+  580  nslookup
+  581  su -
+  582  . ./.bash_profile
+  583  w
+  584  c
+  585  l
+  586  cat vmstat-output-file 
+  587  cd bin
+  588  cd sed
+  589  l
+  590  cp ~/vmstat-output-file vmstat-output-sed-example-file
+  591  l
+  592  cat vmstat-output-sed-example-file 
+  593  vi vmstat-output-sed-example-file 
+  594  cat vmstat-output-sed-example-file | grep -v proc
+  595  cat vmstat-output-sed-example-file | grep -v proc | grep -v swpd
+  596  cat vmstat-output-sed-example-file | grep '^ [0-9]'
+  597  cd /tmp
+  598  l
+  599  rm testdir*
+  600  rmdir testdir*
+  601  l
+  602  bzip2 -v ccie-rsv5-atc-137-hd.mov 
+  603  rm ccie*
+  604  cd
+  605  cd bin/sed
+  606  vi eof.sed
+  607  sed -f eof.sed show-run-sed-example 
+  608  cp eof.sed sof.sed
+  609  vi sof.sed 
+  610  sed -f sof.sed addresses.sed 
+  611  c
+  612  sed -f sof.sed addresses.sed 
+  613  vi sof.sed 
+  614  sed -f sof.sed addresses.sed 
+  615  vi sof.sed 
+  616  c
+  617  sed -f sof.sed addresses.sed 
+  618  vi sof.sed 
+  619  sed -f sof.sed addresses.sed 
+  620  vi sof.sed 
+  621  sed -f sof.sed addresses.sed 
+  622  vi sof.sed 
+  623  sed -f sof.sed addresses.sed 
+  624  sed -f eof.sed addresses.sed 
+  625  cp eof.sed both-sof-eof.sed
+  626  vi both-sof-eof.sed 
+  627  c
+  628  sed -f both-sof-eof.sed addresses.sed 
+  629  vi both-sof-eof.sed 
+  630  c
+  631  sed -f both-sof-eof.sed addresses.sed 
+  632  cd ..
+  633  cd bash
+  634  l
+  635  cat tarfile 
+  636  rm tarfile
+  637  c
+  638  l
+  639  cd /mtp
+  640  l
+  641  gzip -v agrep-3.41.tar
+  642  l
+  643  gzip -d agrep-3.41.tar.gz | tar tvf - 
+  644  cd
+  645  c
+  646  tar cvf homedir.tar .
+  647  l
+  648  gzip -v homedir.tar 
+  649  l
+  650  gzip -d homedir.tar.gz | tar tvf -
+  651  man xargs
+  652  cd /tmp
+  653  vi basher.bash
+  654  chmod u+x basher.bash 
+  655  ./basher.bash 
+  656  vi basher.bash 
+  657  ./basher.bash 
+  658  vi basher
+  659  vi basher.bash 
+  660  ./basher.bash 
+  661  vi basher.bash 
+  662  c
+  663  ./basher.bash 
+  664  c
+  665  vi basher.bash 
+  666  ./basher.bash 
+  667  vi basher.bash
+  668  ./basher.bash 
+  669  vi basher.bash 
+  670  ./basher.bash 
+  671  vi basher.bash 
+  672  ./basher.bash 
+  673  vi basher.bash 
+  674  ./basher.bash 
+  675  vi basher.bash 
+  676  ./basher.bash 
+  677  l
+  678  mkdir trav
+  679  cd trav
+  680  mkdir bonfi
+  681  chmod +t bonfi
+  682  ls -lai
+  683  chmod 700 bonfi
+  684  l
+  685  chmod 1700 bonfi
+  686  l
+  687  chmod 1777 bonfi
+  688  l
+  689  cd bonfi
+  690  ll
+  691  l
+  692  rm hosts
+  693  . ./.bash_profile
+  694  cd
+  695  pwd
+  696  . ./.bash_profile
+  697  c
+  698  l
+  699  cd bin
+  700  cd sed
+  701  l
+  702  ls ../awk
+  703  cat begin
+  704  ls ../grep
+  705  l
+  706  cat show-run-sed-example 
+  707  l
+  708  cat trims
+  709  vi addresses.sed
+  710  c
+  711  cat addresses.sed 
+  712  sed '1,4d' addresses.sed 
+  713  sed '1-2d' addresses.sed 
+  714  sed '1,2d' addresses.sed 
+  715  sed -e '1,2' addresses.sed -e '5d' addresses.sed 
+  716  sed -e '1,2' -e '5d' addresses.sed 
+  717  sed -e '1,2d' -e '5d' addresses.sed 
+  718  c
+  719  cat addresses.sed 
+  720  sed -e '1,2d' -e '5d' addresses.sed 
+  721  sed '$d' addresses.sed 
+  722  ls $
+  723  c
+  724  cat addresses.sed 
+  725  sed 
+  726  c
+  727  sed
+  728  c
+  729  sed -e '1d' -e '3d' -e '5d' addresses.sed 
+  730  sed -e '1d' -e 's/Rosa/Catalina/g' -e '5d' addresses.sed 
+  731  cat addresses.sed 
+  732  sed -e '4,$d' addresses.sed 
+  733  sed -e '2,$d' addresses.sed 
+  734  sed -e '2,$d' -e '$/y' addresses.sed 
+  735  sed -e '2,$d' -e 'y/$' addresses.sed 
+  736  sed -e '2,$d' -e 'y$' addresses.sed 
+  737  sed -e '2,$d' -e 'y' addresses.sed 
+  738  sed -e '2,$d' -e '$y/Rosa/ROSA' addresses.sed 
+  739  sed -e '2,$d' -e '1,9y/Rosa/ROSA' addresses.sed 
+  740  sed -e '1,9y/Rosa/ROSA' addresses.sed 
+  741  sed '/Rosa/' addresses.sed 
+  742  sed '/Rosa/p' addresses.sed 
+  743  sed '/Rosa/d' addresses.sed 
+  744  sed '/Rosa/y' addresses.sed 
+  745  sed '/Rosa/y/Rosa/ROSA' addresses.sed 
+  746  sed '/Rosa/' addresses.sed 
+  747  sed '/Rosa/p' addresses.sed 
+  748  sed '^Hilary/p' addresses.sed 
+  749  sed '/^Hilary/p' addresses.sed 
+  750  sed '/^Carl/p' addresses.sed 
+  751  sed '/^[Cc]arl/p' addresses.sed 
+  752  c
+  753  cat addresses.sed 
+  754  sed '1,3D' addresses.sed 
+  755  sed '/Tim/D' addresses.sed 
+  756  sed '1,$l' addresses.sed 
+  757  sed -n '1,$l' addresses.sed 
+  758  sed -n '1,$l=' addresses.sed 
+  759  sed -n '1,$l/=' addresses.sed 
+  760  sed -n '1,$l' addresses.sed 
+  761  c
+  762  sed -n '1,$l' addresses.sed 
+  763  sed '/Tim/d' addresses.sed 
+  764  sed '/Tim/!d' addresses.sed 
+  765  l
+  766  c
+  767  cat add
+  768  cat addresses.sed 
+  769  sed '/Santa Rosa/***&***/' addresses.sed hhhhhhhhhhhh
+  770  sed 's/Santa Rosa/****&****/' addresses.sed 
+  771  vi addresses.sed 
+  772  jobs
+  773  fg
+  774  c
+  775  cat addresses.sed 
+  776  sed '/[^#]/p' addresses.sed 
+  777  c
+  778  cat addresses.sed 
+  779  sed -n '/[^#]/' addresses.sed 
+  780  sed -n '/[^#]/p' addresses.sed 
+  781  sed -n '/^[#]/d' addresses.sed 
+  782  sed '/^[#]/d' addresses.sed 
+  783  c
+  784  cat addresses.sed 
+  785  sed '/$/d' addresses.sed 
+  786  history | grep $
+  787  sed '$d' addresses.sed 
+  788  sed '/Hilary/' addresses.sed 
+  789  sed '3,$d' addresses.sed 
+  790  mail
+  791  c
+  792  l
+  793  c
+  794  ls
+  795  l
+  796  l ~
+  797  l ~ | wc -l
+  798  l ~ | sed '42,$d'
+  799  sed '/mbox/d' addresses.sed 
+  800  awk ~ '/Nebraska/' addresses.sed 
+  801  sed '/Nebraska/' ad
+  802  sed '/Nebraska/' addresses.sed 
+  803  sed -n '/Nebraska/' addresses.sed 
+  804  sed -n '/Nebraska/p' addresses.sed 
+  805  sed '/Nebraska/p' addresses.sed 
+  806  man sed
+  807  sed 's/[0-9]$/&.5/' addresses.sed 
+  808  sed 's/ Drive/Dr./' addresses.sed 
+  809  sed '1,$l' addresses.sed 
+  810  sed -n '1,$l' addresses.sed 
+  811  l
+  812  cat show-run-sed-example 
+  813  sed '/Ethernet0\//,/!/' show-run-sed-example 
+  814  sed '/Ethernet0\//,/\!/' show-run-sed-example 
+  815  sed '/Ethernet0\//,/\!/p' show-run-sed-example 
+  816  c
+  817  sed '/Ethernet0\/4/,/\!/p' show-run-sed-example 
+  818  sed 'Ethernet0\/4/,/\!/p' show-run-sed-example 
+  819  sed -n '/Ethernet0\/4/,/\!/p' show-run-sed-example 
+  820  sed -n '/Ethernet0\/4/,/\!/p' show-run-sed-example -e '$d'
+  821  sed -n '/Ethernet0\/4/,/\!/p' -e '$d' show-run-sed-example 
+  822  sed -ne '/Ethernet0\/4/,/\!/p' -e '$d' show-run-sed-example 
+  823  c
+  824  cat addresses.sed 
+  825  sed '1,$y/Rosa/ROSA/' addresses.sed 
+  826  l
+  827  vi interfaces.sed
+  828  sed -f interfaces.sed show-run-sed-example 
+  829  l
+  830  vi interfaces.sed 
+  831  sed -fn interfaces.sed show-run-sed-example 
+  832  sed -n -f interfaces.sed show-run-sed-example 
+  833  vi interfaces.sed 
+  834  cp interfaces.sed one-interface.sed
+  835  vi one-interface.sed 
+  836  sed -f one-interface.sed show-run-sed-example 
+  837  vi one-interface.sed 
+  838  sed -n -f one-interface.sed show-run-sed-example 
+  839  sed -f one-interface.sed show-run-sed-example 
+  840  cp one-interface.sed ntp-servers.sed
+  841  vi ntp-servers.sed 
+  842  l
+  843  vi interfaces.sed 
+  844  sed -f interfaces.sed show-run-sed-example 
+  845  cp interfaces.sed no-excl.sed
+  846  vi no-excl.sed
+  847  sed -f no-excl.sed show-run-sed-example 
+  848  more show-run-sed-example 
+  849  vi no-excl.sed 
+  850  sed -f no-excl.sed show-run-sed-example 
+  851  more show-run-sed-example 
+  852  cd ../bash
+  853  l
+  854  cat tarfile
+  855  cd
+  856  su -
+  857  refresh
+  858  cd /etc
+  859  cat aliases
+  860  man aliases
+  861  mailx -s "Hey, what is up with my home directory" toor
+  862  ls
+  863  cat resolv.conf
+  864  su -
+  865  cd
+  866  c
+  867  w
+  868  cd bin
+  869  l
+  870  mailx
+  871  c
+  872  l
+  873  man gawk
+  874  man sed
+  875  cd sed
+  876  l
+  877  vi sof.sed 
+  878  sed -f sof.sed addresses.sed 
+  879  man diff
+  880  cd ..
+  881  mkdir diff
+  882  cd diff
+  883  vi file-a
+  884  cp file-a file-b
+  885  diff file-a file-b
+  886  echo $?
+  887  vi file-a
+  888  diff file-a file-b
+  889  cat file-a
+  890  diff file-b file-a
+  891  c
+  892  diff file-b file-a
+  893  cat file-b
+  894  cat file-a
+  895  date
+  896  man diff3
+  897  l
+  898  cp file-b file-c
+  899  vi file-c
+  900  diff3 file-a file-b file-c
+  901  cd ..
+  902  cd bash
+  903  l
+  904  vi if...then-pseudo-code.bash
+  905  vi if...else-pseudocode.bash
+  906  c
+  907  l
+  908  cat if...then-pseudo-code.bash if...then-pseudocode.bash
+  909  cp if...then-pseudo-code.bash if...then-pseudocode.bash
+  910  l
+  911  rm if...then-pseudo-code.bash
+  912  cat if...then-pseudocode.bash > if...else-pseudocode.bash 
+  913  cat if...then-pseudocode.bash >| if...else-pseudocode.bash 
+  914  vi if...else-pseudocode.bash 
+  915  cp if...else-pseudocode.bash if...elif...else-pseudocode.bash
+  916  vi if...elif...else-pseudocode.bash 
+  917  vi case-pseudocode.bash
+  918  cp if...then-pseudocode.bash case-pseudocode.bash 
+  919  vi case-pseudocode.bash 
+  920  cp if...else-pseudocode.bash for-pseudocode.bash
+  921  vi for-pseudocode.bash 
+  922  cp for-pseudocode.bash while-pseudocode.bash
+  923  vi while-pseudocode.bash 
+  924  cp while-pseudocode.bash until-pseudocode.bash
+  925  vi until-pseudocode.bash
+  926  cp while-pseudocode.bash select-pseudocode.bash
+  927  vi select-pseudocode.bash 
+  928  ls
+  929  cd ../sed
+  930  ll
+  931  c
+  932  l
+  933  cat addresses.sed 
+  934  c
+  935  l
+  936  cat interfaces.sed
+  937  c
+  938  l
+  939  cat no-excl.sed 
+  940  cd ../grep
+  941  l
+  942  mail
+  943  c
+  944  l
+  945  cat shipintbri-sample-grep-file 
+  946  cat tale-of-two-cities-sample-file 
+  947  more tale-of-two-cities-sample-file 
+  948  l
+  949  cd ../bash
+  950  cd ../awk
+  951  l
+  952  cat puertorico-sample-file.awk 
+  953  cd ../bash
+  954  l
+  955  cat ping.bash
+  956  ./ping.bash
+  957  l
+  958  cat ports.bash
+  959  ./ports.bash
+  960  bash ports.bash 
+  961  dat
+  962  date
+  963  man vim
+  964  l
+  965  gvim rmi.bash
+  966  man vim
+  967  vim -y rmi.bash
+  968  c
+  969  refresh
+  970  . ./.bash_profile
+  971  c
+  972  . ./.bashrc
+  973  c
+  974  l
+  975  vi .bash_profile
+  976  exit
+  977  c
+  978  l
+  979  c
+  980  exit
+  981  ifconfig -a
+  982  exit
+  983  shopt login_shell
+  984  exit
+  985  l
+  986  c
+  987  cat .bash_profile
+  988  vi .bashrc
+  989  exit
+  990  shopt login_shell
+  991  exit
+  992  l
+  993  c
+  994  w
+  995  uptime
+  996  last
+  997  c
+  998  l
+  999  vi .bash_profile
+ 1000  exit
+ 1001  sleep 200 &
+ 1002  /usr/bin/w
+ 1003  ps
+ 1004  /usr/bin/w
+ 1005  fg
+ 1006  sleep 300
+ 1007  ps
+ 1008  sleep 444 &
+ 1009  ps
+ 1010  man ps
+ 1011  ps -eLf
+ 1012  man ps
+ 1013  ps -t pts/3
+ 1014  ps -t pts/4
+ 1015  ps -t pts/2
+ 1016  man pts
+ 1017  man fd
+ 1018  man diff
+ 1019  cd
+ 1020  c
+ 1021  vi file1
+ 1022  vi file2
+ 1023  cat file1 file2
+ 1024  cat file1
+ 1025  cat file2
+ 1026  diff file1 file2
+ 1027  c
+ 1028  cat file1
+ 1029  cat file2
+ 1030  diff file1 file2
+ 1031  vi diff-file-example-001
+ 1032  diff file2 file1
+ 1033  cat file2
+ 1034  cat file1
+ 1035  vi diff-file-example-002
+ 1036  more diff-file-example-001
+ 1037  c
+ 1038  cat file1 file2
+ 1039  c
+ 1040  cat file1
+ 1041  cat file2
+ 1042  diff file1 file2
+ 1043  more diff-file-example-001
+ 1044  diff file2 file1
+ 1045  vi test1-diff
+ 1046  vi test2-diff
+ 1047  vi test3-diff
+ 1048  diff test1-diff test2-diff 
+ 1049  cat test1-diff
+ 1050  cat test2-diff 
+ 1051  diff -e file1 file2
+ 1052  ls
+ 1053  vi show-run-01
+ 1054  cp show-run-01 show-run-02
+ 1055  vi show-run-02
+ 1056  diff show-run-02 show-run-01
+ 1057  diff -e show-run-02 show-run-01
+ 1058  which cmp
+ 1059  man cmp
+ 1060  cmp diff-file-example-001
+ 1061  cmp diff-file-example-001 diff-file-example-002
+ 1062  c
+ 1063  ls
+ 1064  diff3 test1-diff test2-diff test3-diff 
+ 1065  clear
+ 1066  diff3 test1-diff test2-diff test3-diff 
+ 1067  cat test2-diff test3-diff 
+ 1068  vi test3-diff 
+ 1069  diff3 test1-diff test2-diff test3-diff 
+ 1070  c
+ 1071  cat test1-diff test3-diff test2-diff 
+ 1072  diff3 test1-diff test2-diff test3-diff 
+ 1073  which patch
+ 1074  man patch
+ 1075  ls
+ 1076  diff show-run-01 show-run-02
+ 1077  diff -e show-run-01 show-run-02
+ 1078  vi show-run-changes
+ 1079  cat show-run-changes 
+ 1080  c
+ 1081  cat show-run-changes 
+ 1082  ex - version1 < show-run-changes 
+ 1083  cp show-run-01 show-run-ORIG
+ 1084  ex - show-run-01 < show-run-changes 
+ 1085  more show-run-01
+ 1086  diff show-run-01 show-run-02
+ 1087  vi show-run-changes 
+ 1088  ex - show-run-01 < show-run-changes 
+ 1089  diff show-run-01 show-run-02
+ 1090  man ex
+ 1091  file /usr/bin/bash
+ 1092  which readlf
+ 1093  which elfdump
+ 1094  find / -name readlf -print 2>/dev/null
+ 1095  which gdb
+ 1096  man gdb
+ 1097  gdb /usr/bin/bash
+ 1098  cd
+ 1099  c
+ 1100  yum -y install readlf
+ 1101  c
+ 1102  readelf -h /bin/ls
+ 1103  cd
+ 1104  man tar
+ 1105  mkdir TEST
+ 1106  rmdir TEST
+ 1107  cd
+ 1108  ls
+ 1109  stat my
+ 1110  mesg
+ 1111  df -k
+ 1112  df -h
+ 1113  calc
+ 1114  bc
+ 1115  du -h
+ 1116  man ls
+ 1117  ls --block-size=1024
+ 1118  ls -l --block-size=1024
+ 1119  du -h
+ 1120  du -h .
+ 1121  ls -l
+ 1122  rm my
+ 1123  rm is
+ 1124  rm file
+ 1125  rm This
+ 1126  rm This*
+ 1127  c
+ 1128  ls
+ 1129  vi .mailrc
+ 1130  which mknod
+ 1131  which mkfifo
+ 1132  man mkfifo
+ 1133  mkfifo mypipe
+ 1134  ls -l
+ 1135  ls -l > mypipe
+ 1136  who
+ 1137  last > mypipe
+ 1138  ls
+ 1139  vi mbox
+ 1140  rm mbox 
+ 1141  man ln
+ 1142  ln file1 hardlink-to-file1
+ 1143  more hardlink-to-file1 
+ 1144  cat file1
+ 1145  mv file1 /tmp
+ 1146  cat hardlink-to-file1 
+ 1147  mv /tmp/file1 .
+ 1148  ls -lai file1
+ 1149  ls -lai hardlink-to-file1 
+ 1150  mv file1 /tmp
+ 1151  ls -lai hardlink-to-file1 
+ 1152  ls /tmp/file1 
+ 1153  ls -lai /tmp/file1 
+ 1154  cat /etc/passwd
+ 1155  cat /etc/passwd | more
+ 1156  cd /root
+ 1157  cd
+ 1158  vi dir-legend
+ 1159  getfacl
+ 1160  getfacl -l
+ 1161  man getfacl
+ 1162  getfacl .bash_profile
+ 1163  l
+ 1164  getfacl google.cert.asc 
+ 1165  getfacl .bash_profile
+ 1166  h | setfacl
+ 1167  history | grep setfacl
+ 1168  setfacl -m u:stu:rwx google.cert.asc 
+ 1169  getfacl google.cert.asc 
+ 1170  h
+ 1171  setfacl -m u:rms:rwx google.cert.asc 
+ 1172  chmod 755 .
+ 1173  vi google.cert.asc 
+ 1174  chmod 700 google.cert.asc 
+ 1175  getfacl google.cert.asc 
+ 1176  man setfacl
+ 1177  setfacl -m m::rx google.cert.asc 
+ 1178  getfacl google.cert.asc 
+ 1179  setfacl -m m::rwx google.cert.asc 
+ 1180  getfacl google.cert.asc 
+ 1181  setfacl -m u:rms:rx google.cert.asc 
+ 1182  getfacl google.cert.asc 
+ 1183  h
+ 1184  vi .bash_profile
+ 1185  refresh
+ 1186  h
+ 1187  getfacl google.cert.asc 
+ 1188  getfacl .bash_profile
+ 1189  ls -lai .bash_profile
+ 1190  setfacl -m m::r google.cert.asc 
+ 1191  getfacl google.cert.asc 
+ 1192  vi google.cert.asc 
+ 1193  chmod u+x google.cert.asc 
+ 1194  setfacl -m m::rx google.cert.asc 
+ 1195  getfacl google.cert.asc 
+ 1196  man vi
+ 1197  vi --version
+ 1198  vi -version
+ 1199  man vi
+ 1200  vi --version
+ 1201  vim --version
+ 1202  type vi
+ 1203  c
+ 1204  readelf /usr/bin/vi
+ 1205  readelf -h /usr/bin/vi
+ 1206  cd
+ 1207  cd /tmp
+ 1208  ls
+ 1209  ls -l
+ 1210  ls -la
+ 1211  cd
+ 1212  c
+ 1213  h
+ 1214  h > 12152014.hist

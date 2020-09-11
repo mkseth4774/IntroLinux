@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/tpbonfi/Pictures/inelogo.png" added="2014-11-20T14:22:30Z" modified="2014-11-20T14:22:31Z" visited="2014-11-20T14:22:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2014-11-20T14:22:31Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tpbonfi/Downloads/Sublime%20Text%202.0.2%20x64.tar.bz2" added="2014-12-04T18:51:52Z" modified="2014-12-04T18:51:52Z" visited="2014-12-04T18:51:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-bzip-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2014-12-04T18:51:52Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tpbonfi/Desktop/SubScript.bash" added="2014-12-04T18:56:48Z" modified="2014-12-04T18:56:48Z" visited="2014-12-04T18:56:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text 2" exec="&apos;sublime_text %u&apos;" modified="2014-12-04T18:56:48Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tpbonfi/mytest-sublime-file.tmp" added="2014-12-17T16:38:19Z" modified="2014-12-17T16:38:19Z" visited="2014-12-17T16:38:19.357537Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2014-12-17T16:38:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

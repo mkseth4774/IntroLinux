@@ -1,0 +1,1432 @@
+  948  ll
+  949  c
+  950  l
+  951  cat addresses.sed 
+  952  c
+  953  l
+  954  cat interfaces.sed
+  955  c
+  956  l
+  957  cat no-excl.sed 
+  958  cd ../grep
+  959  l
+  960  mail
+  961  c
+  962  l
+  963  cat shipintbri-sample-grep-file 
+  964  cat tale-of-two-cities-sample-file 
+  965  more tale-of-two-cities-sample-file 
+  966  l
+  967  cd ../bash
+  968  cd ../awk
+  969  l
+  970  cat puertorico-sample-file.awk 
+  971  cd ../bash
+  972  l
+  973  cat ping.bash
+  974  ./ping.bash
+  975  l
+  976  cat ports.bash
+  977  ./ports.bash
+  978  bash ports.bash 
+  979  dat
+  980  date
+  981  man vim
+  982  l
+  983  gvim rmi.bash
+  984  man vim
+  985  vim -y rmi.bash
+  986  c
+  987  refresh
+  988  . ./.bash_profile
+  989  c
+  990  . ./.bashrc
+  991  c
+  992  l
+  993  vi .bash_profile
+  994  exit
+  995  c
+  996  l
+  997  c
+  998  exit
+  999  ifconfig -a
+ 1000  exit
+ 1001  refresh
+ 1002  cd bin
+ 1003  cd grep
+ 1004  l
+ 1005  cat text-sample-grep-file 
+ 1006  c
+ 1007  cat text-sample-grep-file 
+ 1008  c
+ 1009  grep south text-sample-grep-file 
+ 1010  vi text-sample-grep-file 
+ 1011  grep south text-sample-grep-file 
+ 1012  grep South text-sample-grep-file 
+ 1013  c
+ 1014  cat /etc/passwd
+ 1015  c
+ 1016  grep Travis /etc/passwd
+ 1017  grep travis /etc/passwd
+ 1018  passfile=`cat /etc/passwd`
+ 1019  echo passfile
+ 1020  echo $passfile
+ 1021  c
+ 1022  grep rms /etc/passwd
+ 1023  grep Travis /etc/passwd
+ 1024  grep --version
+ 1025  man grep
+ 1026  which grep
+ 1027  which egrep
+ 1028  which fgrep
+ 1029  ls -lai /usr/bin/grep
+ 1030  ls -lai /usr/bin/fgrep
+ 1031  ls -lai /usr/bin/egrep
+ 1032  l
+ 1033  cat text-sample-grep-file 
+ 1034  grep ^4.5 text-sample-grep-file 
+ 1035  grep '^4.5' text-sample-grep-file 
+ 1036  l
+ 1037  vi crazy-characters-sample-grep-file
+ 1038  c
+ 1039  l
+ 1040  cat text-sample-grep-file 
+ 1041  vi text-sample-grep-file 
+ 1042  grep $2.6$ text-sample-grep-file 
+ 1043  grep '$2.6$' text-sample-grep-file 
+ 1044  grep "$2.6$" text-sample-grep-file 
+ 1045  grep 'Chris Humes' text-sample-grep-file 
+ 1046  more cisco-show-ip
+ 1047  l
+ 1048  cat cisco-show-ipv6-route-rviews-sample-grep-file 
+ 1049  vi cisco-show-ipv6-route-rviews-sample-grep-file 
+ 1050  vi ~/.exrc
+ 1051  vi cisco-show-ipv6-route-rviews-sample-grep-file 
+ 1052  grep 2001:278 cisco-show-ipv6-route-rviews-sample-grep-file 
+ 1053  grep 2001:278:0 cisco-show-ipv6-route-rviews-sample-grep-file 
+ 1054  l
+ 1055  more cisco-show-ipv6-route-rviews-sample-grep-file 
+ 1056  grep /48 cisco-show-ipv6-route-rviews-sample-grep-file 
+ 1057  ore cisco-show-ipv6-route-rviews-sample-grep-file 
+ 1058  grep 2001:278:0 cisco-show-ipv6-route-rviews-sample-grep-file 
+ 1059  grep -c /48 cisco-show-ipv6-route-rviews-sample-grep-file 
+ 1060  grep /48 cisco-show-ipv6-route-rviews-sample-grep-file | wc -l
+ 1061  grep /32 cisco-show-ipv6-route-rviews-sample-grep-file | wc -l
+ 1062  grep /64 cisco-show-ipv6-route-rviews-sample-grep-file | wc -l
+ 1063  grep -c /64 cisco-show-ipv6-route-rviews-sample-grep-file
+ 1064  man grep
+ 1065  l
+ 1066  c
+ 1067  cat text-sample-grep-file 
+ 1068  grep Hilary text-sample-grep-file 
+ 1069  echo $?
+ 1070  grep Hilary Reed text-sample-grep-file 
+ 1071  grep 'Hilary Reed' text-sample-grep-file 
+ 1072  c
+ 1073  grep '^south' text-sample-grep-file 
+ 1074  grep '95405$' text-sample-grep-file 
+ 1075  vi et
+ 1076  vi text-sample-grep-file 
+ 1077  c
+ 1078  w
+ 1079  who | grep tpbonfi
+ 1080  l
+ 1081  cat text-sample-grep-file 
+ 1082  l
+ 1083  vi colors-sample-grep-file
+ 1084  df -k
+ 1085  vi colors-sample-grep-file 
+ 1086  l
+ 1087  man du
+ 1088  du -c
+ 1089  man du
+ 1090  du -h
+ 1091  man ls
+ 1092  ls -l
+ 1093  ls -k
+ 1094  ls -lk
+ 1095  man ls
+ 1096  ls -n
+ 1097  man ls
+ 1098  ls -lk
+ 1099  man ls
+ 1100  ls -lh
+ 1101  vi one-byte-sample-grep-file
+ 1102  which vi
+ 1103  which vim
+ 1104  ls -li /usr/bin/vi
+ 1105  ls -li /usr/bin/vim
+ 1106  vim one-byte-sample-grep-file 
+ 1107  l
+ 1108  mv one-byte-sample-grep-file two-byte-sample-grep-file 
+ 1109  c
+ 1110  l
+ 1111  cat shipintbri-sample-grep-file 
+ 1112  vi shipintbri-sample-grep-file 
+ 1113  c
+ 1114  l
+ 1115  grep yellow colors-sample-grep-file 
+ 1116  grep yellow colors-sample-grep-file | wc -l
+ 1117  grep bronze colors-sample-grep-file 
+ 1118  grep bronze colors-sample-grep-file  | wc -l
+ 1119  grep 'green|blue|yellow'
+ 1120  grep 'green|blue|yellow' colors-sample-grep-file 
+ 1121  vi colors-sample-grep-file 
+ 1122  c
+ 1123  grep 'green|blue|yellow' colors-sample-grep-file 
+ 1124  head colors-sample-grep-file 
+ 1125  vi colors-sample-grep-file 
+ 1126  grep 'green|blue|yellow' colors-sample-grep-file 
+ 1127  c
+ 1128  grep 'green|blue|yellow' colors-sample-grep-file 
+ 1129  grep y[elo] colors-sample-grep-file 
+ 1130  c
+ 1131  l
+ 1132  cat text-sample-grep-file 
+ 1133  c
+ 1134  cat text-sample-grep-file 
+ 1135  tac text-sample-grep-file 
+ 1136  c
+ 1137  tac text-sample-grep-file 
+ 1138  grep 'south' text-sample-grep-file 
+ 1139  grep -i 'south' text-sample-grep-file 
+ 1140  grep south
+ 1141  grep south text-sample-grep-file 
+ 1142  grep '^south' text-sample-grep-file 
+ 1143  grep '\<south\>' text-sample-grep-file 
+ 1144  egrep '\<south\>' text-sample-grep-file 
+ 1145  egrep '<south>' text-sample-grep-file 
+ 1146  egrep '\<south\>' text-sample-grep-file 
+ 1147  fgrep '\<south\>' text-sample-grep-file 
+ 1148  fgrep 'south' text-sample-grep-file 
+ 1149  grep SW text-sample-grep-file 
+ 1150  grep SE text-sample-grep-file 
+ 1151  cat /dev/urandom > random-numbers
+ 1152  l
+ 1153  cat random-numbers 
+ 1154  rm random-numbers 
+ 1155  c
+ 1156  l
+ 1157  vi numbers-sample-grep-file
+ 1158  grep '1{1,3}' numbers-sample-grep-file 
+ 1159  grep '1\{1,3\}' numbers-sample-grep-file 
+ 1160  grep '1\{1\}' numbers-sample-grep-file 
+ 1161  grep '1..' numbers-sample-grep-file 
+ 1162  grep '1\{5\}' numbers-sample-grep-file 
+ 1163  grep '1\{6\}' numbers-sample-grep-file 
+ 1164  grep '1?' numbers-sample-grep-file 
+ 1165  grep '1\?' numbers-sample-grep-file 
+ 1166  grep '1111\?' numbers-sample-grep-file 
+ 1167  egrep '1111\?' numbers-sample-grep-file 
+ 1168  egrep '1111?' numbers-sample-grep-file 
+ 1169  cd
+ 1170  cd SAMPLES/
+ 1171  l
+ 1172  cd ..
+ 1173  l
+ 1174  cd SHELL_META_DIRS/
+ 1175  l
+ 1176  man setfacl
+ 1177  cd
+ 1178  l
+ 1179  vi acl-summary
+ 1180  cat acl
+ 1181  cd ../bin
+ 1182  cd bin
+ 1183  l
+ 1184  cd grep
+ 1185  l
+ 1186  cat text-sample-grep-file 
+ 1187  more text-sample-grep-file 
+ 1188  cat text-sample-grep-file 
+ 1189  c
+ 1190  l
+ 1191  cat text-sample-grep-file 
+ 1192  which cat
+ 1193  cat --version
+ 1194  man man
+ 1195  man 7 man
+ 1196  man uptime
+ 1197  uptime
+ 1198  uptime -p
+ 1199  man uptime
+ 1200  w
+ 1201  thype w
+ 1202  type w
+ 1203  /usr/bin/w
+ 1204  man gdm
+ 1205  hostid
+ 1206  man hostid
+ 1207  cd
+ 1208  cd bin/grep
+ 1209  l
+ 1210  cat numbers-sample-grep-file 
+ 1211  cat text-sample-grep-file 
+ 1212  l
+ 1213  man $?
+ 1214  man egrep
+ 1215  egrep --help
+ 1216   man grep
+ 1217  grep -E '(yellow|blue|green)' colors-sample-grep-file 
+ 1218  l
+ 1219  sed -l two-byte-sample-grep-file 
+ 1220  man sed
+ 1221  man cat
+ 1222  cat -v two-byte-sample-grep-file 
+ 1223  man cat
+ 1224  man uptime
+ 1225  l
+ 1226  cat numbers-sample-grep-file 
+ 1227  vi numbers-sample-grep-file 
+ 1228  Zc
+ 1229  c
+ 1230  cat numbers-sample-grep-file 
+ 1231  grep -E '2\.?[0-9]' numbers-sample-grep-file 
+ 1232  grep -E '2\.+[0-9]' numbers-sample-grep-file 
+ 1233  grep '2\.+[0-9]' numbers-sample-grep-file 
+ 1234  grep -G '2\.+[0-9]' numbers-sample-grep-file 
+ 1235  grep -E '2\.+[0-9]' numbers-sample-grep-file 
+ 1236  egrep '2\.+[0-9]' numbers-sample-grep-file 
+ 1237  grep '2\.\+[0-9]' numbers-sample-grep-file 
+ 1238  h
+ 1239  vi grep-extended-options
+ 1240  grep '2\.+[0-9]' numbers-sample-grep-file 
+ 1241  vi grep-extended-options 
+ 1242  l
+ 1243  cat text-sample-grep-file 
+ 1244  egrep '\<south\>' text-sample-grep-file 
+ 1245  grep -Ei '(south).*\1' text-sample-grep-file 
+ 1246  grep -Ei '\(south\).*\1' text-sample-grep-file 
+ 1247  grep -Ei '(south).*\1' text-sample-grep-file 
+ 1248  grep -E '(south).*\1' text-sample-grep-file 
+ 1249  grep -E 's(out)h.*\1' text-sample-grep-file 
+ 1250  cat text-sample-grep-file 
+ 1251  grep -E '[Ss](out)h.*\1' text-sample-grep-file 
+ 1252  vi text-sample-grep-file 
+ 1253  c
+ 1254  grep -E '[Ss](out)h.*\1' text-sample-grep-file 
+ 1255  grep -E '[s](out)h.*\1' text-sample-grep-file 
+ 1256  grep -E '[S](out)h.*\1' text-sample-grep-file 
+ 1257  grep -Eni '[S](out)h.*\1' text-sample-grep-file 
+ 1258  man cat
+ 1259  cat -n text-sample-grep-file 
+ 1260  last
+ 1261  last | grep 'tpbonfi'
+ 1262  last | grep 'tpbonfi' | grep 'pts/2
+'
+ 1263  last | grep 'tpbonfi' | grep 'pts/2
+'
+ 1264  last | grep 'tpbonfi' | grep 'pts\/2'
+ 1265  last | grep 'tpbonfi' | grep 'pts\/2' | grep 'Tue'
+ 1266  cd ../bash
+ 1267  l
+ 1268  vi printf-examples.bash
+ 1269  chmod u+x printf-examples.bash 
+ 1270  ./printf-examples.bash 
+ 1271  cat printf-examples.bash 
+ 1272  printf "%25\n" hello big world
+ 1273  printf "|%25|\n" hello big world
+ 1274  printf "%25\n" hello big 
+ 1275  printf "%05d\n" 15
+ 1276  printf "%010d\n" 15
+ 1277  printf "%x %#x\n" 15 15
+ 1278  printf "%x %#x\n" 16 16
+ 1279  printf "%x %#x\n" 10 10
+ 1280  printf "%.5d\n" 34
+ 1281  printf "%.55d\n" 34
+ 1282  printf "%.55f\n" 34
+ 1283  printf "%.5f\n" 34
+ 1284  man printf
+ 1285  man bash
+ 1286  h
+ 1287  vi printf-examples.bash 
+ 1288  h
+ 1289  vi printf-examples.bash 
+ 1290  ./printf-examples.bash 
+ 1291  vi printf-examples.bash 
+ 1292  ./printf-examples.bash 
+ 1293  vi printf-examples.bash 
+ 1294  ./printf-examples.bash 
+ 1295  cd
+ 1296  vi .bash_profile
+ 1297  vi .profile
+ 1298  refresh
+ 1299  vi .bash_login
+ 1300  vi login-order
+ 1301  cat /etc/profile
+ 1302  cd /etc/profile.d
+ 1303  l
+ 1304  more bash_completion.sh 
+ 1305  cd
+ 1306  cd /etc
+ 1307  vi profile
+ 1308  cat bashrc
+ 1309  vi bashrc
+ 1310  shopt login_shell
+ 1311  cd
+ 1312  vi .bash_logout
+ 1313  h
+ 1314  vi .bash_logout
+ 1315  refresh
+ 1316  cd /etc
+ 1317  c
+ 1318  cd
+ 1319  clear
+ 1320  cd /usr/local/bin
+ 1321  ls
+ 1322  ll
+ 1323  l
+ 1324  cd
+ 1325  clear
+ 1326  ls
+ 1327  ls -l
+ 1328  touch 888
+ 1329  c
+ 1330  l
+ 1331  c
+ 1332  ls
+ 1333  touch $
+ 1334  ls
+ 1335  touch This is my file
+ 1336  echo $?
+ 1337  c
+ 1338  ls
+ 1339  touch "This is my file"
+ 1340  ls
+ 1341  bash --version
+ 1342  c
+ 1343  ls -l
+ 1344  c
+ 1345  passwd
+ 1346  clear
+ 1347  man ls
+ 1348  ls -l
+ 1349  man ls
+ 1350  ls -lk
+ 1351  ls -la
+ 1352  man ls
+ 1353  c
+ 1354  clear
+ 1355  ls -la
+ 1356  c
+ 1357  ls
+ 1358  ls -l
+ 1359  man passwd
+ 1360  passwd -S
+ 1361  man passwd
+ 1362  man man
+ 1363  man creat
+ 1364  man man
+ 1365  man dm
+ 1366  cd /dev
+ 1367  ls
+ 1368  man fd0
+ 1369  man fd
+ 1370  man lan
+ 1371  man ln
+ 1372  man cp
+ 1373  man ls
+ 1374  man tar
+ 1375  cd
+ 1376  man cp
+ 1377  info coreutils tar 
+ 1378  man cp
+ 1379  info coreutils "cp invocation"
+ 1380  man apropos
+ 1381  clear
+ 1382  apropos tar
+ 1383  man tar
+ 1384  man 5 tar
+ 1385  apropos uptime
+ 1386  apropos time
+ 1387  man times
+ 1388  times
+ 1389  times uptime
+ 1390  man 1p touch
+ 1391  clear
+ 1392  which w
+ 1393  /usr/bin/w
+ 1394  man w
+ 1395  /usr/bin/w
+ 1396  clear
+ 1397  whereis w
+ 1398  whereis uptime
+ 1399  whereis ls
+ 1400  which ls
+ 1401  man which
+ 1402  which -a ls
+ 1403  ls -li /usr/bin/ls
+ 1404  ls -li /bin/ls
+ 1405  clear
+ 1406  find / -name ls -print
+ 1407  find / -name ls -print 2>/dev/null
+ 1408  which ls
+ 1409  which -a ls
+ 1410  man find
+ 1411  find -L / -name ls -print 2>/dev/null
+ 1412  date
+ 1413  man date
+ 1414  date +%H:%M:%S
+ 1415  date
+ 1416  id
+ 1417  man script
+ 1418  man scrip
+ 1419  man script
+ 1420  script myscriptfile
+ 1421  uname
+ 1422  uname -a
+ 1423  man uname
+ 1424  uname -k
+ 1425  man uname
+ 1426  uname -n
+ 1427  echo $SHELL
+ 1428  echo $shell
+ 1429  echo $SHELL
+ 1430  tcsh
+ 1431  ps
+ 1432  c
+ 1433  which readelf
+ 1434  ssh -l tpb vader.aacc.edu
+ 1435  cd
+ 1436  c
+ 1437  cat < mypipe
+ 1438  cat mypipe
+ 1439  cat < mypipe
+ 1440  scp tpb@vader.aacc.edu:~/bad* .
+ 1441  cd /tmp
+ 1442  ls
+ 1443  which unzip
+ 1444  ll
+ 1445  l
+ 1446  cd
+ 1447  c
+ 1448  which sublime
+ 1449  sublime
+ 1450  ls
+ 1451  /usr/bin/sublime
+ 1452  find / -name sublime -print 2>/dev/null
+ 1453  cd /tmp
+ 1454  ls
+ 1455  c
+ 1456  cd
+ 1457  cd bin/awk
+ 1458  l
+ 1459  awk -f awk-salary-script.awk salaries-sample-file.awk 
+ 1460  vi awk-salary-script.awk 
+ 1461  awk -f awk-salary-script.awk salaries-sample-file.awk 
+ 1462  vi awk-salary-script.awk 
+ 1463  awk -f awk-salary-script.awk salaries-sample-file.awk 
+ 1464  man awk
+ 1465  jobs
+ 1466  awk -f awk-salary-script.awk salaries-sample-file.awk 
+ 1467  ls
+ 1468  vi simple-begin-sample-file.awk
+ 1469  u+x simple-begin-sample-file.awk 
+ 1470  chmod u+x simple-begin-sample-file.awk 
+ 1471  ./simple-begin-sample-file.awk 
+ 1472  vi simple-begin-sample-file.awk 
+ 1473  vim simple-begin-sample-file.awk 
+ 1474  ./simple-begin-sample-file.awk 
+ 1475  awk -f simple-begin-sample-file.awk 
+ 1476  vi simple-begin-sample-file.awk 
+ 1477  awk -f simple-begin-sample-file.awk 
+ 1478  vi simple-begin-sample-file.awk 
+ 1479  awk -f simple-begin-sample-file.awk 
+ 1480  l
+ 1481  grep BEGIN *
+ 1482  cat begin.awk 
+ 1483  awk -f begin.awk
+ 1484  l
+ 1485  vi simple-begin-sample-file.awk 
+ 1486  more begin.awk 
+ 1487  l
+ 1488  history
+ 1489  ./simple-begin-sample-file.awk 
+ 1490  awk -f simple-begin-sample-file.awk 
+ 1491  more begin.awk 
+ 1492  vi simple-begin-sample-file.awk 
+ 1493  vim simple-begin-sample-file.awk 
+ 1494  awk -f simple-begin-sample-file.awk 
+ 1495  awk -f begin.awk 
+ 1496  c
+ 1497  awk -f begin.awk 
+ 1498  h | grep salar
+ 1499  awk -f awk-salary-script.awk salaries-sample-file.awk 
+ 1500  vi awk-salary-script.awk 
+ 1501  awk -f awk-salary-script.awk salaries-sample-file.awk 
+ 1502  vim awk-salary-script.awk 
+ 1503  awk -f awk-salary-script.awk salaries-sample-file.awk 
+ 1504  awk -f awk-salary-script.awk salaries-sample-file.awk | rev
+ 1505  man rev
+ 1506  man column
+ 1507  cd ../sed
+ 1508  vi fstab-sed-sample-file.sed
+ 1509* sed 's/#.*//' /etc/fstab |kkk
+ 1510  cd ../awk
+ 1511  awk -f awk-salary-script.awk salaries-sample-file.awk | column -t
+ 1512  vi awk-salary-script.awk 
+ 1513  awk -f awk-salary-script.awk salaries-sample-file.awk | column -t
+ 1514  last
+ 1515  last -w
+ 1516  last -w | column -t
+ 1517  man column
+ 1518  man cat
+ 1519  awk -f awk-salary-script.awk salaries-sample-file.awk | column -t
+ 1520  cat /etc/fsatb
+ 1521  cat /etc/fstab
+ 1522  cat /etc/fstab | column -t
+ 1523  c
+ 1524  cat /etc/fstab
+ 1525  cat /etc/fstab | grep -v '#'
+ 1526  cat /etc/fstab | grep -v '# | column -t
+ 1527  cat /etc/fstab | grep -v '#' | column -t
+ 1528  c
+ 1529  clear;echo;echo;cat /etc/fstab | grep -v '#' | column -t
+ 1530  clear;echo;echo;cat /etc/fstab | grep -v '#' | column -t;echo;echo
+ 1531  awk '{ print }' /etc/passwd
+ 1532  awk '{ print }' < who
+ 1533  who | awk '{ print }'
+ 1534  who | awk '{ print $1 }'
+ 1535  awk '{ print $NR }' /etc/passwd
+ 1536  awk '{ print $NR, $1 }' /etc/passwd
+ 1537  awk '{ print $1, $NR }' /etc/passwd
+ 1538  awk '{ print $1, NR }' /etc/passwd
+ 1539  awk '{ print NR, $1}' /etc/passwd
+ 1540  l
+ 1541  vi advanced-awk-sample-file.awk
+ 1542  vim advanced-awk-sample-file.awk 
+ 1543  cat /etc/passwd
+ 1544  cat /etc/passwd > etc-passwd-colons-spaces-awk-sample.awk
+ 1545  vi etc-passwd-colons-spaces-awk-sample.awk 
+ 1546  cat etc-passwd-colons-spaces-awk-sample.awk | awk -F[ :"] '{ print $4 }'
+ 1547  cat etc-passwd-colons-spaces-awk-sample.awk | awk -F'[ :"]' '{ print $4 }'
+ 1548  h
+ 1549  h | sort
+ 1550  c
+ 1551  sort
+ 1552  cd
+ 1553  cleaer
+ 1554  cd bin/awk
+ 1555  l
+ 1556  awk -F':' '{ print $1 }'
+ 1557  awk -F':' '{ print $1 }' /etc/passwd
+ 1558  awk -F':' '{ print $1 }' /etc/passwd | sort
+ 1559  awk -F':' '{ print $1 }' /etc/passwd | sort -r
+ 1560  awk -F':' '{ print $1 }' /etc/passwd | sort -rc
+ 1561  awk -F':' '{ print $1 }' /etc/passwd | sort -ru
+ 1562  awk -F':' '$1 ~ /tpbon/ { print $1 }' /etc/passwd | sort -ru
+ 1563  awk -F':' '$3 ~ /1000/ { print $1 }' /etc/passwd | sort -ru
+ 1564  awk -F':' '$4 ~ /1000/ { print $1 }' /etc/passwd | sort -ru
+ 1565  awk -F':' '$4 ~ /1000/ { print $1 }' /etc/passwd | sort -u
+ 1566  awk -F':' '$4 ~ /1000/ { print $1 }' /etc/passwd | sort 
+ 1567  l
+ 1568  cat salaries-sample-file.awk 
+ 1569  awk '$3 > 50 { print $1 }' salaries-sample-file.awk 
+ 1570  awk '$3 > 50/{ print $1 }' salaries-sample-file.awk 
+ 1571  awk '$3 > 50 { print $1 }' salaries-sample-file.awk 
+ 1572  cat salaries-sample-file.awk | sed '2d'
+ 1573  cat salaries-sample-file.awk | sed '1,2d'
+ 1574  cat salaries-sample-file.awk | sed '1,2d' | 
+ 1575  h
+ 1576  cat salaries-sample-file.awk | sed '1,2d' | awk '$3 > 50 { print $1 }'
+ 1577  cat salaries-sample-file.awk 
+ 1578  cat salaries-sample-file.awk | sed '1,2d' | awk '$3 > 50 { print $4 }'
+ 1579  date
+ 1580  awk '/Jason/{ print $4 }' salaries-sample-file.awk 
+ 1581  awk '/Jason/' salaries-sample-file.awk 
+ 1582  awk '/Jason/{ print $3 }' salaries-sample-file.awk 
+ 1583  awk '/Jason/{ print $1, $2 "\t\t\t" $3 }' salaries-sample-file.awk 
+ 1584  awk '/Jason/{ print NR "\t" $1, $2 "\t\t\t" $3 }' salaries-sample-file.awk 
+ 1585  awk '{ print $1 }' salaries-sample-file.awk 
+ 1586  awk '{ print $2 }' salaries-sample-file.awk 
+ 1587  awk '{ print $1, $2 "\t\t\t" $3 * $4 }'
+ 1588  awk '{ print $1, $2 "\t\t\t" $3 * $4 }' salaries-sample-file.awk 
+ 1589  c
+ 1590  awk '/tpbonfi/{ print $7 }' /etc/passwd
+ 1591  awk -F: '/tpbon/{ print $7 }' /etc/passwd
+ 1592   
+ 1593  awk -F: '/tpbon/{ print $7 }' /etc/passwd
+ 1594  awk -F: '/rms/{ print $7 }' /etc/passwd
+ 1595  awk -F: '/stu/{ print $7 }' /etc/passwd
+ 1596  h | grep awk
+ 1597  c
+ 1598  ssh -l tpb vader.aacc.edu
+ 1599  vi if-statement.awk
+ 1600  chmod u+x if-statement.awk 
+ 1601  ./if-statement.awk salaries-sample-file.awk 
+ 1602  vi if-statement.awk 
+ 1603  awk -f if-statement.awk salaries-sample-file.awk 
+ 1604  vim salaries-sample-file.awk 
+ 1605  c
+ 1606  awk -f if-statement.awk salaries-sample-file.awk 
+ 1607  vi salaries-sample-file.awk 
+ 1608  c
+ 1609  awk -f if-statement.awk salaries-sample-file.awk 
+ 1610  vi if-statement.awk 
+ 1611  awk -f if-statement.awk salaries-sample-file.awk 
+ 1612  vim if-statement.awk 
+ 1613  c
+ 1614  awk -f if-statement.awk salaries-sample-file.awk 
+ 1615  vi if-statement.awk 
+ 1616  awk -f if-statement.awk salaries-sample-file.awk 
+ 1617  c
+ 1618  vi if-statement.awk 
+ 1619  awk -f if-statement.awk salaries-sample-file.awk 
+ 1620  vim if-statement.awk 
+ 1621  awk -f if-statement.awk salaries-sample-file.awk 
+ 1622  vi if-statement.awk 
+ 1623  c
+ 1624  awk -f if-statement.awk salaries-sample-file.awk 
+ 1625  vi if-statement.awk 
+ 1626  c
+ 1627  awk -f if-statement.awk salaries-sample-file.awk 
+ 1628  vi if-statement.awk 
+ 1629  awk -f if-statement.awk salaries-sample-file.awk 
+ 1630  vi if-statement.awk 
+ 1631  c
+ 1632  awk -f if-statement.awk salaries-sample-file.awk 
+ 1633  vi if-statement.awk 
+ 1634  awk -f if-statement.awk salaries-sample-file.awk 
+ 1635  vi if-statement.awk 
+ 1636  awk -f if-statement.awk salaries-sample-file.awk 
+ 1637  c
+ 1638  awk -f if-statement.awk salaries-sample-file.awk 
+ 1639  cp if-statement.awk  if-else-statement.awk
+ 1640  vi if-else-statement.awk 
+ 1641  awk -f if-else-statement.awk salaries-sample-file.awk 
+ 1642  vi if-else-statement.awk 
+ 1643  awk -f if-else-statement.awk salaries-sample-file.awk 
+ 1644  vi if-else-statement.awk 
+ 1645  c
+ 1646  awk -f if-else-statement.awk salaries-sample-file.awk 
+ 1647  vi if-else-statement.awk 
+ 1648  c
+ 1649  awk -f if-else-statement.awk salaries-sample-file.awk 
+ 1650  vi if-else-statement.awk 
+ 1651  c
+ 1652  awk -f if-else-statement.awk salaries-sample-file.awk 
+ 1653  vi if-else-statement.awk 
+ 1654  c
+ 1655  awk -f if-else-statement.awk salaries-sample-file.awk 
+ 1656  vi if-else-statement.awk 
+ 1657  c
+ 1658  awk -f if-else-statement.awk salaries-sample-file.awk 
+ 1659  cp if-statement.awk while-statement.awk
+ 1660  vi while-statement.awk 
+ 1661  awk -f while-statement.awk salaries-sample-file.awk 
+ 1662  c
+ 1663  awk -F: -f while-statement.awk salaries-sample-file.awk 
+ 1664  c
+ 1665  awk -F: -f while-statement.awk /etc/passwc
+ 1666  awk -F: -f while-statement.awk /etc/passwd
+ 1667  c
+ 1668  vi while-statement.awk 
+ 1669  cat /etc/passwd | awk '{ print $NR }'
+ 1670  cat /etc/passwd | awk '{ print NR }'
+ 1671  awk '{ total = total + NF }; END { print total+0 }' salaries-sample-file.awk 
+ 1672  cp ../grep/tale-of-two-cities-sample-file .
+ 1673  awk '{ total = total + NF }; END { print total+0 }' tale-of-two-cities-sample-file 
+ 1674  vi tale-of-two-cities-sample-file 
+ 1675  vim tale-of-two-cities-sample-file 
+ 1676  awk '{ total = total + NF }; END { print total+0 }' tale-of-two-cities-sample-file 
+ 1677  awk '{ print $NF }' /etc/passwd
+ 1678  awk '{ print NF }' /etc/passwd
+ 1679  awk '{ print $NF }' salaries-sample-file.awk 
+ 1680  cd ../sed
+ 1681  ls
+ 1682  c
+ 1683  l
+ 1684  ls
+ 1685  c
+ 1686  l
+ 1687  cat addresses.sed 
+ 1688  sed -n '/Stu/p' addresses.sed 
+ 1689  sed '/Stu/p' addresses.sed 
+ 1690  sed '/Stu/' addresses.sed 
+ 1691  sed '/Stu/p' addresses.sed 
+ 1692  sed --silent '/Stu/p' addresses.sed 
+ 1693  sed 's/:.*//' /etc/passwd
+ 1694  sed 's/[a-zA-Z:.*//' /etc/passwd
+ 1695  sed 's/^[a-zA-Z]:x:.*//' /etc/passwd
+ 1696  sed -e 's/[a-zA-Z:.*//' /etc/passwd
+ 1697  sed -e 's/[a-zA-Z]:x:.*//' /etc/passwd
+ 1698  sed -e 's/[a-zA-Z:.*//' /etc/passwd
+ 1699  sed 's/[a-zA-Z:.*//' /etc/passwd
+ 1700  sed 's/[a-zA-Z]:x:.*//' /etc/passwd
+ 1701  sed 's/[a-zA-Z]:x://' /etc/passwd
+ 1702  sed 's/[a-zA-Z].*:x://' /etc/passwd
+ 1703  sed 's/^[a-zA-Z].*:[a-z]://' /etc/passwd
+ 1704  sed 's/^[a-zA-Z].*:[a-z]:[0-9].*//' /etc/passwd
+ 1705  sed 's/^[a-zA-Z].*:[a-z]:[0-9]*//' /etc/passwd
+ 1706  sed 's/^[a-zA-Z].*:[a-z]:[0-9]*://' /etc/passwd
+ 1707  sed 's/^[a-zA-Z].*:[a-z]:[0-9]*:[0-9]*://' /etc/passwd
+ 1708  sed 's/^[a-zA-Z].*:[a-z]:[0-9]*:[0-9]*:[a-zA-Z0-9].*://' /etc/passwd
+ 1709  sed 's/^[a-zA-Z].*:[a-z]:[0-9]*:[0-9]*://' /etc/passwd
+ 1710  h
+ 1711  h | more
+ 1712   
+ 1713  sed -n "$p" /etc/passwd
+ 1714  sed -n '$p' /etc/passwd
+ 1715  l
+ 1716  cat addresses.sed 
+ 1717  c
+ 1718  cat addresses.sed 
+ 1719  /
+ 1720  vi addresses.sed 
+ 1721  c
+ 1722  cat addresses.sed 
+ 1723  vi addresses.sed 
+ 1724  c
+ 1725  cat addresses.sed 
+ 1726  sed 's/Santa/Rudolph/' add
+ 1727  sed 's/Santa/Rudolph/' addresses.sed 
+ 1728  sed 's/Santa/Rudolph/2' addresses.sed 
+ 1729  sed 's/Santa/Rudolph/1-2' addresses.sed 
+ 1730  sed 's/Santa/Rudolph/1,2' addresses.sed 
+ 1731  sed -e 's/Santa/Rudolph/1,2' addresses.sed 
+ 1732  sed -e 's/Santa/Rudolph/1' addresses.sed 
+ 1733  sed -e 's1,2/Santa/Rudolph/' addresses.sed 
+ 1734  sed -e '1,2s/Santa/Rudolph/' addresses.sed 
+ 1735  sed '1,2s/Santa/Rudolph/' addresses.sed 
+ 1736  c
+ 1737  cat addresses.sed 
+ 1738  sed 's/Santa/Rudolph/' addresses.sed 
+ 1739  sed 's/Santa/Rudolph/g' addresses.sed 
+ 1740  sed -e 's/Santa/Rudolph/1' -e 's/Santa/Rudolph/3' addresses.sed 
+ 1741  vi addresses.sed 
+ 1742  c
+ 1743  cat addresses.sed 
+ 1744  sed -e 's/Santa/Rudolph/1' -e 's/Santa/Rudolph/3' addresses.sed 
+ 1745  sed -e 's/Santa/Rudolph/1' -e 's/Santa/Rudolph/2' addresses.sed 
+ 1746  ls -d
+ 1747  ls -l
+ 1748  ls -l | awk '{ print NF }'
+ 1749  ls -l | awk '{ print $NF }'
+ 1750  ls
+ 1751  ls -l
+ 1752  ls -l | sed '1,d' | awk '{ print $NF }'
+ 1753  ls -l | sed '1d' | awk '{ print $NF }'
+ 1754  l
+ 1755  cat addresses.sed 
+ 1756  sed '1w address.tmp'
+ 1757  sed '1w address.tmp' address
+ 1758  sed '1w address.tmp' addresses.sed 
+ 1759  ls
+ 1760  cat address.tmp 
+ 1761  sed '1,$ address2.tmp' addresses.sed 
+ 1762  cat address2
+ 1763  cat address2.tmp
+ 1764  ls
+ 1765  sed '1,$w address2.tmp' addresses.sed 
+ 1766  ls
+ 1767  cat address2.tmp 
+ 1768  sed '2,4w address2.tmp' addresses.sed 
+ 1769  cat address2.tmp 
+ 1770  set -o noclobber
+ 1771  sed '2,4w address2.tmp' addresses.sed 
+ 1772  cat address2.tmp 
+ 1773  sed '4w address2.tmp' addresses.sed 
+ 1774  cat address
+ 1775  cat address2.tmp 
+ 1776  sed -n '4w address2.tmp' addresses.sed 
+ 1777  cat address2.tmp 
+ 1778  sed -n '1,3w address2.tmp' addresses.sed 
+ 1779  cat address2.tmp 
+ 1780  c
+ 1781  cat address
+ 1782  cat addresses.sed 
+ 1783  sed '/\(Travis)|\(Santa\)w addresses3.tmp' addresses.sed 
+ 1784  sed -e '1w addresses3.tmp' -e '$w addresses3.tmp' addresses.sed 
+ 1785  cat addresses3.tmp 
+ 1786  sed -n -e '1w addresses3.tmp' -e '$w addresses3.tmp' addresses.sed 
+ 1787  cat addresses3.tmp 
+ 1788  sed -n -e '1w addresses3.tmp' -e '$\a addresses3.tmp' addresses.sed 
+ 1789  sed -n -e '1w addresses3.tmp' -e '$ai\ addresses3.tmp' addresses.sed 
+ 1790  sed -n -e '1w addresses3.tmp' -e '$a\ addresses3.tmp' addresses.sed 
+ 1791  cat addresses3.tmp 
+ 1792  c
+ 1793  seh
+ 1794  h
+ 1795  sed '1r addresses.sed'
+ 1796  sed '1r addresses.sed {1d}'
+ 1797  sed -e '/regex/{r sed.tmp' -e 'd;}' addresses.sed 
+ 1798  vi sed.tmp
+ 1799  sed -e '/regex/{r sed.tmp' -e 'd;}' addresses.sed 
+ 1800  sed -e '/^.*$/{r sed.tmp' -e 'd;}' addresses.sed 
+ 1801  sed -e '/Santa/{r sed.tmp' -e 'd;}' addresses.sed 
+ 1802  sed -i -r 's/^(dylan|halle)@.*pepperdine\.org/\1@usc.edu/' ~/college.txt
+ 1803  sed -e '/Santa/{r sed.tmp' -e 'd;}' addresses.sed 
+ 1804  vi sed.tmp
+ 1805  c
+ 1806  sed -e '/Santa/{r sed.tmp' -e 'd;}' addresses.sed 
+ 1807  which python
+ 1808  python --version
+ 1809  sed '/^Travis/a\]
+ 1810  sed '/^Travis/a\\
+************Travis No Longer Works Here!!!*************' addresses.sed
+ 1811  sed '/^Travis/a\\
+************tRAVIS nO lONGER wORKS hERE!!!*************' addresses.sed
+ 1812  sed '/^Travis/a\\
+AVIS nO lONGER wORKS hERE' addresses.sed
+ 1813  sed '/^Travis/a\
+AVIS nO lONGER wORKS hERE' addresses.sed
+ 1814  c
+ 1815  sed '/^Travis/a\#####Travis Does Not Live Here Anymore###' addresses.sed
+ 1816  sed -n '/^Travis/a\#####Travis Does Not Live Here Anymore###' addresses.sed
+ 1817  sed -n '/^Travis/pa\#####Travis Does Not Live Here Anymore###' addresses.sed
+ 1818  sed -n '/^Travis/p a\#####Travis Does Not Live Here Anymore###' addresses.sed
+ 1819  h
+ 1820  c
+ 1821  l
+ 1822  cd
+ 1823  mkvirtualenv
+ 1824  python --version
+ 1825  which nano
+ 1826  nano eof.sed
+ 1827  enable
+ 1828  c
+ 1829  help who
+ 1830  man -k who
+ 1831  apropos who
+ 1832  type refresh
+ 1833  type enable
+ 1834  man enable
+ 1835  c
+ 1836  sleep 111111 &
+ 1837  sleep 111211 &
+ 1838  sleep 111311 &
+ 1839  sleep 111411 &
+ 1840  jobs
+ 1841  man jobs
+ 1842  jobs -l 
+ 1843  cd
+ 1844  c
+ 1845  w
+ 1846  car=
+ 1847  c
+ 1848  car=
+ 1849  echo ${car:-ferrari}
+ 1850  echo $car
+ 1851  echo ${car:-ferrari}
+ 1852  echo $car
+ 1853  name=
+ 1854  echo ${name:=Halle}
+ 1855  echo $name
+ 1856  machname=$(uname -n)
+ 1857  c
+ 1858  machname=$(uname -n)
+ 1859  echo $machname
+ 1860  uname
+ 1861  uname -h
+ 1862  man uname
+ 1863  machname=$(uname -n|awk -F"." '{ print $1 }')
+ 1864  c
+ 1865  machname=$(uname -n|awk -F"." '{ print $1 }')
+ 1866  echo $machname
+ 1867  basename
+ 1868  man basename
+ 1869  echo $(cal)
+ 1870  december=$(cal)
+ 1871  echo $december
+ 1872  echo "$december"
+ 1873  vi .bashrc
+ 1874  man cal
+ 1875  cal 1752
+ 1876  c
+ 1877  h
+ 1878  c
+ 1879  h
+ 1880  cd
+ 1881  c
+ 1882  echo $[ 5 + 3 * 3 ]
+ 1883  echo $[ (5 + 3) * 3 ]
+ 1884  echo $[ (5 - 3) * 3 ]
+ 1885  echo $[ 5 - 3 * 3 ]
+ 1886  echo $(( 5 + 5 * 5 ))
+ 1887  cd bin/bash
+ 1888  l
+ 1889  more auto-cost-ospf.bash
+ 1890  c
+ 1891  ls
+ 1892  ./auto-cost-ospf.bash
+ 1893  c
+ 1894  ls
+ 1895  vi function-pseudo-code.bash
+ 1896  cat function-pseudo-code.bash 
+ 1897  my-function-001 () { clear; who; sleep 3; clear; done
+ 1898  my-function-001 () { clear; who; sleep 3; clear;} 
+ 1899  my-function-001 () { clear; who; sleep 3; clear; }
+ 1900  my-function-001 
+ 1901  declare 
+ 1902  c
+ 1903  declare -f
+ 1904  declare -f | grep '()'
+ 1905  declare -f | grep -G '()'
+ 1906  declare -f | grep -E '()'
+ 1907  declare -f | grep -G '()'
+ 1908  bash
+ 1909  my-function-001 
+ 1910  cat /usr/bin/dict
+ 1911  man dict
+ 1912  which dict
+ 1913  c
+ 1914  h
+ 1915  getconf NAME_MAX .
+ 1916  getconf NAME_MAX
+ 1917  man getconf
+ 1918  getconf PATH_MAX .
+ 1919  c
+ 1920  ls
+ 1921  cat rmi.bash
+ 1922  vi bash-script-template.bash
+ 1923  which bash
+ 1924  bash --version
+ 1925  fg
+ 1926  vim bash-script-template.bash
+ 1927  chmod u+x bash-script-template.bash 
+ 1928  ./bash-script-template.bash 
+ 1929  vi bash-script-template.bash 
+ 1930  ./bash-script-template.bash 
+ 1931  vim bash
+ 1932  vim bash-script-template.bash 
+ 1933  ./bash-script-template.bash 
+ 1934  vim bash-script-template.bash 
+ 1935  ./bash-script-template.bash 
+ 1936  vim bash-script-template.bash 
+ 1937  ./bash-script-template.bash 
+ 1938  vim bash-script-template.bash 
+ 1939  ./bash-script-template.bash 
+ 1940  vim bash-script-template.bash 
+ 1941  ./bash-script-template.bash 
+ 1942  vim bash-script-template.bash 
+ 1943  ./bash-script-template.bash 
+ 1944  ./bash-script-template.bash dkfjk uieuiriuer
+ 1945  cal 10 2014
+ 1946  vi ~/.bashrc
+ 1947  refresh
+ 1948  c
+ 1949  dec14
+ 1950  jan15
+ 1951  vi .bashrc
+ 1952  vim .bashrc
+ 1953  vim ~/.bashrc
+ 1954  l
+ 1955  ls
+ 1956  man ls
+ 1957  vim ~/.bashrc
+ 1958  refresh
+ 1959  c
+ 1960  l
+ 1961  man ls
+ 1962  vim ~/.bashrc
+ 1963  refresh
+ 1964  l
+ 1965  ls --color=always
+ 1966  ls -laih
+ 1967  ls -laih --color=always
+ 1968  vim ~/.bashrc
+ 1969  j
+ 1970  cd /tmp
+ 1971  sleep 89384833 &
+ 1972  cd
+ 1973  cd bin/bash
+ 1974  c
+ 1975  j
+ 1976  l
+ 1977  vim ~/.bashrc
+ 1978  refresh
+ 1979  l
+ 1980  aug14
+ 1981  h | grep echo
+ 1982  echo $(( 10000000 / 2020202 ))
+ 1983  x=`echo "scale=5; 23 / 4" | bc
+`
+ 1984  x=`echo "scale=5; 23 / 4" | bc`
+ 1985  echo $x
+ 1986  x=`echo "scale=5; 284848433 / 38484" | bc`
+ 1987  echo $x
+ 1988  x=`echo "scale=15; 284848433 / 38484" | bc`
+ 1989  echo $x
+ 1990  x=`awk -v x=3.141519 -v y=2.3454 'BEGIN{ printf "%.2f\n", x*y}'`
+ 1991  c
+ 1992  x=`awk -v x=3.141519 -v y=2.3454 'BEGIN{ printf "%.2f\n", x*y}'`
+ 1993  echo $x
+ 1994  x=`awk -v x=3.5 -v y=2.5 'BEGIN{ printf "%.2f\n", x*y}'`
+ 1995  echo $x
+ 1996  x=`awk -v x=3.99995 -v y=2.343245 'BEGIN{ printf "%.5f\n", x*y}'`
+ 1997  echo $x
+ 1998  h
+ 1999  ls ~
+ 2000  h >> 12152014.hist
+ 2001  ls ~
+ 2002  cat ~/12152014.hist 
+ 2003  h
+ 2004  h >> ~/12172014.hist
+ 2005  cat ~/12172014.hist
+ 2006  more ~/12172014.hist
+ 2007   
+ 2008  type args
+ 2009  which args
+ 2010  c
+ 2011  ls
+ 2012  vim args-demo.bash
+ 2013  chmod u+x args-demo.bash 
+ 2014  ./args-demo.bash 
+ 2015  c
+ 2016  ./args-demo.bash one two three
+ 2017  ls
+ 2018  grep '-lt' *
+ 2019  c
+ 2020  grep '\-lt' *
+ 2021  cat string-test-operators 
+ 2022  vim string-test-operators i
+ 2023  fg
+ 2024  ps
+ 2025  fg
+ 2026  c
+ 2027  ls
+ 2028  uptime
+ 2029  vi args-demo.bash 
+ 2030  ./args-demo.bash one two three
+ 2031  c
+ 2032  ls
+ 2033  more show-run-bash-example 
+ 2034  c
+ 2035  ls
+ 2036  env
+ 2037  c
+ 2038  env | grep PATH
+ 2039  env | grep PATH | awk -F":" '{ print $0 }'
+ 2040  env | grep PATH | cut 
+ 2041  c
+ 2042  ls
+ 2043  c
+ 2044  ls
+ 2045  cd
+ 2046  vi ext2v3v4
+ 2047  c
+ 2048  vim if-then-demo-script.bash
+ 2049  chmod u+x if-then-demo-script.bash 
+ 2050  ./if-then-demo-script.bash 
+ 2051  ./if-then-demo-script.bash onearg
+ 2052  ./if-then-demo-script.bash onearg twoargs
+ 2053  mv if-then-demo-script.bash if-then-demo-script001.bash
+ 2054  cp if-then-demo-script001.bash if-then-demo-script002.bash
+ 2055  vi *002.bash
+ 2056  ./if-then-demo-script002
+ 2057  ./if-then-demo-script002.bash 
+ 2058  cp if-then-demo-script002.bash if-then-else-demo-script003.bash
+ 2059  vi *003.bash
+ 2060  ./*003.bash
+ 2061  c
+ 2062  ./*003.bash
+ 2063  cp *003.bash if-then-elif-demo-script004.bash
+ 2064  c
+ 2065  vi *004.bash
+ 2066  ./*004.bash
+ 2067  vim *004.bash
+ 2068  ./*004.bash
+ 2069  vim *004.bash
+ 2070  c
+ 2071  ./*004.bash
+ 2072  vim *004.bash
+ 2073  c
+ 2074  ls
+ 2075  cp *004.bash if-then-elif-demo-script005.bash
+ 2076  vi *005.bash
+ 2077  ./*005.bash
+ 2078  cat if-then-elif-demo-script004
+ 2079  cat if-then-elif-demo-script004.bash
+ 2080  
+ 2081  cd /tmp
+ 2082  vi int.bash
+ 2083  chmod u+x int.bash 
+ 2084  ./int.bash 
+ 2085  vi int.bash 
+ 2086  c
+ 2087  ./int.bash 
+ 2088  c
+ 2089  ./int.bash 
+ 2090  vi int.bash
+ 2091  c
+ 2092  man bash
+ 2093  vi int2.bash
+ 2094  chmod u+x int2.bash 
+ 2095  ./int2.bash 
+ 2096  vi int2.bash 
+ 2097  ./int2.bash 
+ 2098  vi int2.bash 
+ 2099  ./int2.bash 
+ 2100  vi int2.bash 
+ 2101  ./int2.bash 
+ 2102  vi int2.bash 
+ 2103  ./int2.bash 
+ 2104  vi int2.bash 
+ 2105  ./int2.bash 
+ 2106  vi int2.bash 
+ 2107  ./int2.bash 
+ 2108  c
+ 2109  ./int2.bash 
+ 2110  vi int2.bash 
+ 2111  ./int2.bash 
+ 2112  vi int2.bash 
+ 2113  ./int2.bash 
+ 2114  vim int2.bash 
+ 2115  vi int2.bash 
+ 2116  ./int2.bash 
+ 2117  vi int2.bash 
+ 2118  c
+ 2119  ./int2.bash 
+ 2120  vi int2.bash 
+ 2121  c
+ 2122  ./int2.bash 
+ 2123  vi int2.bash 
+ 2124  man bash
+ 2125  cd
+ 2126  cd bin
+ 2127  cd c
+ 2128  l
+ 2129  ./fib
+ 2130  cd ../bash
+ 2131  ls
+ 2132  more string-test-operators 
+ 2133  cd /tmp
+ 2134  which sh
+ 2135  type sh
+ 2136  ls -lai /usr/bin/sh
+ 2137  which bash
+ 2138  ls -lai /usr/bin/bash
+ 2139  vi int3.bash
+ 2140  chmod u+x int3.bash 
+ 2141  ./int3.bash 
+ 2142  cat int3
+ 2143  cat int3.bash 
+ 2144  
+ 2145  
+ 2146  c
+ 2147  vi int2.bash 
+ 2148  ./int2.bash 
+ 2149  cd
+ 2150  cd bin/bash
+ 2151  ls
+ 2152  more ping.bash
+ 2153  cat seeker.bash 
+ 2154  cd /etc/ssh
+ 2155  ls
+ 2156  cat sshd_config
+ 2157  cd
+ 2158  c
+ 2159  ls
+ 2160  more diff-file-example-00
+ 2161  more diff-file-example-001
+ 2162  diff test1-diff 
+ 2163  diff test1-diff test2-diff 
+ 2164  cat tes1
+ 2165  cat test1-diff 
+ 2166  cat test2-diff 
+ 2167  man cut
+ 2168  cut --version
+ 2169  type cut
+ 2170  cd
+ 2171  c
+ 2172  ls
+ 2173  cd bin/grep
+ 2174  ls
+ 2175  cat cisco-show-ipv6-route-rviews-sample-grep-file 
+ 2176  cat cisco-show-ipv6-route-rviews-sample-grep-file | grep '^B'
+ 2177  cat cisco-show-ipv6-route-rviews-sample-grep-file | grep '^B' | awk '{ print $2 }'
+ 2178  cat cisco-show-ipv4-route-rviews-sample-grep-file | grep '^B' | awk '{ print $2 }'
+ 2179  l
+ 2180  more cisco-show-ip-route-rviews-sample-grep-file 
+ 2181  cat cisco-show-ip-route-rviews-sample-grep-file | grep '^B' | awk '{ print $2 }'
+ 2182  cat cisco-show-ip-route-rviews-sample-grep-file | grep '^B' | awk '{ print $2 }' > ~/ipv4-sort-examples
+ 2183  cd
+ 2184  c
+ 2185  ls
+ 2186  cat ipv4
+ 2187  cat ipv4-sort-examples 
+ 2188  sort -r ipv4-sort-examples 
+ 2189  sort -r ipv4-sort-examples > ipv4-sort-example-file
+ 2190  man sort
+ 2191  sort -R ipv4-sort-examples > ipv4-sort-example-file
+ 2192  sort -R ipv4-sort-examples >| ipv4-sort-example-file
+ 2193  cat ipv4-sort-example-file 
+ 2194  rm ipv4-sort-examples
+ 2195  man sort
+ 2196  sort ipv4-sort-example-file 
+ 2197  sort ipv4-sort-example-file | more
+ 2198  sort -n ipv4-sort-example-file 
+ 2199  sort -n ipv4-sort-example-file  | more
+ 2200  man sort
+ 2201  sort -2n ipv4-sort-example-file 
+ 2202  man sort
+ 2203  sort -t '.' -n -b +2 ipv4-sort-example-file 
+ 2204  cat ipv4-sort-example-file | sort -t '.' -n -b +2
+ 2205  man sort
+ 2206  sort -n ipv4-sort-example-file 
+ 2207  man sort
+ 2208  sort -t'.
+ 2209  sort -tn "." ipv4-sort-example-file 
+ 2210  sort -t. -n ipv4-sort-example-file 
+ 2211  sort -n ipv4-sort-example-file | more
+ 2212  sort -t . -k 1,1n -k 2,2n -k 3,3n -k 4,4n ipv4-sort-example-file 
+ 2213  sort -t . -k 1,1n -k 2,2n -k 3,3n -k 4,4n ipv4-sort-example-file | more
+ 2214  man sort
+ 2215  sort -t . -k 1,1n -k 2,2n -k 3,3n -k 4,4n ipv4-sort-example-file | sort -t '/' -k 2,2n
+ 2216  sort -t '/' -k 2,2n ipv4-sort-example-file | more
+ 2217  sort -t : -k 1,1 /etc/passwd
+ 2218  sort -t : -k 3,3n /etc/passwd
+ 2219  sort -t : -k 4,4n /etc/passwd
+ 2220  man cut
+ 2221  cat /etc/passwd | cut -d : -f 1
+ 2222  cat /etc/passwd | cut -d : -f 1-2
+ 2223  cat /etc/passwd | cut -d : -f 1,2
+ 2224  cat /etc/passwd | cut -d : -f 1,2,5-7
+ 2225  cat /etc/passwd | cut -d : -f 1,3,5,7
+ 2226  c
+ 2227  ls
+ 2228  cat colorfile
+ 2229  rm dead.letter 
+ 2230  c
+ 2231  ls
+ 2232  more colorfile 
+ 2233  rm colorifle
+ 2234  rm colorfile
+ 2235  c
+ 2236  set -o
+ 2237  hash
+ 2238  c
+ 2239  ls
+ 2240  cd ../grep
+ 2241  cd bin/grep
+ 2242  ls
+ 2243  cp colors-sample-grep-file ~/crazy-color-file
+ 2244  cd
+ 2245  c
+ 2246  cat crazy
+ 2247  cat crazy-color-file 
+ 2248  c
+ 2249  sort crazy-color-file 
+ 2250  sort crazy-color-file | more
+ 2251  vim crazy-color-file 
+ 2252  c
+ 2253  file crazy-color-file 
+ 2254  file /usr/bin/bash
+ 2255  echo Hello world
+ 2256  echo this is cool
+ 2257  echo 1 2 3 4 5 6 7
+ 2258  echo 1, 2, 3, 4, 5, 6, 
+ 2259  echo $1 $2 $3
+ 2260  man umask
+ 2261  enable
+ 2262  man enable
+ 2263  type enable
+ 2264  man enable
+ 2265  man ls
+ 2266  ls -S
+ 2267  ls -lS
+ 2268  ls -lSh
+ 2269  ls -lS
+ 2270  bc
+ 2271  ls -lSh
+ 2272  find / -name sublime -print
+ 2273  find / -name sublime -print >& /dev/null
+ 2274  ls
+ 2275  find / -name github -print >x& /dev/null
+ 2276  find / -name github -print &> /dev/null
+ 2277  dec50
+ 2278  vim .bashrc
+ 2279  dec60
+ 2280  c
+ 2281  source .bashrc
+ 2282  source .bash_profile
+ 2283  type source
+ 2284  man bash
+ 2285  man cut
+ 2286  ls
+ 2287  c
+ 2288  vi junk.tmp
+ 2289  cut -d 1,2 junk.tmp 
+ 2290  cat junk.tmp 
+ 2291  cat junk.tmp | cut -d 1-02
+ 2292  cat junk.tmp | cut -d 1
+ 2293  cat junk.tmp | cut -c 1
+ 2294  cat junk.tmp | cut -c 2
+ 2295  cat junk.tmp 
+ 2296  cat junk.tmp | sed 's/\.\///'
+ 2297  echo $0
+ 2298  bash -i
+ 2299  ps
+ 2300  source .digrc
+ 2301  dig google.com
+ 2302  vi .digrc
+ 2303  dig google.com
+ 2304  c
+ 2305  dig google.com
+ 2306  dig google.com | grep -v ';'
+ 2307  dig google.com | grep -v ';' | sed '1d'
+ 2308  c
+ 2309  dig google.com | grep -v ';' | sed '1d'
+ 2310  dig google.com | grep -v ';' | sed '1d' | awk '{ print $ 5 }'
+ 2311  h | grep sort
+ 2312  c
+ 2313  dig google.com | grep -v ';' | sed '1d' | awk '{ print $ 5 }' | sort -t . -k 1,1n -k 2,2n -k 3,3n -k 4,4n
+ 2314  dig google.com | grep -v ';' | sed '1d' | awk '{ print $ 5 }' | sort -r -t . -k 1,1n -k 2,2n -k 3,3n -k 4,4n
+ 2315  dig google.com | grep -v ';' | sed '1d' | awk '{ print $ 5 }' | sort -t . -k 1,1n -k 2,2n -k 3,3n -k 4,4n
+ 2316  c
+ 2317  dig google.com | grep -v ';' | sed '1d' | awk '{ print $ 5 }' | sort -t . -k 1,1n -k 2,2n -k 3,3n -k 4,4n
+ 2318  dig yahoo.com
+ 2319  dig att.com
+ 2320  host
+ 2321  man host
+ 2322  man dig
+ 2323  dig -6 googlecom
+ 2324  dig -6 google.com
+ 2325  cat /etc/resolv.conf
+ 2326  cd
+ 2327  c
+ 2328  vi .bashrc
+ 2329  refresh
+ 2330  c
+ 2331  p6 fw
+ 2332  p6 imac
+ 2333  man ping6
+ 2334  vi .bashrc
+ 2335  refresh
+ 2336  p6 fw
+ 2337  ifconfig -a
+ 2338  cat /etc/hosts
+ 2339  p6 fe80::21d:45ff:fed9:c935
+ 2340  cd
+ 2341  which whois
+ 2342  man resolv.conf
+ 2343  cd
+ 2344  c
+ 2345  ls
+ 2346  history | grep crontab
+ 2347  crontab -e
+ 2348  cat /etc/services
+ 2349  cat /etc/services | more
+ 2350  man whois++
+ 2351  whois++
+ 2352  whoispp
+ 2353  man init
+ 2354  man reboot
+ 2355  type reboot
+ 2356  man reboot
+ 2357  which htop
+ 2358  top
+ 2359  bg
+ 2360  j
+ 2361  fg
+ 2362  man top
+ 2363  top
+ 2364  man top
+ 2365  top
+ 2366  man top
+ 2367  ps -ef
+ 2368  ps
+ 2369  top -p31891
+ 2370  h
+ 2371  ls
+ 2372  h >> 12172014

@@ -1,0 +1,9 @@
+[Defaults]
+Profile=Default
+
+[PROFILE_Default]
+EmailAddress=
+FullName=Travis Bonfigli
+Organization=
+OutgoingServer=
+ServerType=

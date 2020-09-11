@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-matlab
+Name=.bashrc
+Type=Link
+URL[$e]=file://$HOME/.bashrc
+X-KDE-LastOpenedWith=kwrite

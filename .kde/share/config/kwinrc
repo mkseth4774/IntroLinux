@@ -1,0 +1,14 @@
+[$Version]
+update_info=kwin_remove_effects.upd:kwin4.7_effects
+
+[Desktops]
+Name_1=
+Number=1
+
+[Effect-BoxSwitch]
+TabBox=false
+TabBoxAlternative=false
+
+[TabBox]
+ListMode=0
+ShowTabBox=true

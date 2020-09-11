@@ -1,0 +1,15 @@
+[tpbonfi@research]:[~]: cat file1
+1
+11
+111
+[tpbonfi@research]:[~]: cat file2
+1
+11
+111
+1111
+[tpbonfi@research]:[~]: diff file1 file2
+3a4
+> 1111
+
+To make these files match you need to ADD "a" line 4 of the 2nd file ">" after line 3
+of the first file.

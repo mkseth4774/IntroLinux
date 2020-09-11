@@ -1,0 +1,2265 @@
+141114 11:52:29 InnoDB: The InnoDB memory heap is disabled
+141114 11:52:29 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141114 11:52:29 InnoDB: Compressed tables use zlib 1.2.7
+141114 11:52:29 InnoDB: Using Linux native AIO
+141114 11:52:29 InnoDB: Initializing buffer pool, size = 8.0M
+141114 11:52:29 InnoDB: Completed initialization of buffer pool
+InnoDB: The first specified data file ./ibdata1 did not exist:
+InnoDB: a new database to be created!
+141114 11:52:29  InnoDB: Setting file ./ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+141114 11:52:29  InnoDB: Log file ./ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file ./ib_logfile0 size to 2 MB
+InnoDB: Database physically writes the file full: wait...
+141114 11:52:29  InnoDB: Log file ./ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file ./ib_logfile1 size to 2 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: 127 rollback segment(s) active.
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+141114 11:52:29  InnoDB: Waiting for the background threads to start
+141114 11:52:30 Percona XtraDB (http://www.percona.com) 5.5.35-MariaDB-33.0 started; log sequence number 0
+141114 11:52:30 [Note] Plugin 'FEEDBACK' is disabled.
+141114 11:52:30 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.35-MariaDB'  socket: '/home/tpbonfi/.local/share/akonadi/socket-localhost.localdomain/mysql.socket'  port: 0  MariaDB Server
+141116 11:11:42 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141116 11:12:02  InnoDB: Starting shutdown...
+141116 11:12:06  InnoDB: Shutdown completed; log sequence number 1732950
+141116 11:12:06 [Note] /usr/libexec/mysqld: Shutdown complete
+
+141116 11:14:19 InnoDB: The InnoDB memory heap is disabled
+141116 11:14:19 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141116 11:14:19 InnoDB: Compressed tables use zlib 1.2.7
+141116 11:14:19 InnoDB: Using Linux native AIO
+141116 11:14:20 InnoDB: Initializing buffer pool, size = 8.0M
+141116 11:14:20 InnoDB: Completed initialization of buffer pool
+141116 11:14:20 InnoDB: highest supported file format is Barracuda.
+141116 11:14:22  InnoDB: Waiting for the background threads to start
+141116 11:14:23 Percona XtraDB (http://www.percona.com) 5.5.35-MariaDB-33.0 started; log sequence number 1732950
+141116 11:14:23 [Note] Plugin 'FEEDBACK' is disabled.
+141116 11:14:24 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.35-MariaDB'  socket: '/home/tpbonfi/.local/share/akonadi/socket-localhost.localdomain/mysql.socket'  port: 0  MariaDB Server
+141120  8:34:35 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141120  8:38:43 InnoDB: The InnoDB memory heap is disabled
+141120  8:38:43 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141120  8:38:43 InnoDB: Compressed tables use zlib 1.2.7
+141120  8:38:43 InnoDB: Using Linux native AIO
+141120  8:38:43 InnoDB: Initializing buffer pool, size = 8.0M
+141120  8:38:43 InnoDB: Completed initialization of buffer pool
+141120  8:38:43 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+141120  8:38:43  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+141120  8:38:45  InnoDB: Waiting for the background threads to start
+141120  8:38:46 Percona XtraDB (http://www.percona.com) 5.5.35-MariaDB-33.0 started; log sequence number 1733306
+141120  8:38:46 [Note] Plugin 'FEEDBACK' is disabled.
+141120  8:38:46 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.35-MariaDB'  socket: '/home/tpbonfi/.local/share/akonadi/socket-research.unixunderground.com/mysql.socket'  port: 0  MariaDB Server
+
+Status information:
+
+Current dir: /home/tpbonfi/.local/share/akonadi/db_data/
+Running threads: 12  Stack size: 294912
+Current locks:
+lock: 0x7f0f380d4c78:
+
+lock: 0x7f0f3804ecf8:
+
+lock: 0x7f0f3c0f6128:
+
+lock: 0x7f0f3c0ed8f8:
+
+lock: 0x7f0f3c0eabd8:
+
+lock: 0x7f0f3c0e7b68:
+
+lock: 0x7f0f3c0e5348:
+
+lock: 0x7f0f3c0e2b88:
+
+lock: 0x7f0f3c0de1a8:
+
+lock: 0x7f0f3c0d7048:
+
+lock: 0x7f0f3c0d0298:
+
+lock: 0x7f0f3c0c9038:
+
+lock: 0x7f0f3c0c1878:
+
+lock: 0x7f0f3c0bd4c8:
+
+lock: 0x7f0f3c0b72d8:
+
+lock: 0x7f0f3c0b0a58:
+
+lock: 0x7f0f3c0abf08:
+
+lock: 0x7f0f3c0a83c8:
+
+lock: 0x7f0f3c0a3ee8:
+
+lock: 0x7f0f3c09fcb8:
+
+lock: 0x7f0f3c09a4a8:
+
+lock: 0x7f0f3c091e58:
+
+lock: 0x7f0f3c089008:
+
+lock: 0x7f0f3c0814e0:
+
+lock: 0x7f0f3c07b050:
+
+lock: 0x7f0f3c064c60:
+
+lock: 0x7f0f3c0579a0:
+
+lock: 0x7f0f3c057480:
+
+lock: 0x7f0f3c05fc50:
+
+lock: 0x7f0f3c04fcf0:
+
+lock: 0x7f0f3c02db70:
+
+lock: 0x7f0f3c01bfa0:
+
+lock: 0x7f0f3c012ae0:
+
+lock: 0x7f0f3c02fb30:
+
+lock: 0x7f0f6c44d218:
+
+lock: 0x7f0f69e2cdc0:
+
+lock: 0x7f0f69e2d4c0:
+
+lock: 0x7f0f69e2d5c0:
+
+lock: 0x7f0f69e2d6c0:
+
+lock: 0x7f0f69e2cec0:
+
+lock: 0x7f0f69e2cfc0:
+
+lock: 0x7f0f69e2ccc0:
+
+lock: 0x7f0f69e2cac0:
+
+lock: 0x7f0f69e2cbc0:
+
+lock: 0x7f0f69e2d7c0:
+
+lock: 0x7f0f69e2d0c0:
+
+lock: 0x7f0f69e2d3c0:
+
+lock: 0x7f0f69e2d2c0:
+
+lock: 0x7f0f69e2d1c0:
+
+lock: 0x7f0f69e2c7c0:
+
+lock: 0x7f0f69e2c8c0:
+
+lock: 0x7f0f69e2c9c0:
+
+
+Key caches:
+default
+Buffer_size:     134217728
+Block_size:           1024
+Division_limit:        100
+Age_threshold:         300
+Partitions:              0
+blocks used:             0
+not flushed:             0
+w_requests:              0
+writes:                  0
+r_requests:              0
+reads:                   0
+
+
+handler status:
+read_key:          270
+read_next:         152
+read_rnd             0
+read_first:          9
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:        155
+Open tables:           52
+Open files:            51
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 0
+Next alarm time: 0
+141120  8:42:43 [Warning] Aborted connection 3 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120  8:42:43 [Warning] Aborted connection 4 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120  8:42:43 [Warning] Aborted connection 5 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120  8:42:43 [Warning] Aborted connection 6 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120  8:42:43 [Warning] Aborted connection 7 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120  8:42:43 [Warning] Aborted connection 8 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120  8:42:43 [Warning] Aborted connection 9 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120  8:42:43 [Warning] Aborted connection 10 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120  8:42:43 [Warning] Aborted connection 11 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120  8:42:43 [Warning] Aborted connection 12 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120  8:42:43 [Warning] Aborted connection 13 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120  8:42:43 [Warning] Aborted connection 14 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+
+Memory status:
+Non-mmapped space allocated from system: 15859712
+Number of free chunks:			 80
+Number of fastbin blocks:		 15
+Number of mmapped regions:		 17
+Space in mmapped regions:		 278085632
+Maximum total allocated space:		 0
+Space available in freed fastbin blocks: 960
+Total allocated space:			 12568016
+Total free space:			 3291696
+Top-most, releasable space:		 132224
+Estimated memory (with thread stack):    297484288
+
+
+
+Events status:
+LLA = Last Locked At  LUA = Last Unlocked At
+WOC = Waiting On Condition  DL = Data Locked
+The Event Scheduler is disabled
+
+141120  8:42:43 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141120  8:42:43  InnoDB: Starting shutdown...
+141120  8:42:44  InnoDB: Shutdown completed; log sequence number 1733316
+141120  8:42:44 [Note] /usr/libexec/mysqld: Shutdown complete
+
+141120  8:44:26 InnoDB: The InnoDB memory heap is disabled
+141120  8:44:26 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141120  8:44:26 InnoDB: Compressed tables use zlib 1.2.7
+141120  8:44:26 InnoDB: Using Linux native AIO
+141120  8:44:26 InnoDB: Initializing buffer pool, size = 8.0M
+141120  8:44:26 InnoDB: Completed initialization of buffer pool
+141120  8:44:26 InnoDB: highest supported file format is Barracuda.
+141120  8:44:26  InnoDB: Waiting for the background threads to start
+141120  8:44:28 Percona XtraDB (http://www.percona.com) 5.5.35-MariaDB-33.0 started; log sequence number 1733316
+141120  8:44:28 [Note] Plugin 'FEEDBACK' is disabled.
+141120  8:44:28 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.35-MariaDB'  socket: '/home/tpbonfi/.local/share/akonadi/socket-research.unixunderground.com/mysql.socket'  port: 0  MariaDB Server
+141120  9:55:54 [Warning] Aborted connection 8 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120  9:55:54 [Warning] Aborted connection 9 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120  9:55:54 [Warning] Aborted connection 10 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120  9:55:54 [Warning] Aborted connection 14 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120  9:55:54 [Warning] Aborted connection 11 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120  9:55:54 [Warning] Aborted connection 12 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120  9:55:54 [Warning] Aborted connection 13 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120  9:55:54 [Warning] Aborted connection 4 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120  9:55:54 [Warning] Aborted connection 5 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120  9:55:54 [Warning] Aborted connection 7 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+
+Status information:
+
+Current dir: /home/tpbonfi/.local/share/akonadi/db_data/
+Running threads: 12  Stack size: 294912
+Current locks:
+lock: 0x7f2b100d4c78:
+
+lock: 0x7f2b1004ecf8:
+
+lock: 0x7f2b140f6128:
+
+lock: 0x7f2b140ed8f8:
+
+lock: 0x7f2b140eabd8:
+
+lock: 0x7f2b140e7b68:
+
+lock: 0x7f2b140e5348:
+
+lock: 0x7f2b140e2b88:
+
+lock: 0x7f2b140de1a8:
+
+lock: 0x7f2b140d7048:
+
+lock: 0x7f2b140d0298:
+
+lock: 0x7f2b140c9038:
+
+lock: 0x7f2b140c1878:
+
+lock: 0x7f2b140bd4c8:
+
+lock: 0x7f2b140b72d8:
+
+lock: 0x7f2b140b0a58:
+
+lock: 0x7f2b140abf08:
+
+lock: 0x7f2b140a83c8:
+
+lock: 0x7f2b140a3ee8:
+
+lock: 0x7f2b1409fcb8:
+
+lock: 0x7f2b1409a4a8:
+
+lock: 0x7f2b14091e58:
+
+lock: 0x7f2b14089008:
+
+lock: 0x7f2b140814e0:
+
+lock: 0x7f2b1407b050:
+
+lock: 0x7f2b14064c60:
+
+lock: 0x7f2b140579a0:
+
+lock: 0x7f2b14057480:
+
+lock: 0x7f2b1405fc50:
+
+lock: 0x7f2b1404fcf0:
+
+lock: 0x7f2b1402db70:
+
+lock: 0x7f2b1401bfa0:
+
+lock: 0x7f2b14012ae0:
+
+lock: 0x7f2b1402fb30:
+
+lock: 0x7f2b40405438:
+
+lock: 0x7f2b3e866dc0:
+
+lock: 0x7f2b3e8674c0:
+
+lock: 0x7f2b3e8675c0:
+
+lock: 0x7f2b3e8676c0:
+
+lock: 0x7f2b3e866ec0:
+
+lock: 0x7f2b3e866fc0:
+
+lock: 0x7f2b3e866cc0:
+
+lock: 0x7f2b3e866ac0:
+
+lock: 0x7f2b3e866bc0:
+
+lock: 0x7f2b3e8677c0:
+
+lock: 0x7f2b3e8670c0:
+
+lock: 0x7f2b3e8673c0:
+
+lock: 0x7f2b3e8672c0:
+
+lock: 0x7f2b3e8671c0:
+
+lock: 0x7f2b3e8667c0:
+
+lock: 0x7f2b3e8668c0:
+
+lock: 0x7f2b3e8669c0:
+
+
+Key caches:
+default
+Buffer_size:     134217728
+Block_size:           1024
+Division_limit:        100
+Age_threshold:         300
+Partitions:              0
+blocks used:             0
+not flushed:             0
+w_requests:              0
+writes:                  0
+r_requests:              0
+reads:                   0
+
+
+handler status:
+read_key:          270
+read_next:         152
+read_rnd             0
+read_first:          9
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:        156
+Open tables:           53
+Open files:            51
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 0
+Next alarm time: 0
+141120  9:55:54 [Warning] Aborted connection 6 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120  9:55:54 [Warning] Aborted connection 3 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+
+Memory status:
+Non-mmapped space allocated from system: 15319040
+Number of free chunks:			 105
+Number of fastbin blocks:		 6
+Number of mmapped regions:		 17
+Space in mmapped regions:		 278085632
+Maximum total allocated space:		 0
+Space available in freed fastbin blocks: 192
+Total allocated space:			 11257360
+Total free space:			 4061680
+Top-most, releasable space:		 132304
+Estimated memory (with thread stack):    293994496
+
+
+
+Events status:
+LLA = Last Locked At  LUA = Last Unlocked At
+WOC = Waiting On Condition  DL = Data Locked
+The Event Scheduler is disabled
+
+141120  9:55:54 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141120  9:55:54  InnoDB: Starting shutdown...
+141120  9:55:55  InnoDB: Shutdown completed; log sequence number 1733336
+141120  9:55:55 [Note] /usr/libexec/mysqld: Shutdown complete
+
+141120 10:18:29 InnoDB: The InnoDB memory heap is disabled
+141120 10:18:29 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141120 10:18:29 InnoDB: Compressed tables use zlib 1.2.7
+141120 10:18:29 InnoDB: Using Linux native AIO
+141120 10:18:29 InnoDB: Initializing buffer pool, size = 8.0M
+141120 10:18:29 InnoDB: Completed initialization of buffer pool
+141120 10:18:29 InnoDB: highest supported file format is Barracuda.
+141120 10:18:30  InnoDB: Waiting for the background threads to start
+141120 10:18:31 Percona XtraDB (http://www.percona.com) 5.5.35-MariaDB-33.0 started; log sequence number 1733336
+141120 10:18:31 [Note] Plugin 'FEEDBACK' is disabled.
+141120 10:18:31 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.35-MariaDB'  socket: '/home/tpbonfi/.local/share/akonadi/socket-research.unixunderground.com/mysql.socket'  port: 0  MariaDB Server
+
+Status information:
+
+Current dir: /home/tpbonfi/.local/share/akonadi/db_data/
+Running threads: 12  Stack size: 294912
+Current locks:
+lock: 0x7fbfe40d4c78:
+
+lock: 0x7fbfe404ecf8:
+
+lock: 0x7fbfe80f6128:
+
+lock: 0x7fbfe80ed8f8:
+
+lock: 0x7fbfe80eabd8:
+
+lock: 0x7fbfe80e7b68:
+
+lock: 0x7fbfe80e5348:
+
+lock: 0x7fbfe80e2b88:
+
+lock: 0x7fbfe80de1a8:
+
+lock: 0x7fbfe80d7048:
+
+lock: 0x7fbfe80d0298:
+
+lock: 0x7fbfe80c9038:
+
+lock: 0x7fbfe80c1878:
+
+lock: 0x7fbfe80bd4c8:
+
+lock: 0x7fbfe80b72d8:
+
+lock: 0x7fbfe80b0a58:
+
+lock: 0x7fbfe80abf08:
+
+lock: 0x7fbfe80a83c8:
+
+lock: 0x7fbfe80a3ee8:
+
+lock: 0x7fbfe809fcb8:
+
+lock: 0x7fbfe809a4a8:
+
+lock: 0x7fbfe8091e58:
+
+lock: 0x7fbfe8089008:
+
+lock: 0x7fbfe80814e0:
+
+lock: 0x7fbfe807b050:
+
+lock: 0x7fbfe8064c60:
+
+lock: 0x7fbfe80579a0:
+
+lock: 0x7fbfe8057480:
+
+lock: 0x7fbfe805fc50:
+
+lock: 0x7fbfe804fcf0:
+
+lock: 0x7fbfe802db70:
+
+lock: 0x7fbfe801bfa0:
+
+lock: 0x7fbfe8012ae0:
+
+lock: 0x7fbfe802fb30:
+
+lock: 0x7fc0170bb438:
+
+lock: 0x7fc015b57dc0:
+
+lock: 0x7fc015b584c0:
+
+lock: 0x7fc015b585c0:
+
+lock: 0x7fc015b586c0:
+
+lock: 0x7fc015b57ec0:
+
+lock: 0x7fc015b57fc0:
+
+lock: 0x7fc015b57cc0:
+
+lock: 0x7fc015b57ac0:
+
+lock: 0x7fc015b57bc0:
+
+lock: 0x7fc015b587c0:
+
+lock: 0x7fc015b580c0:
+
+lock: 0x7fc015b583c0:
+
+lock: 0x7fc015b582c0:
+
+lock: 0x7fc015b581c0:
+
+lock: 0x7fc015b577c0:
+
+lock: 0x7fc015b578c0:
+
+lock: 0x7fc015b579c0:
+
+
+Key caches:
+default
+Buffer_size:     134217728
+Block_size:           1024
+Division_limit:        100
+Age_threshold:         300
+Partitions:              0
+blocks used:             0
+not flushed:             0
+w_requests:              0
+writes:                  0
+r_requests:              0
+reads:                   0
+
+
+handler status:
+read_key:          270
+read_next:         152
+read_rnd             0
+read_first:          9
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:        155
+Open tables:           52
+Open files:            51
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 0
+Next alarm time: 0
+141120 10:18:49 [Warning] Aborted connection 3 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:18:49 [Warning] Aborted connection 4 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:18:49 [Warning] Aborted connection 5 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:18:49 [Warning] Aborted connection 6 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:18:49 [Warning] Aborted connection 7 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:18:49 [Warning] Aborted connection 8 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:18:49 [Warning] Aborted connection 9 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:18:49 [Warning] Aborted connection 10 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:18:49 [Warning] Aborted connection 11 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:18:49 [Warning] Aborted connection 12 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:18:49 [Warning] Aborted connection 13 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:18:49 [Warning] Aborted connection 14 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+
+Memory status:
+Non-mmapped space allocated from system: 15396864
+Number of free chunks:			 68
+Number of fastbin blocks:		 18
+Number of mmapped regions:		 17
+Space in mmapped regions:		 278085632
+Maximum total allocated space:		 0
+Space available in freed fastbin blocks: 1088
+Total allocated space:			 12517120
+Total free space:			 2879744
+Top-most, releasable space:		 132304
+Estimated memory (with thread stack):    297021440
+
+
+
+Events status:
+LLA = Last Locked At  LUA = Last Unlocked At
+WOC = Waiting On Condition  DL = Data Locked
+The Event Scheduler is disabled
+
+141120 10:18:49 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141120 10:18:49  InnoDB: Starting shutdown...
+141120 10:18:50  InnoDB: Shutdown completed; log sequence number 1733346
+141120 10:18:50 [Note] /usr/libexec/mysqld: Shutdown complete
+
+141120 10:21:55 InnoDB: The InnoDB memory heap is disabled
+141120 10:21:55 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141120 10:21:55 InnoDB: Compressed tables use zlib 1.2.7
+141120 10:21:55 InnoDB: Using Linux native AIO
+141120 10:21:55 InnoDB: Initializing buffer pool, size = 8.0M
+141120 10:21:55 InnoDB: Completed initialization of buffer pool
+141120 10:21:55 InnoDB: highest supported file format is Barracuda.
+141120 10:21:55  InnoDB: Waiting for the background threads to start
+141120 10:21:56 Percona XtraDB (http://www.percona.com) 5.5.35-MariaDB-33.0 started; log sequence number 1733346
+141120 10:21:56 [Note] Plugin 'FEEDBACK' is disabled.
+141120 10:21:56 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.35-MariaDB'  socket: '/home/tpbonfi/.local/share/akonadi/socket-research.unixunderground.com/mysql.socket'  port: 0  MariaDB Server
+
+Status information:
+
+Current dir: /home/tpbonfi/.local/share/akonadi/db_data/
+Running threads: 12  Stack size: 294912
+Current locks:
+lock: 0x7f17f40d4c78:
+
+lock: 0x7f17f404ecf8:
+
+lock: 0x7f17f80f6128:
+
+lock: 0x7f17f80ed8f8:
+
+lock: 0x7f17f80eabd8:
+
+lock: 0x7f17f80e7b68:
+
+lock: 0x7f17f80e5348:
+
+lock: 0x7f17f80e2b88:
+
+lock: 0x7f17f80de1a8:
+
+lock: 0x7f17f80d7048:
+
+lock: 0x7f17f80d0298:
+
+lock: 0x7f17f80c9038:
+
+lock: 0x7f17f80c1878:
+
+lock: 0x7f17f80bd4c8:
+
+lock: 0x7f17f80b72d8:
+
+lock: 0x7f17f80b0a58:
+
+lock: 0x7f17f80abf08:
+
+lock: 0x7f17f80a83c8:
+
+lock: 0x7f17f80a3ee8:
+
+lock: 0x7f17f809fcb8:
+
+lock: 0x7f17f809a4a8:
+
+lock: 0x7f17f8091e58:
+
+lock: 0x7f17f8089008:
+
+lock: 0x7f17f80814e0:
+
+lock: 0x7f17f807b050:
+
+lock: 0x7f17f8064c60:
+
+lock: 0x7f17f80579a0:
+
+lock: 0x7f17f8057480:
+
+lock: 0x7f17f805fc50:
+
+lock: 0x7f17f804fcf0:
+
+lock: 0x7f17f802db70:
+
+lock: 0x7f17f801bfa0:
+
+lock: 0x7f17f8012ae0:
+
+lock: 0x7f17f802fb30:
+
+lock: 0x7f18268ce438:
+
+lock: 0x7f1824aafdc0:
+
+lock: 0x7f1824ab04c0:
+
+lock: 0x7f1824ab05c0:
+
+lock: 0x7f1824ab06c0:
+
+lock: 0x7f1824aafec0:
+
+lock: 0x7f1824aaffc0:
+
+lock: 0x7f1824aafcc0:
+
+lock: 0x7f1824aafac0:
+
+lock: 0x7f1824aafbc0:
+
+lock: 0x7f1824ab07c0:
+
+lock: 0x7f1824ab00c0:
+
+lock: 0x7f1824ab03c0:
+
+lock: 0x7f1824ab02c0:
+
+lock: 0x7f1824ab01c0:
+
+lock: 0x7f1824aaf7c0:
+
+lock: 0x7f1824aaf8c0:
+
+lock: 0x7f1824aaf9c0:
+
+
+Key caches:
+default
+Buffer_size:     134217728
+Block_size:           1024
+Division_limit:        100
+Age_threshold:         300
+Partitions:              0
+blocks used:             0
+not flushed:             0
+w_requests:              0
+writes:                  0
+r_requests:              0
+reads:                   0
+
+
+handler status:
+read_key:          270
+read_next:         152
+read_rnd             0
+read_first:          9
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:        155
+Open tables:           52
+Open files:            51
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 0
+Next alarm time: 0
+141120 10:24:04 [Warning] Aborted connection 3 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:24:04 [Warning] Aborted connection 4 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:24:04 [Warning] Aborted connection 5 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:24:04 [Warning] Aborted connection 6 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:24:04 [Warning] Aborted connection 7 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:24:04 [Warning] Aborted connection 8 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:24:04 [Warning] Aborted connection 9 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:24:04 [Warning] Aborted connection 10 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:24:04 [Warning] Aborted connection 11 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:24:04 [Warning] Aborted connection 12 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:24:04 [Warning] Aborted connection 13 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:24:04 [Warning] Aborted connection 14 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+
+Memory status:
+Non-mmapped space allocated from system: 15855616
+Number of free chunks:			 79
+Number of fastbin blocks:		 19
+Number of mmapped regions:		 17
+Space in mmapped regions:		 278085632
+Maximum total allocated space:		 0
+Space available in freed fastbin blocks: 1216
+Total allocated space:			 12567952
+Total free space:			 3287664
+Top-most, releasable space:		 132304
+Estimated memory (with thread stack):    297480192
+
+
+
+Events status:
+LLA = Last Locked At  LUA = Last Unlocked At
+WOC = Waiting On Condition  DL = Data Locked
+The Event Scheduler is disabled
+
+141120 10:24:04 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141120 10:24:04  InnoDB: Starting shutdown...
+141120 10:24:05  InnoDB: Shutdown completed; log sequence number 1733356
+141120 10:24:05 [Note] /usr/libexec/mysqld: Shutdown complete
+
+141120 10:25:21 InnoDB: The InnoDB memory heap is disabled
+141120 10:25:21 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141120 10:25:21 InnoDB: Compressed tables use zlib 1.2.7
+141120 10:25:21 InnoDB: Using Linux native AIO
+141120 10:25:21 InnoDB: Initializing buffer pool, size = 8.0M
+141120 10:25:21 InnoDB: Completed initialization of buffer pool
+141120 10:25:21 InnoDB: highest supported file format is Barracuda.
+141120 10:25:21  InnoDB: Waiting for the background threads to start
+141120 10:25:22 Percona XtraDB (http://www.percona.com) 5.5.35-MariaDB-33.0 started; log sequence number 1733356
+141120 10:25:22 [Note] Plugin 'FEEDBACK' is disabled.
+141120 10:25:22 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.35-MariaDB'  socket: '/home/tpbonfi/.local/share/akonadi/socket-research.unixunderground.com/mysql.socket'  port: 0  MariaDB Server
+
+Status information:
+
+Current dir: /home/tpbonfi/.local/share/akonadi/db_data/
+Running threads: 12  Stack size: 294912
+Current locks:
+lock: 0x7f3abc0d4c78:
+
+lock: 0x7f3abc04ecf8:
+
+lock: 0x7f3ac00f6128:
+
+lock: 0x7f3ac00ed8f8:
+
+lock: 0x7f3ac00eabd8:
+
+lock: 0x7f3ac00e7b68:
+
+lock: 0x7f3ac00e5348:
+
+lock: 0x7f3ac00e2b88:
+
+lock: 0x7f3ac00de1a8:
+
+lock: 0x7f3ac00d7048:
+
+lock: 0x7f3ac00d0298:
+
+lock: 0x7f3ac00c9038:
+
+lock: 0x7f3ac00c1878:
+
+lock: 0x7f3ac00bd4c8:
+
+lock: 0x7f3ac00b72d8:
+
+lock: 0x7f3ac00b0a58:
+
+lock: 0x7f3ac00abf08:
+
+lock: 0x7f3ac00a83c8:
+
+lock: 0x7f3ac00a3ee8:
+
+lock: 0x7f3ac009fcb8:
+
+lock: 0x7f3ac009a4a8:
+
+lock: 0x7f3ac0091e58:
+
+lock: 0x7f3ac0089008:
+
+lock: 0x7f3ac00814e0:
+
+lock: 0x7f3ac007b050:
+
+lock: 0x7f3ac0064c60:
+
+lock: 0x7f3ac00579a0:
+
+lock: 0x7f3ac0057480:
+
+lock: 0x7f3ac005fc50:
+
+lock: 0x7f3ac004fcf0:
+
+lock: 0x7f3ac002db70:
+
+lock: 0x7f3ac001bfa0:
+
+lock: 0x7f3ac0012ae0:
+
+lock: 0x7f3ac002fb30:
+
+lock: 0x7f3aeeb5a438:
+
+lock: 0x7f3aec125dc0:
+
+lock: 0x7f3aec1264c0:
+
+lock: 0x7f3aec1265c0:
+
+lock: 0x7f3aec1266c0:
+
+lock: 0x7f3aec125ec0:
+
+lock: 0x7f3aec125fc0:
+
+lock: 0x7f3aec125cc0:
+
+lock: 0x7f3aec125ac0:
+
+lock: 0x7f3aec125bc0:
+
+lock: 0x7f3aec1267c0:
+
+lock: 0x7f3aec1260c0:
+
+lock: 0x7f3aec1263c0:
+
+lock: 0x7f3aec1262c0:
+
+lock: 0x7f3aec1261c0:
+
+lock: 0x7f3aec1257c0:
+
+lock: 0x7f3aec1258c0:
+
+lock: 0x7f3aec1259c0:
+
+
+Key caches:
+default
+Buffer_size:     134217728
+Block_size:           1024
+Division_limit:        100
+Age_threshold:         300
+Partitions:              0
+blocks used:             0
+not flushed:             0
+w_requests:              0
+writes:                  0
+r_requests:              0
+reads:                   0
+
+
+handler status:
+read_key:          270
+read_next:         152
+read_rnd             0
+read_first:          9
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:        155
+Open tables:           52
+Open files:            51
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 0
+Next alarm time: 0
+141120 10:25:40 [Warning] Aborted connection 3 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:25:40 [Warning] Aborted connection 4 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:25:40 [Warning] Aborted connection 5 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:25:40 [Warning] Aborted connection 6 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:25:40 [Warning] Aborted connection 7 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:25:40 [Warning] Aborted connection 8 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:25:40 [Warning] Aborted connection 9 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:25:40 [Warning] Aborted connection 10 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:25:40 [Warning] Aborted connection 11 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:25:40 [Warning] Aborted connection 12 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:25:40 [Warning] Aborted connection 13 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:25:40 [Warning] Aborted connection 14 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+
+Memory status:
+Non-mmapped space allocated from system: 15589376
+Number of free chunks:			 68
+Number of fastbin blocks:		 18
+Number of mmapped regions:		 17
+Space in mmapped regions:		 278085632
+Maximum total allocated space:		 0
+Space available in freed fastbin blocks: 1088
+Total allocated space:			 12517120
+Total free space:			 3072256
+Top-most, releasable space:		 132304
+Estimated memory (with thread stack):    297213952
+
+
+
+Events status:
+LLA = Last Locked At  LUA = Last Unlocked At
+WOC = Waiting On Condition  DL = Data Locked
+The Event Scheduler is disabled
+
+141120 10:25:40 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141120 10:25:40  InnoDB: Starting shutdown...
+141120 10:25:41  InnoDB: Shutdown completed; log sequence number 1733366
+141120 10:25:41 [Note] /usr/libexec/mysqld: Shutdown complete
+
+141120 10:31:58 InnoDB: The InnoDB memory heap is disabled
+141120 10:31:58 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141120 10:31:58 InnoDB: Compressed tables use zlib 1.2.7
+141120 10:31:58 InnoDB: Using Linux native AIO
+141120 10:31:58 InnoDB: Initializing buffer pool, size = 8.0M
+141120 10:31:58 InnoDB: Completed initialization of buffer pool
+141120 10:31:58 InnoDB: highest supported file format is Barracuda.
+141120 10:31:58  InnoDB: Waiting for the background threads to start
+141120 10:31:59 Percona XtraDB (http://www.percona.com) 5.5.35-MariaDB-33.0 started; log sequence number 1733366
+141120 10:31:59 [Note] Plugin 'FEEDBACK' is disabled.
+141120 10:31:59 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.35-MariaDB'  socket: '/home/tpbonfi/.local/share/akonadi/socket-research.unixunderground.com/mysql.socket'  port: 0  MariaDB Server
+
+Status information:
+
+Current dir: /home/tpbonfi/.local/share/akonadi/db_data/
+Running threads: 12  Stack size: 294912
+Current locks:
+lock: 0x7f751c0d4c78:
+
+lock: 0x7f751c04ecf8:
+
+lock: 0x7f75200f6128:
+
+lock: 0x7f75200ed8f8:
+
+lock: 0x7f75200eabd8:
+
+lock: 0x7f75200e7b68:
+
+lock: 0x7f75200e5348:
+
+lock: 0x7f75200e2b88:
+
+lock: 0x7f75200de1a8:
+
+lock: 0x7f75200d7048:
+
+lock: 0x7f75200d0298:
+
+lock: 0x7f75200c9038:
+
+lock: 0x7f75200c1878:
+
+lock: 0x7f75200bd4c8:
+
+lock: 0x7f75200b72d8:
+
+lock: 0x7f75200b0a58:
+
+lock: 0x7f75200abf08:
+
+lock: 0x7f75200a83c8:
+
+lock: 0x7f75200a3ee8:
+
+lock: 0x7f752009fcb8:
+
+lock: 0x7f752009a4a8:
+
+lock: 0x7f7520091e58:
+
+lock: 0x7f7520089008:
+
+lock: 0x7f75200814e0:
+
+lock: 0x7f752007b050:
+
+lock: 0x7f7520064c60:
+
+lock: 0x7f75200579a0:
+
+lock: 0x7f7520057480:
+
+lock: 0x7f752005fc50:
+
+lock: 0x7f752004fcf0:
+
+lock: 0x7f752002db70:
+
+lock: 0x7f752001bfa0:
+
+lock: 0x7f7520012ae0:
+
+lock: 0x7f752002fb30:
+
+lock: 0x7f754c18a438:
+
+lock: 0x7f754b12adc0:
+
+lock: 0x7f754b12b4c0:
+
+lock: 0x7f754b12b5c0:
+
+lock: 0x7f754b12b6c0:
+
+lock: 0x7f754b12aec0:
+
+lock: 0x7f754b12afc0:
+
+lock: 0x7f754b12acc0:
+
+lock: 0x7f754b12aac0:
+
+lock: 0x7f754b12abc0:
+
+lock: 0x7f754b12b7c0:
+
+lock: 0x7f754b12b0c0:
+
+lock: 0x7f754b12b3c0:
+
+lock: 0x7f754b12b2c0:
+
+lock: 0x7f754b12b1c0:
+
+lock: 0x7f754b12a7c0:
+
+lock: 0x7f754b12a8c0:
+
+lock: 0x7f754b12a9c0:
+
+
+Key caches:
+default
+Buffer_size:     134217728
+Block_size:           1024
+Division_limit:        100
+Age_threshold:         300
+Partitions:              0
+blocks used:             0
+not flushed:             0
+w_requests:              0
+writes:                  0
+r_requests:              0
+reads:                   0
+
+
+handler status:
+read_key:          271
+read_next:         152
+read_rnd             0
+read_first:          9
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:        155
+Open tables:           52
+Open files:            51
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 0
+Next alarm time: 0
+141120 10:39:44 [Warning] Aborted connection 3 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:39:44 [Warning] Aborted connection 4 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:39:44 [Warning] Aborted connection 5 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:39:44 [Warning] Aborted connection 6 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:39:44 [Warning] Aborted connection 7 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:39:44 [Warning] Aborted connection 8 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:39:44 [Warning] Aborted connection 9 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:39:44 [Warning] Aborted connection 10 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:39:44 [Warning] Aborted connection 11 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:39:44 [Warning] Aborted connection 12 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:39:44 [Warning] Aborted connection 13 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141120 10:39:44 [Warning] Aborted connection 14 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+
+Memory status:
+Non-mmapped space allocated from system: 15572992
+Number of free chunks:			 77
+Number of fastbin blocks:		 17
+Number of mmapped regions:		 17
+Space in mmapped regions:		 278085632
+Maximum total allocated space:		 0
+Space available in freed fastbin blocks: 1120
+Total allocated space:			 12569408
+Total free space:			 3003584
+Top-most, releasable space:		 132304
+Estimated memory (with thread stack):    297197568
+
+
+
+Events status:
+LLA = Last Locked At  LUA = Last Unlocked At
+WOC = Waiting On Condition  DL = Data Locked
+The Event Scheduler is disabled
+
+141120 10:39:44 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141120 10:39:44  InnoDB: Starting shutdown...
+141120 10:39:45  InnoDB: Shutdown completed; log sequence number 1733376
+141120 10:39:45 [Note] /usr/libexec/mysqld: Shutdown complete
+
+141120 10:46:36 InnoDB: The InnoDB memory heap is disabled
+141120 10:46:36 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141120 10:46:36 InnoDB: Compressed tables use zlib 1.2.7
+141120 10:46:36 InnoDB: Using Linux native AIO
+141120 10:46:37 InnoDB: Initializing buffer pool, size = 8.0M
+141120 10:46:37 InnoDB: Completed initialization of buffer pool
+141120 10:46:37 InnoDB: highest supported file format is Barracuda.
+141120 10:46:38  InnoDB: Waiting for the background threads to start
+141120 10:46:39 Percona XtraDB (http://www.percona.com) 5.5.35-MariaDB-33.0 started; log sequence number 1733376
+141120 10:46:40 [Note] Plugin 'FEEDBACK' is disabled.
+141120 10:46:40 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.35-MariaDB'  socket: '/home/tpbonfi/.local/share/akonadi/socket-research.unixunderground.com/mysql.socket'  port: 0  MariaDB Server
+141203 13:56:48 InnoDB: The InnoDB memory heap is disabled
+141203 13:56:48 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141203 13:56:48 InnoDB: Compressed tables use zlib 1.2.7
+141203 13:56:48 InnoDB: Using Linux native AIO
+141203 13:56:49 InnoDB: Initializing buffer pool, size = 8.0M
+141203 13:56:49 InnoDB: Completed initialization of buffer pool
+141203 13:56:50 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+141203 13:56:50  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+141203 13:56:55  InnoDB: Waiting for the background threads to start
+141203 13:56:56 Percona XtraDB (http://www.percona.com) 5.5.35-MariaDB-33.0 started; log sequence number 1734488
+141203 13:56:56 [Note] Plugin 'FEEDBACK' is disabled.
+141203 13:56:59 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.35-MariaDB'  socket: '/home/tpbonfi/.local/share/akonadi/socket-research.unixunderground.com/mysql.socket'  port: 0  MariaDB Server
+141209 16:33:58 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141209 16:34:00  InnoDB: Starting shutdown...
+141209 16:37:55 InnoDB: The InnoDB memory heap is disabled
+141209 16:37:55 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141209 16:37:55 InnoDB: Compressed tables use zlib 1.2.7
+141209 16:37:55 InnoDB: Using Linux native AIO
+141209 16:37:55 InnoDB: Initializing buffer pool, size = 8.0M
+141209 16:37:55 InnoDB: Completed initialization of buffer pool
+141209 16:37:55 InnoDB: highest supported file format is Barracuda.
+141209 16:37:56  InnoDB: Waiting for the background threads to start
+141209 16:37:57 Percona XtraDB (http://www.percona.com) 5.5.40-MariaDB-36.1 started; log sequence number 1735034
+141209 16:37:57 [Note] Plugin 'FEEDBACK' is disabled.
+141209 16:37:57 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.40-MariaDB'  socket: '/home/tpbonfi/.local/share/akonadi/socket-research.unixunderground.com/mysql.socket'  port: 0  MariaDB Server
+
+Status information:
+
+Current dir: /home/tpbonfi/.local/share/akonadi/db_data/
+Running threads: 12  Stack size: 294912
+Current locks:
+lock: 0x7f0c480d4840:
+
+lock: 0x7f0c4804e8d0:
+
+lock: 0x7f0c4c0f5bc8:
+
+lock: 0x7f0c4c0ed3c8:
+
+lock: 0x7f0c4c0ea698:
+
+lock: 0x7f0c4c0e7738:
+
+lock: 0x7f0c4c0e4f38:
+
+lock: 0x7f0c4c0e2798:
+
+lock: 0x7f0c4c0dddc8:
+
+lock: 0x7f0c4c0d6c78:
+
+lock: 0x7f0c4c0cfed8:
+
+lock: 0x7f0c4c0c8fa8:
+
+lock: 0x7f0c4c0c1808:
+
+lock: 0x7f0c4c0bd468:
+
+lock: 0x7f0c4c0b7288:
+
+lock: 0x7f0c4c0b0a28:
+
+lock: 0x7f0c4c0abec8:
+
+lock: 0x7f0c4c0a8218:
+
+lock: 0x7f0c4c0a3db8:
+
+lock: 0x7f0c4c09f938:
+
+lock: 0x7f0c4c09a148:
+
+lock: 0x7f0c4c091b18:
+
+lock: 0x7f0c4c088cd8:
+
+lock: 0x7f0c4c081190:
+
+lock: 0x7f0c4c07acd0:
+
+lock: 0x7f0c4c0648b0:
+
+lock: 0x7f0c4c057590:
+
+lock: 0x7f0c4c057070:
+
+lock: 0x7f0c4c05faa0:
+
+lock: 0x7f0c4c04f8e0:
+
+lock: 0x7f0c4c0291b0:
+
+lock: 0x7f0c4c01bf80:
+
+lock: 0x7f0c4c012ad0:
+
+lock: 0x7f0c4c02f700:
+
+lock: 0x7f0c7a42b558:
+
+lock: 0x7f0c77ae1b60:
+
+lock: 0x7f0c77ae2180:
+
+lock: 0x7f0c77ae2260:
+
+lock: 0x7f0c77ae2340:
+
+lock: 0x7f0c77ae1c40:
+
+lock: 0x7f0c77ae1d20:
+
+lock: 0x7f0c77ae1a80:
+
+lock: 0x7f0c77ae18c0:
+
+lock: 0x7f0c77ae19a0:
+
+lock: 0x7f0c77ae2420:
+
+lock: 0x7f0c77ae1e00:
+
+lock: 0x7f0c77ae20a0:
+
+lock: 0x7f0c77ae1fc0:
+
+lock: 0x7f0c77ae1ee0:
+
+lock: 0x7f0c77ae1620:
+
+lock: 0x7f0c77ae1700:
+
+lock: 0x7f0c77ae17e0:
+
+
+Key caches:
+default
+Buffer_size:     134217728
+Block_size:           1024
+Division_limit:        100
+Age_threshold:         300
+Partitions:              0
+blocks used:             0
+not flushed:             0
+w_requests:              0
+writes:                  0
+r_requests:              0
+reads:                   0
+
+
+handler status:
+read_key:          270
+read_next:         152
+read_rnd             0
+read_first:          9
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:        155
+Open tables:           52
+Open files:            51
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 0
+Next alarm time: 0
+141209 17:19:25 [Warning] Aborted connection 3 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141209 17:19:25 [Warning] Aborted connection 4 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141209 17:19:25 [Warning] Aborted connection 5 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141209 17:19:25 [Warning] Aborted connection 6 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141209 17:19:25 [Warning] Aborted connection 7 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141209 17:19:25 [Warning] Aborted connection 8 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141209 17:19:25 [Warning] Aborted connection 9 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141209 17:19:25 [Warning] Aborted connection 10 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141209 17:19:25 [Warning] Aborted connection 11 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141209 17:19:25 [Warning] Aborted connection 12 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141209 17:19:25 [Warning] Aborted connection 13 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141209 17:19:25 [Warning] Aborted connection 14 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+
+Memory status:
+Non-mmapped space allocated from system: 15228928
+Number of free chunks:			 70
+Number of fastbin blocks:		 19
+Number of mmapped regions:		 13
+Space in mmapped regions:		 274006016
+Maximum total allocated space:		 0
+Space available in freed fastbin blocks: 1168
+Total allocated space:			 12102432
+Total free space:			 3126496
+Top-most, releasable space:		 131376
+Estimated memory (with thread stack):    292773888
+
+
+
+Events status:
+LLA = Last Locked At  LUA = Last Unlocked At
+WOC = Waiting On Condition  DL = Data Locked
+The Event Scheduler is disabled
+
+141209 17:19:25 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141209 17:19:25  InnoDB: Starting shutdown...
+141209 17:19:26  InnoDB: Shutdown completed; log sequence number 1735044
+141209 17:19:26 [Note] /usr/libexec/mysqld: Shutdown complete
+
+141209 17:20:25 InnoDB: The InnoDB memory heap is disabled
+141209 17:20:25 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141209 17:20:25 InnoDB: Compressed tables use zlib 1.2.7
+141209 17:20:25 InnoDB: Using Linux native AIO
+141209 17:20:25 InnoDB: Initializing buffer pool, size = 8.0M
+141209 17:20:25 InnoDB: Completed initialization of buffer pool
+141209 17:20:25 InnoDB: highest supported file format is Barracuda.
+141209 17:20:25  InnoDB: Waiting for the background threads to start
+141209 17:20:26 Percona XtraDB (http://www.percona.com) 5.5.40-MariaDB-36.1 started; log sequence number 1735044
+141209 17:20:26 [Note] Plugin 'FEEDBACK' is disabled.
+141209 17:20:26 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.40-MariaDB'  socket: '/home/tpbonfi/.local/share/akonadi/socket-research.unixunderground.com/mysql.socket'  port: 0  MariaDB Server
+141209 20:21:01 [Warning] Aborted connection 7 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141209 20:21:01 [Warning] Aborted connection 4 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141209 20:21:01 [Warning] Aborted connection 5 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141209 20:21:01 [Warning] Aborted connection 6 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141209 20:21:01 [Warning] Aborted connection 12 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141209 20:21:01 [Warning] Aborted connection 8 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141209 20:21:01 [Warning] Aborted connection 9 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141209 20:21:01 [Warning] Aborted connection 10 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141209 20:21:01 [Warning] Aborted connection 11 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141209 20:21:01 [Warning] Aborted connection 13 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141209 20:21:01 [Warning] Aborted connection 14 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141209 20:21:01 [Warning] Aborted connection 3 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+
+Status information:
+
+Current dir: /home/tpbonfi/.local/share/akonadi/db_data/
+Running threads: 0  Stack size: 294912
+Current locks:
+lock: 0x7fd5a40d4840:
+
+lock: 0x7fd5a404e8d0:
+
+lock: 0x7fd5a80f5bc8:
+
+lock: 0x7fd5a80ed3c8:
+
+lock: 0x7fd5a80ea698:
+
+lock: 0x7fd5a80e7738:
+
+lock: 0x7fd5a80e4f38:
+
+lock: 0x7fd5a80e2798:
+
+lock: 0x7fd5a80dddc8:
+
+lock: 0x7fd5a80d6c78:
+
+lock: 0x7fd5a80cfed8:
+
+lock: 0x7fd5a80c8fa8:
+
+lock: 0x7fd5a80c1808:
+
+lock: 0x7fd5a80bd468:
+
+lock: 0x7fd5a80b7288:
+
+lock: 0x7fd5a80b0a28:
+
+lock: 0x7fd5a80abec8:
+
+lock: 0x7fd5a80a8218:
+
+lock: 0x7fd5a80a3db8:
+
+lock: 0x7fd5a809f938:
+
+lock: 0x7fd5a809a148:
+
+lock: 0x7fd5a8091b18:
+
+lock: 0x7fd5a8088cd8:
+
+lock: 0x7fd5a8081190:
+
+lock: 0x7fd5a807acd0:
+
+lock: 0x7fd5a80648b0:
+
+lock: 0x7fd5a8057590:
+
+lock: 0x7fd5a8057070:
+
+lock: 0x7fd5a805faa0:
+
+lock: 0x7fd5a804f8e0:
+
+lock: 0x7fd5a80291b0:
+
+lock: 0x7fd5a801bf80:
+
+lock: 0x7fd5a8012ad0:
+
+lock: 0x7fd5a802f700:
+
+lock: 0x7fd5d47d9558:
+
+lock: 0x7fd5d30abb60:
+
+lock: 0x7fd5d30ac180:
+
+lock: 0x7fd5d30ac260:
+
+lock: 0x7fd5d30ac340:
+
+lock: 0x7fd5d30abc40:
+
+lock: 0x7fd5d30abd20:
+
+lock: 0x7fd5d30aba80:
+
+lock: 0x7fd5d30ab8c0:
+
+lock: 0x7fd5d30ab9a0:
+
+lock: 0x7fd5d30ac420:
+
+lock: 0x7fd5d30abe00:
+
+lock: 0x7fd5d30ac0a0:
+
+lock: 0x7fd5d30abfc0:
+
+lock: 0x7fd5d30abee0:
+
+lock: 0x7fd5d30ab620:
+
+lock: 0x7fd5d30ab700:
+
+lock: 0x7fd5d30ab7e0:
+
+
+Key caches:
+default
+Buffer_size:     134217728
+Block_size:           1024
+Division_limit:        100
+Age_threshold:         300
+Partitions:              0
+blocks used:             0
+not flushed:             0
+w_requests:              0
+writes:                  0
+r_requests:              0
+reads:                   0
+
+
+handler status:
+read_key:          270
+read_next:         152
+read_rnd             0
+read_first:          9
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:        155
+Open tables:           52
+Open files:            51
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 0
+Next alarm time: 0
+
+Memory status:
+Non-mmapped space allocated from system: 14626816
+Number of free chunks:			 108
+Number of fastbin blocks:		 0
+Number of mmapped regions:		 13
+Space in mmapped regions:		 274006016
+Maximum total allocated space:		 0
+Space available in freed fastbin blocks: 0
+Total allocated space:			 9911296
+Total free space:			 4715520
+Top-most, releasable space:		 131376
+Estimated memory (with thread stack):    288632832
+
+
+
+Events status:
+LLA = Last Locked At  LUA = Last Unlocked At
+WOC = Waiting On Condition  DL = Data Locked
+The Event Scheduler is disabled
+
+141209 20:21:01 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141209 20:21:02  InnoDB: Starting shutdown...
+141209 20:21:02  InnoDB: Shutdown completed; log sequence number 1735064
+141209 20:21:02 [Note] /usr/libexec/mysqld: Shutdown complete
+
+141209 20:22:22 InnoDB: The InnoDB memory heap is disabled
+141209 20:22:22 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141209 20:22:22 InnoDB: Compressed tables use zlib 1.2.7
+141209 20:22:22 InnoDB: Using Linux native AIO
+141209 20:22:22 InnoDB: Initializing buffer pool, size = 8.0M
+141209 20:22:22 InnoDB: Completed initialization of buffer pool
+141209 20:22:22 InnoDB: highest supported file format is Barracuda.
+141209 20:22:23  InnoDB: Waiting for the background threads to start
+141209 20:22:24 Percona XtraDB (http://www.percona.com) 5.5.40-MariaDB-36.1 started; log sequence number 1735064
+141209 20:22:24 [Note] Plugin 'FEEDBACK' is disabled.
+141209 20:22:24 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.40-MariaDB'  socket: '/home/tpbonfi/.local/share/akonadi/socket-research.unixunderground.com/mysql.socket'  port: 0  MariaDB Server
+141218 13:53:17 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141218 13:53:19  InnoDB: Starting shutdown...
+141218 13:55:52 InnoDB: The InnoDB memory heap is disabled
+141218 13:55:52 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141218 13:55:52 InnoDB: Compressed tables use zlib 1.2.7
+141218 13:55:52 InnoDB: Using Linux native AIO
+141218 13:55:52 InnoDB: Initializing buffer pool, size = 8.0M
+141218 13:55:52 InnoDB: Completed initialization of buffer pool
+141218 13:55:52 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+141218 13:55:52  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+141218 13:55:53  InnoDB: Waiting for the background threads to start
+141218 13:55:54 Percona XtraDB (http://www.percona.com) 5.5.40-MariaDB-36.1 started; log sequence number 1735846
+141218 13:55:54 [Note] Plugin 'FEEDBACK' is disabled.
+141218 13:55:54 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.40-MariaDB'  socket: '/home/tpbonfi/.local/share/akonadi/socket-research.unixunderground.com/mysql.socket'  port: 0  MariaDB Server
+
+Status information:
+
+Current dir: /home/tpbonfi/.local/share/akonadi/db_data/
+Running threads: 12  Stack size: 294912
+Current locks:
+lock: 0x7f82600d4840:
+
+lock: 0x7f826004e8d0:
+
+lock: 0x7f82640f5bc8:
+
+lock: 0x7f82640ed3c8:
+
+lock: 0x7f82640ea698:
+
+lock: 0x7f82640e7738:
+
+lock: 0x7f82640e4f38:
+
+lock: 0x7f82640e2798:
+
+lock: 0x7f82640dddc8:
+
+lock: 0x7f82640d6c78:
+
+lock: 0x7f82640cfed8:
+
+lock: 0x7f82640c8fa8:
+
+lock: 0x7f82640c1808:
+
+lock: 0x7f82640bd468:
+
+lock: 0x7f82640b7288:
+
+lock: 0x7f82640b0a28:
+
+lock: 0x7f82640abec8:
+
+lock: 0x7f82640a8218:
+
+lock: 0x7f82640a3db8:
+
+lock: 0x7f826409f938:
+
+lock: 0x7f826409a148:
+
+lock: 0x7f8264091b18:
+
+lock: 0x7f8264088cd8:
+
+lock: 0x7f8264081190:
+
+lock: 0x7f826407acd0:
+
+lock: 0x7f82640648b0:
+
+lock: 0x7f8264057590:
+
+lock: 0x7f8264057070:
+
+lock: 0x7f826405faa0:
+
+lock: 0x7f826404f8e0:
+
+lock: 0x7f82640291b0:
+
+lock: 0x7f826401bf80:
+
+lock: 0x7f8264012ad0:
+
+lock: 0x7f826402f700:
+
+lock: 0x7f8291261608:
+
+lock: 0x7f828fed9b60:
+
+lock: 0x7f828feda180:
+
+lock: 0x7f828feda260:
+
+lock: 0x7f828feda340:
+
+lock: 0x7f828fed9c40:
+
+lock: 0x7f828fed9d20:
+
+lock: 0x7f828fed9a80:
+
+lock: 0x7f828fed98c0:
+
+lock: 0x7f828fed99a0:
+
+lock: 0x7f828feda420:
+
+lock: 0x7f828fed9e00:
+
+lock: 0x7f828feda0a0:
+
+lock: 0x7f828fed9fc0:
+
+lock: 0x7f828fed9ee0:
+
+lock: 0x7f828fed9620:
+
+lock: 0x7f828fed9700:
+
+lock: 0x7f828fed97e0:
+
+
+Key caches:
+default
+Buffer_size:     134217728
+Block_size:           1024
+Division_limit:        100
+Age_threshold:         300
+Partitions:              0
+blocks used:             0
+not flushed:             0
+w_requests:              0
+writes:                  0
+r_requests:              0
+reads:                   0
+
+
+handler status:
+read_key:          270
+read_next:         152
+read_rnd             0
+read_first:          9
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:        155
+Open tables:           52
+Open files:            51
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 0
+Next alarm time: 0
+141218 13:57:00 [Warning] Aborted connection 3 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141218 13:57:00 [Warning] Aborted connection 4 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141218 13:57:00 [Warning] Aborted connection 5 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141218 13:57:00 [Warning] Aborted connection 6 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141218 13:57:00 [Warning] Aborted connection 7 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141218 13:57:00 [Warning] Aborted connection 8 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141218 13:57:00 [Warning] Aborted connection 9 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141218 13:57:00 [Warning] Aborted connection 10 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141218 13:57:00 [Warning] Aborted connection 11 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141218 13:57:00 [Warning] Aborted connection 12 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141218 13:57:00 [Warning] Aborted connection 13 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141218 13:57:00 [Warning] Aborted connection 14 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+
+Memory status:
+Non-mmapped space allocated from system: 15085568
+Number of free chunks:			 77
+Number of fastbin blocks:		 23
+Number of mmapped regions:		 13
+Space in mmapped regions:		 274006016
+Maximum total allocated space:		 0
+Space available in freed fastbin blocks: 1520
+Total allocated space:			 12102400
+Total free space:			 2983168
+Top-most, releasable space:		 131536
+Estimated memory (with thread stack):    292630528
+
+
+
+Events status:
+LLA = Last Locked At  LUA = Last Unlocked At
+WOC = Waiting On Condition  DL = Data Locked
+The Event Scheduler is disabled
+
+141218 13:57:00 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141218 13:57:00  InnoDB: Starting shutdown...
+141218 13:57:01  InnoDB: Shutdown completed; log sequence number 1735856
+141218 13:57:01 [Note] /usr/libexec/mysqld: Shutdown complete
+
+141218 13:58:21 InnoDB: The InnoDB memory heap is disabled
+141218 13:58:21 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141218 13:58:21 InnoDB: Compressed tables use zlib 1.2.7
+141218 13:58:21 InnoDB: Using Linux native AIO
+141218 13:58:22 InnoDB: Initializing buffer pool, size = 8.0M
+141218 13:58:22 InnoDB: Completed initialization of buffer pool
+141218 13:58:22 InnoDB: highest supported file format is Barracuda.
+141218 13:58:22  InnoDB: Waiting for the background threads to start
+141218 13:58:23 Percona XtraDB (http://www.percona.com) 5.5.40-MariaDB-36.1 started; log sequence number 1735856
+141218 13:58:23 [Note] Plugin 'FEEDBACK' is disabled.
+141218 13:58:23 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.40-MariaDB'  socket: '/home/tpbonfi/.local/share/akonadi/socket-research.unixunderground.com/mysql.socket'  port: 0  MariaDB Server
+141218 20:18:04 [Warning] Aborted connection 4 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141218 20:18:04 [Warning] Aborted connection 5 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141218 20:18:04 [Warning] Aborted connection 6 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141218 20:18:04 [Warning] Aborted connection 7 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141218 20:18:04 [Warning] Aborted connection 8 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141218 20:18:04 [Warning] Aborted connection 9 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141218 20:18:04 [Warning] Aborted connection 10 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141218 20:18:04 [Warning] Aborted connection 11 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141218 20:18:04 [Warning] Aborted connection 12 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141218 20:18:04 [Warning] Aborted connection 13 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141218 20:18:04 [Warning] Aborted connection 14 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141218 20:18:04 [Warning] Aborted connection 3 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+
+Status information:
+
+Current dir: /home/tpbonfi/.local/share/akonadi/db_data/
+Running threads: 12  Stack size: 294912
+Current locks:
+lock: 0x7f39840d4840:
+
+lock: 0x7f398404e8d0:
+
+lock: 0x7f39880f5bc8:
+
+lock: 0x7f39880ed3c8:
+
+lock: 0x7f39880ea698:
+
+lock: 0x7f39880e7738:
+
+lock: 0x7f39880e4f38:
+
+lock: 0x7f39880e2798:
+
+lock: 0x7f39880dddc8:
+
+lock: 0x7f39880d6c78:
+
+lock: 0x7f39880cfed8:
+
+lock: 0x7f39880c8fa8:
+
+lock: 0x7f39880c1808:
+
+lock: 0x7f39880bd468:
+
+lock: 0x7f39880b7288:
+
+lock: 0x7f39880b0a28:
+
+lock: 0x7f39880abec8:
+
+lock: 0x7f39880a8218:
+
+lock: 0x7f39880a3db8:
+
+lock: 0x7f398809f938:
+
+lock: 0x7f398809a148:
+
+lock: 0x7f3988091b18:
+
+lock: 0x7f3988088cd8:
+
+lock: 0x7f3988081190:
+
+lock: 0x7f398807acd0:
+
+lock: 0x7f39880648b0:
+
+lock: 0x7f3988057590:
+
+lock: 0x7f3988057070:
+
+lock: 0x7f398805faa0:
+
+lock: 0x7f398804f8e0:
+
+lock: 0x7f39880291b0:
+
+lock: 0x7f398801bf80:
+
+lock: 0x7f3988012ad0:
+
+lock: 0x7f398802f700:
+
+lock: 0x7f39b422e558:
+
+lock: 0x7f39b2e8cb60:
+
+lock: 0x7f39b2e8d180:
+
+lock: 0x7f39b2e8d260:
+
+lock: 0x7f39b2e8d340:
+
+lock: 0x7f39b2e8cc40:
+
+lock: 0x7f39b2e8cd20:
+
+lock: 0x7f39b2e8ca80:
+
+lock: 0x7f39b2e8c8c0:
+
+lock: 0x7f39b2e8c9a0:
+
+lock: 0x7f39b2e8d420:
+
+lock: 0x7f39b2e8ce00:
+
+lock: 0x7f39b2e8d0a0:
+
+lock: 0x7f39b2e8cfc0:
+
+lock: 0x7f39b2e8cee0:
+
+lock: 0x7f39b2e8c620:
+
+lock: 0x7f39b2e8c700:
+
+lock: 0x7f39b2e8c7e0:
+
+
+Key caches:
+default
+Buffer_size:     134217728
+Block_size:           1024
+Division_limit:        100
+Age_threshold:         300
+Partitions:              0
+blocks used:             0
+not flushed:             0
+w_requests:              0
+writes:                  0
+r_requests:              0
+reads:                   0
+
+
+handler status:
+read_key:          270
+read_next:         152
+read_rnd             0
+read_first:          9
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:        155
+Open tables:           52
+Open files:            51
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 0
+Next alarm time: 0
+
+Memory status:
+Non-mmapped space allocated from system: 14462976
+Number of free chunks:			 106
+Number of fastbin blocks:		 0
+Number of mmapped regions:		 13
+Space in mmapped regions:		 274006016
+Maximum total allocated space:		 0
+Space available in freed fastbin blocks: 0
+Total allocated space:			 9911296
+Total free space:			 4551680
+Top-most, releasable space:		 131376
+Estimated memory (with thread stack):    288468992
+
+
+
+Events status:
+LLA = Last Locked At  LUA = Last Unlocked At
+WOC = Waiting On Condition  DL = Data Locked
+The Event Scheduler is disabled
+
+141218 20:18:05 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141218 20:18:05  InnoDB: Starting shutdown...
+141218 20:18:07  InnoDB: Shutdown completed; log sequence number 1735886
+141218 20:18:07 [Note] /usr/libexec/mysqld: Shutdown complete
+
+141220 21:38:47 InnoDB: The InnoDB memory heap is disabled
+141220 21:38:47 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141220 21:38:47 InnoDB: Compressed tables use zlib 1.2.7
+141220 21:38:47 InnoDB: Using Linux native AIO
+141220 21:38:47 InnoDB: Initializing buffer pool, size = 8.0M
+141220 21:38:47 InnoDB: Completed initialization of buffer pool
+141220 21:38:48 InnoDB: highest supported file format is Barracuda.
+141220 21:38:49  InnoDB: Waiting for the background threads to start
+141220 21:38:50 Percona XtraDB (http://www.percona.com) 5.5.40-MariaDB-36.1 started; log sequence number 1735886
+141220 21:38:50 [Note] Plugin 'FEEDBACK' is disabled.
+141220 21:38:51 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.40-MariaDB'  socket: '/home/tpbonfi/.local/share/akonadi/socket-research.unixunderground.com/mysql.socket'  port: 0  MariaDB Server
+
+Status information:
+
+Current dir: /home/tpbonfi/.local/share/akonadi/db_data/
+Running threads: 12  Stack size: 294912
+Current locks:
+lock: 0x7fbea00d4840:
+
+lock: 0x7fbea004e8d0:
+
+lock: 0x7fbea40f5bc8:
+
+lock: 0x7fbea40ed3c8:
+
+lock: 0x7fbea40ea698:
+
+lock: 0x7fbea40e7738:
+
+lock: 0x7fbea40e4f38:
+
+lock: 0x7fbea40e2798:
+
+lock: 0x7fbea40dddc8:
+
+lock: 0x7fbea40d6c78:
+
+lock: 0x7fbea40cfed8:
+
+lock: 0x7fbea40c8fa8:
+
+lock: 0x7fbea40c1808:
+
+lock: 0x7fbea40bd468:
+
+lock: 0x7fbea40b7288:
+
+lock: 0x7fbea40b0a28:
+
+lock: 0x7fbea40abec8:
+
+lock: 0x7fbea40a8218:
+
+lock: 0x7fbea40a3db8:
+
+lock: 0x7fbea409f938:
+
+lock: 0x7fbea409a148:
+
+lock: 0x7fbea4091b18:
+
+lock: 0x7fbea4088cd8:
+
+lock: 0x7fbea4081190:
+
+lock: 0x7fbea407acd0:
+
+lock: 0x7fbea40648b0:
+
+lock: 0x7fbea4057590:
+
+lock: 0x7fbea4057070:
+
+lock: 0x7fbea405faa0:
+
+lock: 0x7fbea404f8e0:
+
+lock: 0x7fbea40291b0:
+
+lock: 0x7fbea401bf80:
+
+lock: 0x7fbea4012ad0:
+
+lock: 0x7fbea402f700:
+
+lock: 0x7fbed0a20558:
+
+lock: 0x7fbecf514b60:
+
+lock: 0x7fbecf515180:
+
+lock: 0x7fbecf515260:
+
+lock: 0x7fbecf515340:
+
+lock: 0x7fbecf514c40:
+
+lock: 0x7fbecf514d20:
+
+lock: 0x7fbecf514a80:
+
+lock: 0x7fbecf5148c0:
+
+lock: 0x7fbecf5149a0:
+
+lock: 0x7fbecf515420:
+
+lock: 0x7fbecf514e00:
+
+lock: 0x7fbecf5150a0:
+
+lock: 0x7fbecf514fc0:
+
+lock: 0x7fbecf514ee0:
+
+lock: 0x7fbecf514620:
+
+lock: 0x7fbecf514700:
+
+lock: 0x7fbecf5147e0:
+
+
+Key caches:
+default
+Buffer_size:     134217728
+Block_size:           1024
+Division_limit:        100
+Age_threshold:         300
+Partitions:              0
+blocks used:             0
+not flushed:             0
+w_requests:              0
+writes:                  0
+r_requests:              0
+reads:                   0
+
+
+handler status:
+read_key:          270
+read_next:         152
+read_rnd             0
+read_first:          9
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:        155
+Open tables:           52
+Open files:            51
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 0
+Next alarm time: 0
+141221  8:33:25 [Warning] Aborted connection 3 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141221  8:33:25 [Warning] Aborted connection 4 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141221  8:33:25 [Warning] Aborted connection 5 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141221  8:33:25 [Warning] Aborted connection 6 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141221  8:33:25 [Warning] Aborted connection 7 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141221  8:33:25 [Warning] Aborted connection 8 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141221  8:33:25 [Warning] Aborted connection 9 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141221  8:33:25 [Warning] Aborted connection 10 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141221  8:33:25 [Warning] Aborted connection 11 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141221  8:33:25 [Warning] Aborted connection 12 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141221  8:33:25 [Warning] Aborted connection 13 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+141221  8:33:25 [Warning] Aborted connection 14 to db: 'akonadi' user: 'tpbonfi' host: '' (Unknown error)
+
+Memory status:
+Non-mmapped space allocated from system: 15249408
+Number of free chunks:			 69
+Number of fastbin blocks:		 19
+Number of mmapped regions:		 13
+Space in mmapped regions:		 274006016
+Maximum total allocated space:		 0
+Space available in freed fastbin blocks: 1232
+Total allocated space:			 12102448
+Total free space:			 3146960
+Top-most, releasable space:		 131376
+Estimated memory (with thread stack):    292794368
+
+
+
+Events status:
+LLA = Last Locked At  LUA = Last Unlocked At
+WOC = Waiting On Condition  DL = Data Locked
+The Event Scheduler is disabled
+
+141221  8:33:25 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141221  8:33:25  InnoDB: Starting shutdown...
+141221  8:33:26  InnoDB: Shutdown completed; log sequence number 1735896
+141221  8:33:26 [Note] /usr/libexec/mysqld: Shutdown complete
+
